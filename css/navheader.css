@@ -10,7 +10,7 @@ width: 100vw;
 z-index: 500;
 padding-top: 10px;
 padding-bottom: 2px;
-background-color: rgb(255, 255, 255, 0.5);
+background-color: rgb(255, 255, 255, 0.7);
 text-decoration: none;
 font-size: 12pt;
 }
@@ -75,7 +75,7 @@ transition: all 2s;
 margin-top: 12px;
 width: 290px;
 position: absolute;
-background-color: rgb(220, 220, 220, 0.6);
+background-color: rgb(220, 220, 220, 0.8);
 padding: 0px 0px 0px 0px;
 z-index: 10;
 }
@@ -115,7 +115,7 @@ width: 100vw;
 z-index: 500;
 padding-top: 10px;
 padding-bottom: 2px;
-background-color: rgb(0, 0, 0, 0.5);
+background-color: rgb(255, 255, 255, 0.5);
 text-decoration: none;
 font-size: 12pt;
 height: 50px;
@@ -135,9 +135,9 @@ position: absolute;
 background-color: rgb(0, 0, 0, 0.9);
 height: 100vh;
 display: block;
-width: 400px;
-right: -400px;
-transition: right 3s;
+width: 380px;
+right: -380px;
+transition: right 1s;
 }
 
 #headmenu :hover {text-decoration: none;}
@@ -203,6 +203,8 @@ color: orange;
 
 #sh001, #sh002, #sh003 {
 display: none;
+margin-top: -30px;
+transition: display 1s;
 }
 
 .slidefirst{

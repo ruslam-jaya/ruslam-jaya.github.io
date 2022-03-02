@@ -9,7 +9,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/hero-slider.css">
         <link rel="stylesheet" href="css/templatemo-main.css">
         <link rel="stylesheet" href="css/owl-carousel.css">
@@ -18,48 +18,48 @@
        
        <script src="js/jquery.mobile-1.4.5.min.js"></script>
   	   <script src="js/jquery.min.js"></script>
-       <script src="js/fontawesome.js"></script>  
        <script src="js/opennav.js"></script>
        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 	   <script src="js/headbar.js"></script>
+     
     </head>
 
 <body>
     <div id="headmenu">
     <img alt='logo ruslam' src='img/LOGO-TEXT-S.png'/>
-    <a class="sidemenu" onclick="openNav();" style="cursor:pointer;"><i class="fa fa-bars"></i></a>
+    <a class="sidemenu" onClick="openNav();" style="cursor:pointer;"><i class="fa fa-bars"></i></a>
             <div id='navigate'>
                 <ul>
                       <li class="dropdown slidefirst"><a class="slideul" href=""><i class="fa fa-home"></i> HOME</a></li>
-                      <li class="dropdown"><a class="slideul" href=""><i class="fas fa-newspaper"></i> NEWS</a></li>
+                      <li class="dropdown"><a class="slideul" href=""><i class="fa fa-newspaper-o"></i> NEWS</a></li>
                       <li class="dropdown">
-                        <a href="javascript:void(0)" onclick="showhide1();" id="topmenutext" class="dropbtn slideul">OUR PRODUCTS  <i class='fas fa-angle-down'></i></a>
+                        <a href="javascript:void(0)" onmousedown="showhide1();" onclick="showhidemobile1();" id="topmenutext" class="dropbtn slideul">OUR PRODUCTS  <i class='fa fa-angle-double-down'></i></a>
                         <div class="dropdown-content" id="sh001">
-                              <a class="slideul" href=""><i class="fa fa-trash" aria-hidden="true"></i>  Cleaning Services</a>
+                              <a class="slideul" href=""><i class="fa fa-trash-o" aria-hidden="true"></i>  Cleaning Services</a>
                               <a class="slideul" href=""><i class="fa fa-lock" aria-hidden="true"></i>  Security Services</a>
-                              <a class="slideul" href=""><i class="fas fa-parking" aria-hidden="true"></i>  Parking Services</a>
-                              <a class="slideul" href=""><i class="fas fa-stethoscope" aria-hidden="true"></i>  Health Services</a>
-                              <a class="slideul" href=""><i class="fas fa-paperclip"></i>  General Trading</a>  
+                              <a class="slideul" href=""><i class="fa fa-automobile" aria-hidden="true"></i>  Parking Services</a>
+                              <a class="slideul" href=""><i class="fa fa-stethoscope" aria-hidden="true"></i>  Health Services</a>
+                              <a class="slideul" href=""><i class="fa fa-paperclip"></i>  General Trading</a>  
                         </div>
                       </li>
                   
                       <li class="dropdown">
-                        <a href="javascript:void(0)" onclick="showhide2();" id="topmenutext" class="dropbtn slideul">CAREER & PARTNERS  <i class='fas fa-angle-down'></i></a>
+                        <a href="javascript:void(0)" onmousedown="showhide2();" onclick="showhidemobile2();" id="topmenutext" class="dropbtn slideul">CAREER & PARTNERS  <i class='fa fa-angle-double-down'></i></a>
                         <div class="dropdown-content" id="sh002">
-                              <a class="slideul" href=""><i class="fas fa-handshake"></i>  Partner & Relation</a>
-                              <a class="slideul" href=""><i class="fas fa-book-reader"></i> Training</a>
-                              <a class="slideul" href=""><i class="fas fa-address-card"></i>  Job Apply</a> 
+                              <a class="slideul" href=""><i class="fa fa-handshake-o"></i>  Partner & Relation</a>
+                              <a class="slideul" href=""><i class="fa fa-wrench"></i> Training</a>
+                              <a class="slideul" href=""><i class="fa fa-address-card"></i>  Job Apply</a> 
                         </div>
                       </li>  
                   
                       <li class="dropdown">
-                        <a href="javascript:void(0)" onclick="showhide3();" id="topmenutext" class="dropbtn slideul">ABOUT  <i class='fas fa-angle-down'></i></a>
+                        <a href="javascript:void(0)" onmousedown="showhide3();" onclick="showhidemobile3();" id="topmenutext" class="dropbtn slideul">ABOUT  <i class='fa fa-angle-double-down'></i></a>
                          <div class="dropdown-content" id="sh003">
-                              <a class="slideul" href=""><i class="fas fa-address-book"></i>  Contact & Office Address</a>
-                              <a class="slideul" href=""><i class="fas fa-users"></i>  Management Team</a>
-                              <a class="slideul" href=""><i class="fas fa-building"></i>  Company History</a>
-                              <a class="slideul" href=""><i class="fas fa-compress-arrows-alt"></i>  Vision and Mission statement</a>
-                          <a class="slideul" href=""><i class="fas fa-dolly-flatbed"></i>  Report App</a>
+                              <a class="slideul" href=""><i class="fa fa-map"></i>  Contact & Office Address</a>
+                              <a class="slideul" href=""><i class="fa fa-users"></i>  Management Team</a>
+                              <a class="slideul" href=""><i class="fa fa-building"></i>  Company History</a>
+                              <a class="slideul" href=""><i class="fa fa-dot-circle-o"></i>  Vision and Mission statement</a>
+                          <a class="slideul" href=""><i class="fa fa-line-chart"></i>  Report App</a>
                         </div>
                       </li>
                 </ul>
@@ -258,49 +258,7 @@
         </div>
     </div>
 
-
-    <div class="parallax-content contact-content" id="contact-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="contact-form">
-                        <div class="row">
-                            <form id="contact" action="" method="post">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                      <fieldset>
-                                        <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required>
-                                      </fieldset>
-                                    </div>
-                                    <div class="col-md-12">
-                                      <fieldset>
-                                        <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required>
-                                      </fieldset>
-                                    </div>
-                                    <div class="col-md-12">
-                                      <fieldset>
-                                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required></textarea>
-                                      </fieldset>
-                                    </div>
-                                    <div class="col-md-12">
-                                      <fieldset>
-                                        <button type="submit" id="form-submit" class="btn">Send Message</button>
-                                      </fieldset>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="map">
-
-                        <iframe src="" width="100%" height="390" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<iframe rel="nofollow,noindex" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7933.38296022485!2d106.8664636!3d-6.172047!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f502391c6d8b%3A0x7d701c64ca0a88b!2sPT%20Ruslam%20Cempaka%20Putih%20Jaya!5e0!3m2!1sid!2sid!4v1646216006636!5m2!1sid!2sid" width="100%" height="380" style="border:0;"></iframe>
 
     <footer>
         <div class="container">
@@ -310,15 +268,14 @@
                         <a href="#home">Back To Top</a>
                     </div>
                     <ul>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a rel="nofollow,noindex" href="#"><i class="fa fa-facebook-f"></i></a></li>
+                        <li><a rel="nofollow,noindex" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a rel="nofollow,noindex" href="https://www.instagram.com/ptruslam"><i class="fa fa-instagram"></i></a></li>
+                        <li><a rel="nofollow,noindex" href="#"><i class="fa fa-google"></i></a></li>
                     </ul>
-                    <p>Copyright &copy; 2019 Company Name 
+                    <p>Copyright &copy; 2021 PT Ruslam Cempaka Putih Jaya 
             
-            		- Design: <a rel="nofollow noopener" href="https://templatemo.com"><em>TemplateMo</em></a></p>
+            		- Design: <a rel="nofollow noopener" href=""><em>Maskibow</em></a></p>
                 </div>
             </div>
         </div>
