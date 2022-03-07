@@ -6,7 +6,7 @@
      <style>
         body{
 		    top: 0px;
-            background-image:url(img/2nd-section.jpg);
+            background-image:url(../img/2nd-section.jpg);
             background-size: cover;
             font-family: 'Roboto', 'sans-serif';
 			padding: 0 0 0 0;
@@ -36,7 +36,7 @@
     </style>
 </head>
 <body>
-<?php include("headermenu.php");?>
+<?php include("../html/headermenu.php");?>
 
     <main>
         <h4 class="header404" style="text-align: center;">404</h4>
