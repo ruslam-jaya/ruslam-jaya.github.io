@@ -13,7 +13,6 @@
         if (isMobileDevice) {
 				function showhide1()
 				{
-					 document.getElementById("sh001").style.display = "none";
 					 document.getElementById("sh002").style.display = "none";
 					 document.getElementById("sh003").style.display = "none"; 
 					 var div = document.getElementById("sh001");  
@@ -29,7 +28,6 @@
 				function showhide2()
 				{
 					 document.getElementById("sh001").style.display = "none";
-					 document.getElementById("sh002").style.display = "none";
 					 document.getElementById("sh003").style.display = "none"; 
 					 var div = document.getElementById("sh002");  
 					 if (div.style.display !== "none") 
@@ -45,7 +43,6 @@
 				{
 					 document.getElementById("sh001").style.display = "none";
 					 document.getElementById("sh002").style.display = "none";
-					 document.getElementById("sh003").style.display = "none"; 
 					 var div = document.getElementById("sh003");  
 					 if (div.style.display !== "none") 
 					 {  
@@ -71,7 +68,6 @@
         } else {
 				function showhide1()
 				{
-					 document.getElementById("sh001").style.top = "-400px";
 					 document.getElementById("sh002").style.top = "-400px";
 					 document.getElementById("sh003").style.top = "-400px";  
 					 var div = document.getElementById("sh001");  
@@ -81,13 +77,12 @@
 					 }  
 					 else
 					 {  
-						 div.style.top = "24px"; 
+						div.style.top = "24px";
 					 }
 				}
 				function showhide2()
 				{
 					 document.getElementById("sh001").style.top = "-400px";
-					 document.getElementById("sh002").style.top = "-400px";
 					 document.getElementById("sh003").style.top = "-400px"; 
 					 var div = document.getElementById("sh002");  
 					 if (div.style.top !== "-400px") 
@@ -103,7 +98,6 @@
 				{
 					 document.getElementById("sh001").style.top = "-400px";
 					 document.getElementById("sh002").style.top = "-400px";
-					 document.getElementById("sh003").style.top = "-400px"; 
 					 var div = document.getElementById("sh003");  
 					 if (div.style.top !== "-400px") 
 					 {  

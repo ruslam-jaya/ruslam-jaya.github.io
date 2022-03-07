@@ -203,7 +203,7 @@ color: orange;
 
 #sh001, #sh002, #sh003 {
 display: none;
-margin-top: -30px;
+margin-top: -0px;
 transition: display 1s;
 }
 
@@ -211,4 +211,117 @@ transition: display 1s;
 padding-top: 40px;
 }
 }
+}
+
+.bannerslide{
+display: block;
+position: relative;
+height: 100vh;
+width: 100vw;
+overflow: hidden;
+}
+.bannerslide .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 100vh;
+  animation: sliderbanner 30s linear infinite;
+}
+.bannerslide .slider .slide {
+  position: relative;
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.bannerslide .slider .slide .caption {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  right: 60px;
+  padding: 30px;
+  background: rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.bannerslide .slider .slide .caption h2 {
+  margin: 0 0 20;
+  padding: 0;
+  color: #fff;
+  font-size: 48px;
+  transition: 0.5s;
+}
+.bannerslide .slider .slide .caption p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.5s;
+}
+@media (max-width: 768px) {
+  .bannerslide .slider .slide .caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 20px;
+  }
+  .bannerslide .slider .slide .caption h2 {
+    margin: 0 0 10;
+    font-size: 30px;
+  }
+  .bannerslide .slider .slide .caption p {
+    font-size: 16px;
+  }
+}
+
+@keyframes sliderbanner{
+  0% {
+      left: 0;
+  }
+  20% {
+      left: 0;
+  }
+  25% {
+      left: -100%;
+  }
+  45% {
+      left: -100%;
+  }
+  50% {
+      left: -200%;
+  }
+  70% {
+      left: -200%;
+  }
+  75% {
+      left: -300%;
+  }
+  95% {
+      left: -300%;
+  }
+  100% {
+      left: -400%;
+  }
+}
+
+.slide1 {
+  background-image: url(../img/slider/slide-01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.slide2 {
+  background-image: url(../img/slider/slide-02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.slide3 {
+  background-image: url(../img/slider/slide-03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.slide4 {
+  background-image: url(../img/slider/slide-04.jpg);
+  background-size: cover;
+  background-position: center;
 }

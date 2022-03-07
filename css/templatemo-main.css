@@ -5,7 +5,17 @@ Vanilla Template
 https://templatemo.com/tm-526-vanilla
 
 */
-
+html, body {
+-ms-overflow-style: none !important !important;
+scrollbar-width: none !important !important; 
+overflow: scroll !important !important;  
+overflow-x: none !important !important;
+overflow-y: none !important !important;
+-webkit-appearance: none !important !important;
+-moz-appearance: none !important !important;
+-ms-overflow-style: none;
+overflow: none !important !important; 
+}
 p {
   font-size: 15px;
   line-height: 25px;
@@ -431,12 +441,17 @@ section {
 
 
 
-footer {
+footer{
+  margin-top: -8px;
   text-align: center;
-  background-color: #282b2f;
+  background-color: #FFFFFF;
+  color: black;
   padding: 70px 0px;
 }
-
+footer h4{
+color : #191970;
+font-weight: bolder;
+}
 footer .primary-button {
   margin-bottom: 30px;
 }
@@ -458,30 +473,27 @@ footer ul li a {
   line-height: 40px;
   text-align: center;
   display: inline-block;
-  background-color: #ff7d27;
-  color: #282b2f;
+  background-color: #000000;
   border-radius: 50%;
   text-decoration: none;
   transition: all 0.5s;
   font-size: 17px;
+  color:#ffffff;
 }
 
 footer ul li a:hover {
   color: #282b2f;
-  background-color: #ff8e43;
+  background-color: grey;
 }
 
 footer p {
   font-size: 12px;
-  color: #fff;
   margin-top: 15px;
-  color: #fff;
   letter-spacing: 0.5px;
   margin-bottom: 0px;
 }
 
 footer em {
-  color: #ff8e43;
   font-weight: 600;
   font-style: normal;
 }
@@ -753,4 +765,7 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+.col-sm-12 {
+margin-top: 28px;
 }

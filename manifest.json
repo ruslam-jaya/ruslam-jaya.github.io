@@ -1,0 +1,85 @@
+{
+	"short_name": "PT RUSLAM CEMPAKA PUTIH JAYA",
+	"name": "PT RUSLAM CEMPAKA PUTIH JAYA",
+	"lang": "id,in",
+	"description": "PT RUSLAM CEMPAKA PUTIH JAYA, Perusahaan Penyalur Jasa Kebersihan / Cleaning Sevices, Keamanan / Security Services, Parkiran / parking Services, Klinik Dokter Umum dan Dokter Gigi, General Tradding Ke",
+	"start_url": "https://ruslam.id/",
+	"background_color": "#0d14de",
+	"theme_color": "#de730d",
+	"dir": "ltr",
+	"display": "standalone",
+	"orientation": "portrait",
+	"prefer_related_applications": false
+ "categories": ["education", "personalization"],
+ "icons": [
+    {
+      "src": "/icons/72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+
+ "screenshots": [{
+    "src": "/icons/512x512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "platform": "wide",
+    "label": "PT Ruslam Cempaka Putih Jaya"
+  }],
+  "splash_pages": null,
+ "shortcuts" : [
+  {
+    "name": "Home",
+    "url": "/index.html",
+    "description": "Home - PT Ruslam Cempaka Putih Jaya"
+  },
+  {
+    "name": "Halaman",
+    "url": "/html/",
+    "description": "Pages - PT Ruslam Cempaka Putih Jaya"
+  }
+]
+}
