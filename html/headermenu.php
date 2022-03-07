@@ -4,24 +4,24 @@
         <meta name="robots" content="noindex,nofollow">
         <meta name="googlebot" content="notranslate" />
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/hero-slider.css">
-        <link rel="stylesheet" href="css/templatemo-main.css">
-        <link rel="stylesheet" href="css/owl-carousel.css">
-        <link rel="stylesheet" href="css/navheader.css">
-	   	<link rel="stylesheet" href="ccs/css?family=Open+Sans:300,400,600,700,800">
-       <script src="js/jquery.mobile-1.4.5.min.js"></script>
-  	   <script src="js/jquery.min.js"></script>
-       <script src="js/opennav.js"></script>
-       <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-	   <script src="js/headbar.js"></script>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/hero-slider.css">
+        <link rel="stylesheet" href="../css/templatemo-main.css">
+        <link rel="stylesheet" href="../css/owl-carousel.css">
+        <link rel="stylesheet" href="../css/navheader.css">
+	   	<link rel="stylesheet" href="../ccs/css?family=Open+Sans:300,400,600,700,800">
+       <script src="../js/jquery.mobile-1.4.5.min.js"></script>
+  	   <script src="../js/jquery.min.js"></script>
+       <script src="../js/opennav.js"></script>
+       <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	   <script src="../js/headbar.js"></script>
        
        
 </head>
 <body>
     <div id="headmenu">
-    <img itemprop="logo" alt='logo ruslam' src='img/LOGO-TEXT-S.png'/>
+    <img itemprop="logo" alt='logo ruslam' src='../img/LOGO-TEXT-S.png'/>
     <a class="sidemenu" onClick="openNav();" style="cursor:pointer;"><i class="fa fa-bars"></i></a>
             <div id='navigate'>
                 <ul>
