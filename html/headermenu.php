@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
         <meta name="robots" content="noindex,nofollow">
         <meta name="googlebot" content="notranslate" />
         <meta charset="UTF-8">
@@ -16,10 +13,7 @@
        <script src="../js/opennav.js"></script>
        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 	   <script src="../js/headbar.js"></script>
-       
-       
-</head>
-<body>
+
     <div id="headmenu">
     <img itemprop="logo" alt='logo ruslam' src='../img/LOGO-TEXT-S.png'/>
     <a class="sidemenu" onClick="openNav();" style="cursor:pointer;"><i class="fa fa-bars"></i></a>
@@ -60,5 +54,4 @@
                 </ul>
             </div>
     </div>
-</body>
-</html>
+
