@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+	<title> 404 - Page Not Found</title>	
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found</title>
         <meta name="robots" content="noindex,nofollow">
         <meta name="googlebot" content="notranslate" />
         <meta charset="UTF-8">
@@ -13,72 +13,15 @@
         <link rel="stylesheet" href="../css/templatemo-main.css">
         <link rel="stylesheet" href="../css/owl-carousel.css">
         <link rel="stylesheet" href="../css/navheader.css">
-	<link rel="stylesheet" href="../ccs/css?family=Open+Sans:300,400,600,700,800">
+        <link rel="stylesheet" href="../css/callhtml.css">
+		<link rel="stylesheet" href="../ccs/css?family=Open+Sans:300,400,600,700,800">
        	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
-  	<script src="../js/jquery.min.js"></script>
+  		<script src="../js/jquery.min.js"></script>
        	<script src="../js/opennav.js"></script>
        	<script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-	<script src="../js/headbar.js"></script>		
-     <style>
-        body{
-	    top: 0px;
-            background-image:url(../img/2nd-section.jpg);
-            background-size: cover;
-            font-family: 'Roboto', 'sans-serif';
-			padding: 0 0 0 0;
-			margin: 0 0 0 0;
-        }
-        main{
-            display: flex;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            color: white;
-			padding : auto auto auto auto;
-        }
-        .header404{
-            font-family: 'Chango', cursive;
-            font-size: 48px;
-            color: orange;
-			padding-top: 30vh;
-        }
-        .content404{
-        text-align: center;
-		width: 100%;
-		padding-top: 50vh;
-		}
+		<script src="../js/headbar.js"></script>
+        <script src="../js/callhtml.js"></script>	
 
-    </style>
-	<script>
-		function includeHTML() {
-		  var z, i, elmnt, file, xhttp;
-		  /*loop through a collection of all HTML elements:*/
-		  z = document.getElementsByTagName("*");
-		  for (i = 0; i < z.length; i++) {
-			elmnt = z[i];
-			/*search for elements with a certain atrribute:*/
-			file = elmnt.getAttribute("w3-include-html");
-			if (file) {
-			  /*make an HTTP request using the attribute value as the file name:*/
-			  xhttp = new XMLHttpRequest();
-			  xhttp.onreadystatechange = function() {
-				if (this.readyState == 4) {
-				  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-				  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-				  /*remove the attribute, and call this function once more:*/
-				  elmnt.removeAttribute("w3-include-html");
-				  includeHTML();
-				}
-			  }      
-			  xhttp.open("GET", file, true);
-			  xhttp.send();
-			  /*exit the function:*/
-			  return;
-			}
-		  }
-		};
-    </script>
 </head>
 <body onload="includeHTML();">
 <div w3-include-html="headermenu.html"></div>
