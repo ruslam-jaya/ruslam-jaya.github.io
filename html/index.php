@@ -39,9 +39,9 @@
 <?php include("headermenu.php"); ?>
 
     <main>
-        <h4 class="header404" style="text-align: center;">404</h4>
+        <h4 class="header404" style="text-align: center;">Maintenance</h4>
         <div class="content-404" style="text-align: center;">
-            <p style="color:white;">Halaman Tidak Ditemukan (dalam perawatan)<br>
+            <p style="color:white;">Situs Dalam Perawatan<br>
             <a href="/">Kembali Ke Halaman Utama</a>
         </p>
         </div>
