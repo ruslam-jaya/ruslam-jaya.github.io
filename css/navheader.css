@@ -91,10 +91,27 @@ padding-top: 10px;
 padding-bottom: 10px;
 padding-left: 20px;
 padding-right: 20px;
+#footermenu {
+display: none;
 }
 }
 
 @media only screen and (max-width: 920px) {
+#footermenu {
+left: 0px;
+position: absolute;
+display: inline-block;
+width: 100%;
+text-align: center;
+bottom: 50px;
+color:#CC9900;
+}
+#footermenu span a{
+padding-top: 50px;
+padding: 20px;
+font-size: 30px;
+color: #0000FF;
+}
 html {max-width: 100vw!important;}    
 .sidemenu{
 position: absolute;
