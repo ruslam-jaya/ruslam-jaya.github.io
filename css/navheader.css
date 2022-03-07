@@ -100,7 +100,7 @@ display: none;
 @media only screen and (max-width: 920px) {
 #footermenu {
 left: 0px;
-position: absolute;
+position: relative;
 display: inline-block;
 width: 100%;
 text-align: center;
