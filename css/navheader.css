@@ -211,6 +211,9 @@ transition: display 1s;
 .slidefirst{
 padding-top: 40px;
 }
+    
+.caption {
+bottom: 100px;    
 }
 }
 
