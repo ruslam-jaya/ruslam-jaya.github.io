@@ -1,16 +1,15 @@
 {
- "name": "SDN Jatipadang 05 Pagi5",
- "short_name": "SDN Jatipadang 05 Pagi",
- "description": "Aplikasi Database SDN Jatipadang 05 Pagi",
- "lang": "id-ID",
- "start_url": ".",
- "scope": ".",
- "dir": "ltr",
- "theme_color": "#000000",
- "background_color": "#000000",
- "display": "fullscreen",
- "orientation": "portrait",
- "prefer_related_applications": "false",
+	"short_name": "PT RUSLAM CEMPAKA PUTIH JAYA",
+	"name": "PT RUSLAM CEMPAKA PUTIH JAYA",
+	"lang": "id,in",
+	"description": "PT RUSLAM CEMPAKA PUTIH JAYA, Perusahaan Penyalur Jasa Kebersihan / Cleaning Sevices, Keamanan / Security Services, Parkiran / parking Services, Klinik Dokter Umum dan Dokter Gigi, General Tradding Ke",
+	"start_url": "https://ruslam.id/",
+	"background_color": "#0d14de",
+	"theme_color": "#de730d",
+	"dir": "ltr",
+	"display": "standalone",
+	"orientation": "portrait",
+	"prefer_related_applications": false
  "categories": ["education", "personalization"],
  "icons": [
     {
@@ -68,19 +67,19 @@
     "sizes": "512x512",
     "type": "image/png",
     "platform": "wide",
-    "label": "Aplikasi Database SDN Jatipadang 05 Pagi"
+    "label": "PT Ruslam Cempaka Putih Jaya"
   }],
   "splash_pages": null,
  "shortcuts" : [
   {
     "name": "Home",
     "url": "/index.html",
-    "description": "Halaman Utama SDN Jatipadang 05 Pagi"
+    "description": "Home - PT Ruslam Cempaka Putih Jaya"
   },
   {
     "name": "Halaman",
-    "url": "/pages/",
-    "description": "Halaman Utama SDN Jatipadang 05 Pagi"
+    "url": "/html/",
+    "description": "Pages - PT Ruslam Cempaka Putih Jaya"
   }
 ]
 }
