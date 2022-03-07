@@ -157,6 +157,7 @@ display: block;
 width: 380px;
 right: -380px;
 transition: right 1s;
+overflow-y: scroll;    
 }
 
 #headmenu :hover {text-decoration: none;}
