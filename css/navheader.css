@@ -1,0 +1,327 @@
+@media only screen and (min-width: 920px) {
+.sidemenu{
+display: none;
+}
+
+#headmenu {
+position: fixed;
+display: block;
+width: 100vw;
+z-index: 500;
+padding-top: 10px;
+padding-bottom: 2px;
+background-color: rgb(255, 255, 255, 0.7);
+text-decoration: none;
+font-size: 12pt;
+}
+
+#headmenu img {
+display: inline-block;
+position: absolute;
+width: 120px;
+left: 20px;
+}
+
+#navigate {
+margin-left: 160px;
+}
+
+#headmenu :hover {text-decoration: none;}
+
+.dd02overlay, .dropdownoverlay {display: inline-block;}
+
+.overlay {
+    width: auto; 
+    height: 0%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-color: #191970; 
+    color: #00BFFF;
+    opacity: 0.9; 
+    overflow-y: hidden; 
+    transition: 0.5s; 
+    z-index: 201; 
+    font-size: 14pt;
+    overflow: auto;
+    }
+
+.dropdown{
+display: inline-block;
+width: auto;
+margin-left: 15px;
+margin-right: 15px;
+font-weight: bold;
+}
+
+.dropdown :hover{
+color: #4B0082;
+}
+
+.dropdown a{
+color: black;
+}
+
+.slideul {
+display: block;
+}
+.dropdown-content a:hover {
+background-color: #4B0082;
+color: #FFFFFF;
+transition: all 2s;
+}
+
+.dropdown-content {
+margin-top: 12px;
+width: 290px;
+position: absolute;
+background-color: rgb(220, 220, 220, 0.8);
+padding: 0px 0px 0px 0px;
+z-index: 10;
+}
+
+#sh001, #sh002, #sh003 {
+display: block;
+top: -400px;
+transition: top 0.8s;
+}
+
+.dropdown-content a {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+}
+}
+
+@media only screen and (max-width: 920px) {
+.sidemenu{
+position: absolute;
+display: block;
+right: 20px;
+top: 5px;
+text-align: right;
+font-size: 18pt;
+color: #000000;
+background-color: orange;
+padding: 3px 8px 3px 8px;
+border-radius: 5px;
+}
+
+#headmenu {
+position: fixed;
+display: block;
+width: 100vw;
+z-index: 500;
+padding-top: 10px;
+padding-bottom: 2px;
+background-color: rgb(255, 255, 255, 0.5);
+text-decoration: none;
+font-size: 12pt;
+height: 50px;
+}
+
+#headmenu img {
+display: inline-block;
+position: absolute;
+width: 120px;
+left: 20px;
+}
+
+#navigate {
+margin-top: 40px;
+margin-left: 20px;
+position: absolute;
+background-color: rgb(0, 0, 0, 0.9);
+height: 100vh;
+display: block;
+width: 380px;
+right: -380px;
+transition: right 1s;
+}
+
+#headmenu :hover {text-decoration: none;}
+
+.dd02overlay, .dropdownoverlay {display: block;}
+
+.overlay {
+    width: auto; 
+    height: 0%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-color: #191970; 
+    color: #00BFFF;
+    opacity: 0.9; 
+    overflow-y: hidden; 
+    transition: 0.5s; 
+    z-index: 201; 
+    font-size: 14pt;
+    overflow: auto;
+    }
+
+.dropdown{
+display: block;
+margin-left: 15px;
+margin-right: 15px;
+font-weight: bold;
+}
+
+.dropdown :hover{
+color: #4B0082;
+}
+
+.dropdown a{
+color: #FFFFFF;
+}
+
+.slideul {
+display: block;
+height: 50px;
+padding-top: 20px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.dropdown-content a:hover {
+background-color: #4B0082;
+color: #FFFFFF;
+transition: all 2s;
+}
+
+.dropdown-content {
+margin-top: 12px;
+width: 280px;
+position: relative;
+margin-left: 20px;
+}
+
+.dropdown-content a{
+color: orange;
+}
+
+#sh001, #sh002, #sh003 {
+display: none;
+margin-top: -0px;
+transition: display 1s;
+}
+
+.slidefirst{
+padding-top: 40px;
+}
+}
+}
+
+.bannerslide{
+display: block;
+position: relative;
+height: 100vh;
+width: 100vw;
+overflow: hidden;
+}
+.bannerslide .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 100vh;
+  animation: sliderbanner 30s linear infinite;
+}
+.bannerslide .slider .slide {
+  position: relative;
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.bannerslide .slider .slide .caption {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  right: 60px;
+  padding: 30px;
+  background: rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.bannerslide .slider .slide .caption h2 {
+  margin: 0 0 20;
+  padding: 0;
+  color: #fff;
+  font-size: 48px;
+  transition: 0.5s;
+}
+.bannerslide .slider .slide .caption p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.5s;
+}
+@media (max-width: 768px) {
+  .bannerslide .slider .slide .caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 20px;
+  }
+  .bannerslide .slider .slide .caption h2 {
+    margin: 0 0 10;
+    font-size: 30px;
+  }
+  .bannerslide .slider .slide .caption p {
+    font-size: 16px;
+  }
+}
+
+@keyframes sliderbanner{
+  0% {
+      left: 0;
+  }
+  20% {
+      left: 0;
+  }
+  25% {
+      left: -100%;
+  }
+  45% {
+      left: -100%;
+  }
+  50% {
+      left: -200%;
+  }
+  70% {
+      left: -200%;
+  }
+  75% {
+      left: -300%;
+  }
+  95% {
+      left: -300%;
+  }
+  100% {
+      left: -400%;
+  }
+}
+
+.slide1 {
+  background-image: url(../img/slider/slide-01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.slide2 {
+  background-image: url(../img/slider/slide-02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.slide3 {
+  background-image: url(../img/slider/slide-03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.slide4 {
+  background-image: url(../img/slider/slide-04.jpg);
+  background-size: cover;
+  background-position: center;
+}
