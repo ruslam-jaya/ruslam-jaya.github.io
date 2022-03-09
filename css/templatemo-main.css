@@ -786,9 +786,11 @@ height: auto;
 }
 .mainpage h1, .mainpage h2{
 padding: 20px;
+font-weight: bolder;  
 }
 .mainpage p {
 padding: 5px 20px 5px 20px;
+font-size: 18px;  
 }
 .cardus {
 position:relative;
