@@ -776,7 +776,7 @@ margin-top: 28px;
 font-smooth: always;
 }
 .mainpage {
-width: calc(100% - 20px);
+width: calc(100vw - 40px);
 border-radius: 20px;
 display: inline-block;
 padding: 20px; 
