@@ -783,6 +783,7 @@ padding: 20px;
 background-color: rgb(240, 255, 255, .8);
 color: #000000;
 height: auto;
+margin: 10px 10px 10px 10px;  
 }
 .mainpage h1, .mainpage h2{
 padding: 20px;
