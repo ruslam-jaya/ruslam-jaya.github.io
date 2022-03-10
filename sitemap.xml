@@ -6,37 +6,38 @@
       ttp://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://ruslam.id/</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.8000</priority>
-</url>
-<url>
-  <loc>https://ruslam.id/html/</loc>
-  <changefreq>daily</changefreq>
+  <lastmod>2022-03-10T08:48:39+00:00</lastmod>
+  <changefreq>always</changefreq>
   <priority>0.8000</priority>
 </url>
  <url>
   <loc>https://ruslam.id/html/cleaning services/</loc>
-  <changefreq>daily</changefreq>
+  <lastmod>2022-03-10T08:48:39+00:00</lastmod>
+  <changefreq>always</changefreq>
   <priority>0.8000</priority>
 </url>
 <url>
   <loc>https://ruslam.id/html/general trading/</loc>
-  <changefreq>daily</changefreq>
+  <lastmod>2022-03-10T08:48:39+00:00</lastmod>
+  <changefreq>always</changefreq>
   <priority>0.8000</priority>
 </url>
 <url>
   <loc>https://ruslam.id/html/health services/</loc>
-  <changefreq>daily</changefreq>
+  <lastmod>2022-03-10T08:48:39+00:00</lastmod>
+  <changefreq>always</changefreq>
   <priority>0.8000</priority>
 </url>
 <url>
   <loc>https://ruslam.id/html/parking services/</loc>
-  <changefreq>daily</changefreq>
+  <lastmod>2022-03-10T08:48:39+00:00</lastmod>
+  <changefreq>always</changefreq>
   <priority>0.8000</priority>
 </url>
 <url>
   <loc>https://ruslam.id/html/security services/</loc>
-  <changefreq>daily</changefreq>
+  <lastmod>2022-03-10T08:48:39+00:00</lastmod>
+  <changefreq>always</changefreq>
   <priority>0.8000</priority>
 </url>      
 </urlset>
