@@ -816,3 +816,86 @@ font-size: 18px;
 text-align: center;
 color: #FFFFFF;
 }
+
+.card50 {
+min-width: 300px;
+width: calc(50% - 25px);
+display: inline-block;
+min-height: 200px;
+background-color: rgb(240, 248, 255, .5);
+padding-left: 7px;
+padding-right: 7px;
+padding-top: 10px;
+border-bottom: solid 10px rgb(72, 61, 139, .5);
+border-bottom-left-radius: 20px;
+border-top-right-radius: 20px;
+margin: 10px;
+color: #000000;
+vertical-align: text-top;	
+text-align:left;
+}
+
+.card50:hover{
+background-color: rgb(72, 61, 139, .5);
+color: #FFFFFF;
+transition: all 5s;
+}
+
+.card50 p{
+text-align:left;
+}
+
+.card50 .col-md-4 a{
+color: #000000;
+}
+.card50 .col-md-4{
+font-size: 12px;
+padding-right: 0px;
+padding-left: 30px;
+}
+.card50 .fa {
+color: #663399;
+font-size: 20px;
+display: inline-block;
+}
+
+.big {
+color: #FFFFFF;
+background-color: rgb(72, 61, 139, .7);
+padding: 10px 10px;
+border-radius: 4px;
+font-size: 36px;
+display: inline-block;
+transform: rotate(-10deg);
+}
+.normal {
+transform: rotate(10deg);
+color: rgb(72, 61, 139);
+}
+.cardclinic {
+width: 300px;
+display: inline-block;
+background-color: rgb(240, 248, 255, .5);
+border-bottom: solid 10px rgb(72, 61, 139, .5);
+min-height: 200px;
+padding-left: 7px;
+padding-right: 7px;
+padding-top: 10px;
+margin: 10px;
+border-radius: 10px 10px 40px 40px;
+color: #000000;
+vertical-align: text-top;
+text-align:left;	
+}
+.cardclinic h2{
+display: inline-block;
+}
+.cardclinic p{
+text-align:left;
+}
+
+.cardclinic .fa {
+color: #663399;
+font-size: 36px;
+display: inline-block;
+}
