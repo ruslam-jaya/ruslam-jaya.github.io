@@ -149,7 +149,7 @@ left: 20px;
 }
 
 #navigate {
-margin-top: 0px;
+margin-top: -10px;
 margin-left: 20px;
 position: absolute;
 background-color: rgb(255, 255, 255, 0.5);
@@ -193,13 +193,13 @@ color: #4B0082;
 }
 
 .dropdown a{
-color: #FFFFFF;
+color: #000000;
 }
 
 .slideul {
 display: block;
 height: 50px;
-padding-top: 20px;
+padding-top: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
 padding-right: 10px;
