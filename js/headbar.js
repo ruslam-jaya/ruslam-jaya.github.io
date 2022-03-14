@@ -61,13 +61,13 @@
 					 {  
 						 div.style.right = "-380px";
 						 icomenu.style.display = "inline-block";
-						 icoclose.style.right = "none";
+						 icoclose.style.display = "none";
 					 }  
 					 else
 					 {  
 						 div.style.right = "0px";
 						 icomenu.style.display = "none";
-						 icoclose.style.right = "inline-block";
+						 icoclose.style.display = "inline-block";
 					 } 
 				}
 
