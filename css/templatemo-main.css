@@ -500,7 +500,10 @@ footer em {
 }
 
 @media (max-width: 767px){
-  
+
+footer{
+  text-align: center;
+}  
   .baner-content {
     padding-top: 30vh;
   }
