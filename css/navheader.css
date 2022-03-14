@@ -98,6 +98,9 @@ display: none;
 }
 
 @media only screen and (max-width: 920px) {
+.sidemenu{
+z-index: 500;
+}    
 #footermenu {
 left: 0px;
 position: relative;
