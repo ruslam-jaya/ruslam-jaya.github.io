@@ -104,7 +104,8 @@ position: relative;
 display: inline-block;
 width: 100%;
 text-align: left;
-margin-bottom;30px;    
+margin-bottom;30px;
+margin-left: -10px;    
 color: #4B0082;
 font-size: 20px;    
 }
@@ -225,7 +226,7 @@ margin-left: 20px;
 }
 
 .dropdown-content a{
-color: orange;
+color: #4B0082;
 }
 
 #sh001, #sh002, #sh003 {
