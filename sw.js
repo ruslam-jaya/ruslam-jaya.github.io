@@ -2,10 +2,10 @@ var APP_PREFIX = 'App_Ruslam';
 var VERSION = 'version_02';
 var URLS = '.';
 
-const NOT_FOUND_CACHE_FILES = '/index.html';
+const NOT_FOUND_CACHE_FILES = 'https://ruslam.id/index.html';
 const CACHE_NAME = 'CACHE_OFFLINE_APP_RUSLAM';
-const OFFLINE_URL = '/index.html';
-const NOT_FOUND_URL = '/index.html';
+const OFFLINE_URL = 'https://ruslam.id/index.html';
+const NOT_FOUND_URL = 'https://ruslam.id/index.html';
 
 self.addEventListener('fetch', function(event) {
   // console.log('[Service Worker] Fetch', event.request.url);
@@ -37,7 +37,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox
 const CACHE = "CACHE_OFFLINE_APP_RUSLAM";
 
 // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "/offline/";
-const offlineFallbackPage = "/index.html";
+const offlineFallbackPage = "https://ruslam.id/index.html";
 
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {
