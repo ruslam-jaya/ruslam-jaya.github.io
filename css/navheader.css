@@ -370,3 +370,4 @@ html::-webkit-scrollbar {
 body::-webkit-scrollbar {
   display: none;
 }
+#icoclose {display:none;}
