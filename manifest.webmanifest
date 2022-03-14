@@ -74,13 +74,18 @@
  "shortcuts" : [
   {
     "name": "Home",
-    "url": "/index.html",
+    "url": "https://ruslam.id/",
     "description": "Home - PT Ruslam Cempaka Putih Jaya"
   },
   {
-    "name": "Halaman",
-    "url": "/html/",
-    "description": "Pages - PT Ruslam Cempaka Putih Jaya"
+    "name": "Info Ruslam",
+    "url": "https://info.ruslam.id",
+    "description": "Info - PT Ruslam Cempaka Putih Jaya"
+  },
+    {
+    "name": "Login Ruslam",
+    "url": "https://ruslam.id/html/login/",
+    "description": "Login - PT Ruslam Cempaka Putih Jaya"
   }
 ]
 }
