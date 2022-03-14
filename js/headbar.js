@@ -54,14 +54,20 @@
 					 } 
 				}
 				function openNav() {
-					 var div = document.getElementById("navigate");  
+					 var div = document.getElementById("navigate");
+				  	 var icomenu = document.getElementById("icomenu");
+					 var icoclose = document.getElementById("icoclose");
 					 if (div.style.right !== "-380px") 
 					 {  
-						 div.style.right = "-380px";   
+						 div.style.right = "-380px";
+						 icomenu.style.display = "inline-block";
+						 icoclose.style.right = "none";
 					 }  
 					 else
 					 {  
-						 div.style.right = "0px"; 
+						 div.style.right = "0px";
+						 icomenu.style.display = "none";
+						 icoclose.style.right = "inline-block";
 					 } 
 				}
 
