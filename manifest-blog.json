@@ -3,15 +3,15 @@
  "short_name": "PT RUSLAM JAYA",
  "description": "Web Resmi PT Ruslam Cempaka Putih Jaya",
  "lang": "id-ID",
- "start_url": "https://ruslam.id/",
- "scope": ".",
+ "start_url": "https://info.ruslam.id/",
+ "scope": "https://info.ruslam.id/",
  "dir": "ltr",
  "theme_color": "#000000",
  "background_color": "#000000",
  "display": "fullscreen",
  "orientation": "portrait",
  "prefer_related_applications": "false",
- "categories": ["medical"],
+ "categories": ["Local Business"],
  "icons": [
     {
       "src": "https://ruslam.id//icons/72x72.png",
