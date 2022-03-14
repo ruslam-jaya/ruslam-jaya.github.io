@@ -504,6 +504,9 @@ footer em {
 footer{
   text-align: center;
 }  
+  footer ul li {
+  display: block;
+}
   .baner-content {
     padding-top: 30vh;
   }
