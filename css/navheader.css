@@ -104,17 +104,16 @@ position: relative;
 display: inline-block;
 width: 100%;
 text-align: left;
-margin-top: 20px;
 margin-bottom;30px;    
 color: #4B0082;
-font-size: 22px;    
+font-size: 20px;    
 }
 #footermenu span a{
-padding-top: 30px;
 padding: 20px;
 font-size: 30px;
 color: #0000FF;
 }
+#footermenu span a i{color: #orange;}
 html {max-width: 100vw!important;}    
 .sidemenu{
 position: absolute;
