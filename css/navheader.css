@@ -149,10 +149,10 @@ left: 20px;
 }
 
 #navigate {
-margin-top: 40px;
+margin-top: 0px;
 margin-left: 20px;
 position: absolute;
-background-color: rgb(0, 0, 0, 0.9);
+background-color: rgb(255, 255, 255, 0.5);
 height: 100vh;
 display: block;
 width: 380px;
