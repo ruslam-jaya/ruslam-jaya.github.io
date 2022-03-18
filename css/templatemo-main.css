@@ -267,7 +267,7 @@ h4, .h4 {
 }
 
 .projects-content .item .text-content {
-  background-color: #fff;
+  background-color: #FFFFFF;
   text-align: center;
   padding: 20px;
 }
@@ -282,7 +282,7 @@ h4, .h4 {
   font-style: normal;
   font-size: 17px;
   font-weight: 700;
-  color: #ff7d27;
+  color: #8f6203;
 }
 
 .owl-pagination {
