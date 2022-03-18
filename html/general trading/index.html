@@ -64,6 +64,19 @@
 </head>
 	
 <body class="mainbody" onload="includeHTML();">
+<script>
+if ('serviceWorker' in navigator) {
+window.addEventListener('load', function() {
+navigator.serviceWorker.register('https://ruslam.id/sw.js', {scope: '.'}).then(function(registration) {
+// Registration was successful
+console.log('ServiceWorker registration successful with scope: ', registration.scope);
+}, function(err) {
+// registration failed :(
+console.log('ServiceWorker registration failed: ', err);
+});
+});
+}
+</script>	
 <div w3-include-html="../headermenu.html"></div>
 <div w3-include-html="../slider.html"></div> 	
     <main class="mainpage">
