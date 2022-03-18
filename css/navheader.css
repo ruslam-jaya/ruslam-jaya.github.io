@@ -55,7 +55,9 @@ font-weight: bold;
 }
 
 .dropdown :hover{
-color: #4B0082;
+color: #FFFFFF;
+background-color: #4B0082;
+cursor: pointer;    
 }
 
 .dropdown a{
