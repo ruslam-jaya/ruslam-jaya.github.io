@@ -97,6 +97,8 @@
     </head>
 
 <body  itemscope itemtype="https://schema.org/LocalBusiness" onload="includeHTML();">
+	
+<button hidden='' id='install_button'>Install Now</button>
 <div w3-include-html="https://ruslam.id/html/headermenu.html"></div> 
 <div w3-include-html="https://ruslam.id/html/slider.html"></div> 
     <div class="service-content" id="services">
@@ -344,5 +346,17 @@
 	    'cookie_expires': 28 * 24 * 60 * 60 // 28 days, in seconds
 	    });  
 	</script>
+	
+<script type='text/javascript'>
+  //<![CDATA[
+const installButton = document.getElementById("install_button");window.addEventListener("beforeinstallprompt", e => {e.preventDefault();deferredPrompt = e;installButton.hidden = false;installButton.addEventListener("click", installApp);});function installApp() {deferredPrompt.prompt();installButton.disabled = true;deferredPrompt.userChoice.then(choiceResult => {if (choiceResult.outcome === "accepted") {installButton.hidden = true;} else {}installButton.disabled = false;deferredPrompt = null;});}window.addEventListener("appinstalled", evt => {console.log("appinstalled fired", evt);});
+  //]]> 
+</script>
+
+<style rel='stylesheet' type='text/css'>
+#install_button{margin: 10px;text-align: center; color: #fff;background: #007fa0;border: 1px solid #007fa0;padding: 5px 19px;cursor: pointer;font-size: 30px;border-radius: 20px;}
+#install_button:hover{color: teal;background: #fff;border: 1px solid #007fa0; }
+</style>
+
 </body>
 </html>
