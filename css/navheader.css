@@ -52,11 +52,13 @@ width: auto;
 margin-left: 15px;
 margin-right: 15px;
 font-weight: bold;
+border-bottom-style: solid;
+border-bottom-color: transparent;    
 }
 
 .dropdown :hover{
-color: #FFFFFF;
-background-color: #4B0082;
+color: #4B0082;
+border-bottom-color: #4B0082;
 cursor: pointer;    
 }
 
