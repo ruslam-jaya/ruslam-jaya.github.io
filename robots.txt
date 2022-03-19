@@ -1,16 +1,16 @@
-User-agent: *
-Allow: /
-Allow: /html/cleaning services/*.
-Allow: /html/security services/*.
-Allow: /html/parking services/*.
-Allow: /html/general trading/*.
-Allow: /html/health services/*.
-Allow: /html/*.
-Disallow: /html
-Disallow: /css/*.
-Disallow: /js/*.
-Disallow: /icons/*.
-Disallow: /img/*.
-Disallow: /fonts/*.
+user-agent: *
+allow: /
+allow: /html/cleaning services/*.
+allow: /html/security services/*.
+allow: /html/parking services/*.
+allow: /html/general trading/*.
+allow: /html/health services/*.
+allow: /html/*.
+disallow: /html
+disallow: /css/*.
+disallow: /js/*.
+disallow: /icons/*.
+disallow: /img/*.
+disallow: /fonts/*.
 
-Sitemap: https://ruslam.id/sitemap.xml
+sitemap: https://ruslam.id/sitemap.xml
