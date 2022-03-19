@@ -3,7 +3,6 @@ Disallow: /css/
 Disallow: /font/
 Disallow: /img/
 Disallow: /js/
-Disallow: /html/
 Allow: /
 Allow: /search
 Allow: /html/cleaning services/
