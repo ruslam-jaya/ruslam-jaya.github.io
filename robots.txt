@@ -5,6 +5,7 @@ Allow: /html/security services/*.
 Allow: /html/parking services/*.
 Allow: /html/general trading/*.
 Allow: /html/health services/*.
+Allow: /html/*.
 Disallow: /html
 Disallow: /css/*.
 Disallow: /js/*.
