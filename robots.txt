@@ -1,16 +1,2 @@
 User-agent: *
-Allow: /
-Allow: /html/cleaning services/
-Allow: /html/general trading/
-Allow: /html/health services/
-Allow: /html/parking services/
-Allow: /html/security services/
-Allow: /html/cleaning services/*.
-Allow: /html/general trading/*.
-Allow: /html/health services/*.
-Allow: /html/parking services/*.
-Allow: /html/security services/*.
-Disallow: /css/
-Disallow: /font/
-Disallow: /img/
-Disallow: /js/
+Allow: /*.
