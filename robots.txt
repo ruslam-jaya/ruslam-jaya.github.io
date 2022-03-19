@@ -1,15 +1,4 @@
 User-agent: *
-Disallow: /html
-Disallow: /css/*.
-Disallow: /js/*.
-Disallow: /icons/*.
-Disallow: /img/*.
-Disallow: /fonts/*.
 Allow: /
-Allow: /html/cleaning services/*.
-Allow: /html/security services/*.
-Allow: /html/parking services/*.
-Allow: /html/general trading/*.
-Allow: /html/health services/*.
 
 Sitemap: https://ruslam.id/sitemap.xml
