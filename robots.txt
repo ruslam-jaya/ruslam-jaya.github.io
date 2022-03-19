@@ -10,8 +10,8 @@ Allow: /html/general trading/
 Allow: /html/health services/
 Allow: /html/parking services/
 Allow: /html/security services/
-Allow: /html/cleaning services/*.html$
-Allow: /html/general trading/*.html$
-Allow: /html/health services/*.html$
-Allow: /html/parking services/*.html$
-Allow: /html/security services/*.html$
+Allow: /html/cleaning services/*.
+Allow: /html/general trading/*.
+Allow: /html/health services/*.
+Allow: /html/parking services/*.
+Allow: /html/security services/*.
