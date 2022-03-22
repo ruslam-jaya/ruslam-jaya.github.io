@@ -879,6 +879,7 @@ border-radius: 4px;
 font-size: 36px;
 display: inline-block;
 transform: rotate(-10deg);
+margin-right: 3px;	
 }
 .normal {
 transform: rotate(10deg);
