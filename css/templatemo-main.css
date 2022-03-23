@@ -932,7 +932,7 @@ padding-top: 30vh;
 text-align: center;
 width: 100%;
 }
-.imgpop{
-width: 1800px!important;
-height: 1200px!important;
+.lb-image{
+max-width: 1800px!important;
+max-height: 1200px!important;
 }
