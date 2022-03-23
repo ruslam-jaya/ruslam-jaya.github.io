@@ -299,9 +299,6 @@ h4, .h4 {
   background: #fff;
 }
 .tabs-content {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 8vh;
   background-image: url(../img/slider/slide-02.jpg);
   background-attachment: fixed;
   min-height: 100vh;
@@ -309,7 +306,11 @@ h4, .h4 {
   background-position: center center;
 }
 .tabs-content-inner {
-  background-color: rgb(139, 69, 19, .7)!important;;
+background-color: rgb(139, 69, 19, .7) !important;
+height: 100vh;
+vertical-align: middle;
+display: table-cell;
+width: 100vw;
 }
 section {
   background-color: transparent;
