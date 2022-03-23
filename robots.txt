@@ -8,6 +8,7 @@ allow: /html/health services/*.
 allow: /html/*.
 disallow: /404.html
 disallow: /html/index.html
+disallow: /html/ping/index.html
 disallow: /css/*.
 disallow: /js/*.
 disallow: /icons/*.
