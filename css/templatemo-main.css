@@ -441,13 +441,13 @@ section {
 footer{
   margin-top: -8px;
   text-align: left;
-  background-color: #4D4D4D;
+  background-color: #333333;
   color: #FFFFFF;
   padding: 70px 0px;
 }
 footer h4{
 color : #191970;
-font-weight: bolder;
+font-weight: bold;
 }
 footer .primary-button {
   margin-bottom: 30px;
@@ -470,7 +470,7 @@ footer ul li a {
   line-height: 40px;
   text-align: center;
   display: inline-block;
-  background-color: #000066;
+  background-color: #87C6DA;
   border-radius: 50%;
   text-decoration: none;
   transition: all 0.5s;
@@ -951,5 +951,5 @@ border: none;
 cursor: pointer;
 }
 .contact-info h2, .connect-us h2, .location h2 {
-color: #00008B;
+color: #87C6DA;
 }
