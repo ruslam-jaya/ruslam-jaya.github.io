@@ -195,7 +195,7 @@ a:hover { color: #FF0; }
   background-size: cover;
   background-position: center center;
   background-blend-mode: luminosity;
-  filter: invert(100%);
+  filter: grayscale(100%);
 }
 
 .service-content .left-text h4 {
