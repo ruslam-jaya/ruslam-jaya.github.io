@@ -63,57 +63,7 @@
         <link itemprop="logo" rel="apple-touch-icon" href="https://ruslam.id/icons/96x96.png"  crossorigin="anonymous"> 
         <link rel='icon' href='https://ruslam.id/icons/96x96.png' sizes='96x96'  crossorigin="anonymous">
         
-		<script>
-			if ('serviceWorker' in navigator) {
-			  window.addEventListener('load', function() {
-				navigator.serviceWorker.register('https://ruslam.id/sw.js', {scope: '.'}).then(function(registration) {
-				  // Registration was successful
-				  console.log('ServiceWorker registration successful with scope: ', registration.scope);
-				}, function(err) {
-				  // registration failed :(
-				  console.log('ServiceWorker registration failed: ', err);
-				});
-			  });
-			}
-        </script>
-        <script>
-			function chacheappon(){      
-			appCache.addEventListener("checking", function(event) {
-				console.log("Checking for updates.");
-			}, false);
-			
-			
-			appCache.addEventListener("downloading", function(event) {
-				console.log("Started Download.");
-			}, false);
-			
-			
-			appCache.addEventListener("progress", function(event) {
-				console.log(event.loaded + " of " + event.total + " downloaded.");
-			}, false);
-			
-			appCache.addEventListener("cached", function(event) {
-				console.log("Done.");
-			}, false); 
-			}      
-        </script> 
-   	<script async src="https://www.googletagmanager.com/gtag/js?id=G-M2JCJ2SPVG"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'G-M2JCJ2SPVG');
-
-	    gtag('config', 'G-M2JCJ2SPVG', {
-	    'user_id': 'UA-306720515'
-	    });
-	    gtag('config', 'G-M2JCJ2SPVG', {
-	    'cookie_prefix': 'RuslamCookie',
-	    'cookie_domain': 'ruslam.id',
-	    'cookie_expires': 28 * 24 * 60 * 60 // 28 days, in seconds
-	    });  
-	</script>  
-    </head>
+</head>
 
 <body  itemscope itemtype="https://schema.org/LocalBusiness" onload="includeHTML();">
 	
@@ -297,43 +247,82 @@
     </div>
 <div w3-include-html="https://ruslam.id/html/map.html"></div>	
 <div w3-include-html="https://ruslam.id/html/footer.html"></div>   
-    <script>
-        function openCity(cityName) {
-            var i;
-            var x = document.getElementsByClassName("city");
-            for (i = 0; i < x.length; i++) {
-               x[i].style.display = "none";  
-            }
-            document.getElementById(cityName).style.display = "block";  
-        }
-    </script>
-
-    <script>
-        $(document).ready(function(){
-          // Add smooth scrolling to all links
-          $(".fixed-side-navbar a, .primary-button a").on('click', function(event) {
-
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-              // Prevent default anchor click behavior
-              event.preventDefault();
-
-              // Store hash
-              var hash = this.hash;
-
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 800, function(){
-           
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              });
-            } // End if
-          });
-        });
-    </script>	
+<script>
+if ('serviceWorker' in navigator) {
+window.addEventListener('load', function() {
+navigator.serviceWorker.register('https://ruslam.id/sw.js', {scope: '.'}).then(function(registration) {
+// Registration was successful
+console.log('ServiceWorker registration successful with scope: ', registration.scope);
+}, function(err) {
+// registration failed :(
+console.log('ServiceWorker registration failed: ', err);
+});
+});
+}
+</script>
+<script>
+function chacheappon(){      
+appCache.addEventListener("checking", function(event) {
+console.log("Checking for updates.");
+}, false);
+appCache.addEventListener("downloading", function(event) {
+console.log("Started Download.");
+}, false);
+appCache.addEventListener("progress", function(event) {
+console.log(event.loaded + " of " + event.total + " downloaded.");
+}, false);
+appCache.addEventListener("cached", function(event) {
+console.log("Done.");
+}, false); 
+}      
+</script> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M2JCJ2SPVG"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-M2JCJ2SPVG');
+gtag('config', 'G-M2JCJ2SPVG', {
+'user_id': 'UA-306720515'
+});
+gtag('config', 'G-M2JCJ2SPVG', {
+'cookie_prefix': 'RuslamCookie',
+'cookie_domain': 'ruslam.id',
+'cookie_expires': 28 * 24 * 60 * 60 // 28 days, in seconds
+});  
+</script>  	
+<script>
+function openCity(cityName) {
+var i;
+var x = document.getElementsByClassName("city");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";  
+}
+document.getElementById(cityName).style.display = "block";  
+}
+</script>
+<script>
+$(document).ready(function(){
+// Add smooth scrolling to all links
+$(".fixed-side-navbar a, .primary-button a").on('click', function(event) {
+// Make sure this.hash has a value before overriding default behavior
+if (this.hash !== "") {
+// Prevent default anchor click behavior
+event.preventDefault();
+// Store hash
+var hash = this.hash;
+// Using jQuery's animate() method to add smooth page scroll
+// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+$('html, body').animate({
+scrollTop: $(hash).offset().top
+}, 800, function(){
+// Add hash (#) to URL when done scrolling (default click behavior)
+window.location.hash = hash;
+});
+} // End if
+});
+});
+</script>	
 	<link rel="stylesheet" href="https://ruslam.id/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://ruslam.id/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://ruslam.id/css/hero-slider.css">
