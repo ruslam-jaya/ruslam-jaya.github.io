@@ -342,21 +342,21 @@ section {
   font-size: 14px;
   font-weight: 700;
   padding:10px 15px;
-  border: 2px solid rgb(248, 248, 255, 0.7);
+  border: 0px solid rgb(248, 248, 255, 0.7);
   background-color: rgb(248, 248, 255, 0.7);
   width: 120px;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 .tabs a:hover {
 color: rgb(248, 248, 255);
-border: 2px solid rgba(0, 0, 139, 0.7);
+border: 0px solid rgba(0, 0, 139, 0.7);
 background-color: rgba(0, 0, 139, 0.7);
 }
 
 .tabs .active {
 color: rgb(248, 248, 255);
-border: 2px solid rgba(0, 0, 139, 0.7);
+border: 0px solid rgba(0, 0, 139, 0.7);
 background-color: rgba(0, 0, 139, 0.7);
 }
 
