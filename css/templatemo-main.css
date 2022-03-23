@@ -343,7 +343,7 @@ section {
   font-weight: 700;
   padding:10px 15px;
   border: 2px solid #00008B;
-  background-color: rgb(248, 248, 255, .7)
+  background-color: rgb(248, 248, 255, .7);
   width: 120px;
   border-radius: 3px;
 }
@@ -351,17 +351,16 @@ section {
 .tabs a:hover {
   color: #00008B;
   border: 2px solid #ff7d27;
-  background-color: rgb(0, 0, 139 .7)
+  background-color: rgb(0, 0, 139 .7);
 }
 
 .tabs .active {
   color: #00008B;
   border: 3px solid #ff7d27;
-  background-color: rgb(0, 0, 139 .7)
+  background-color: rgb(0, 0, 139 .7);
 }
 
 .tabgroup div  {
-
 }
 
 .tabgroup p {
