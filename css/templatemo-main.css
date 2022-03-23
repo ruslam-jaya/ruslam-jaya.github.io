@@ -195,6 +195,7 @@ a:hover { color: #FF0; }
   background-size: cover;
   background-position: center center;
   background-blend-mode: luminosity;
+  filter: invert(100%);
 }
 
 .service-content .left-text h4 {
@@ -313,6 +314,7 @@ h4, .h4 {
   background-size: cover;
   background-position: center center;
   background-blend-mode: saturation;
+  filter: sepia(100%);
 }
 
 section {
