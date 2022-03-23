@@ -192,11 +192,12 @@ a:hover { color: #FF0; }
   min-height: 100vh;
 }
 .service-content::before {
+  content: "";
   background-image: url(../img/slider/slide-01.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-   filter: sepia(100%);
+  filter: sepia(100%);
 } 
 .service-content .left-text h4 {
   font-size: 24px;
