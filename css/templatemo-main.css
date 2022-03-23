@@ -183,21 +183,16 @@ a:hover { color: #FF0; }
   margin-top: 15px;
 }
 
-
-
 .service-content {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
   min-height: 100vh;
-}
-.service-content::before {
-  content: "";
   background-image: url(../img/slider/slide-01.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  filter: grayscale(100%);
+  filter: grayscale(80%);
 } 
 .service-content .left-text h4 {
   font-size: 24px;
