@@ -950,6 +950,6 @@ letter-spacing: 0.5px;
 border: none;
 cursor: pointer;
 }
-.contact-info h2, .connect-us h2, location h2 {
-color: #4B0082;
+.contact-info h2, .connect-us h2, .location h2 {
+color: #00008B;
 }
