@@ -190,7 +190,6 @@ a:hover { color: #FF0; }
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  backdrop-filter: sepia(90%);
 } 
 .service-content .left-text h4 {
   font-size: 24px;
@@ -233,7 +232,7 @@ h4, .h4 {
 }
 
 .service-content .service-item {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 25px 30px;
   text-align: center;
   color: #fff;
