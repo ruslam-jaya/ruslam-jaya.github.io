@@ -197,7 +197,10 @@ a:hover { color: #FF0; }
   font-weight: 500;
   color: #fff;
 }
-
+.service-content-inner {
+  background-color: rgb(0, 0, 139, .7);
+  padding-top: 50px;
+}
 h4, .h4 {
   font-size: 18px;
 }
@@ -309,7 +312,9 @@ h4, .h4 {
   background-position: center center;
   backdrop-filter: sepia(90%);
 }
-
+.tabs-content-inner {
+  background-color: rgb(139, 69, 19, .7);
+}
 section {
   background-color: transparent;
   padding-bottom: 15px;
