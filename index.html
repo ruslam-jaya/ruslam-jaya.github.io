@@ -300,21 +300,7 @@ x[i].style.display = "none";
 document.getElementById(cityName).style.display = "block";  
 }
 </script>
-<script>
-$(document).ready(function(){
-$(".fixed-side-navbar a, .primary-button a").on('click', function(event) {
-if (this.hash !== "") {
-event.preventDefault();
-var hash = this.hash;
-$('html, body').animate({
-scrollTop: $(hash).offset().top
-}, 800, function(){
-window.location.hash = hash;
-});
-};
-});
-});
-</script>	
+	
 	<link rel="stylesheet" href="https://ruslam.id/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://ruslam.id/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://ruslam.id/css/hero-slider.css">
