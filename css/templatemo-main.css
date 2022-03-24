@@ -101,7 +101,7 @@ a:hover { color: #FF0; }
   width: 10px;
   height: 10px;
   border-radius: 10px;
-  background: rgba(250, 250, 250, 0.75);
+  background: rgba(56, 0, 255, 0.75);
   -webkit-transition: all .3s;
   transition: all .3s;
   -webkit-transform: scale(0.6);
@@ -296,7 +296,7 @@ h4, .h4 {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  background: #fff;
+  background: #126bca;
 }
 .tabs-content {
   background-image: url(../img/slider/slide-02.jpg);
