@@ -8,6 +8,8 @@ overflow-y: none !important !important;
 -moz-appearance: none !important !important;
 -ms-overflow-style: none;
 overflow: none !important !important; 
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;  
 }
 p {
   font-size: 15px;
