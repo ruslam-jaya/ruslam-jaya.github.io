@@ -1,4 +1,4 @@
-POST //www.bing.com/webmaster/api.svc/json/SubmitUrlbatch?​apikey=9fe139be0dc04583b1a9afd188c39afc HTTP/1.1​
+POST /webmaster/api.svc/json/SubmitUrlbatch?​apikey=sampleapikey9fe139be0dc04583b1a9afd188c39afc HTTP/1.1​
 Content-Type: application/json; charset=utf-8​
 Host: ssl.bing.com​
 
