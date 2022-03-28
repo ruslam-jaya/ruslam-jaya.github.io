@@ -9,7 +9,8 @@ overflow-y: none !important !important;
 -ms-overflow-style: none;
 overflow: none !important !important; 
 -webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;  
+-moz-osx-font-smoothing: grayscale;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;  
 }
 p {
   font-size: 15px;
