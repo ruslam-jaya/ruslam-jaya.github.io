@@ -506,7 +506,35 @@ footer em {
 }
 
 @media (max-width: 767px){
-
+.cardleft {
+display: block;
+width: calc(100% - 400px);
+min-height: 400px;
+float: left;
+text-align: right;
+padding-top: 20px;  
+}
+.cardleft p, .cardright p {line-height: 26px;}
+.cardright {
+display: block;
+width: calc(100% - 400px); 
+min-height: 400px;
+float: right;
+text-align: left;  
+padding-top: 20px;    
+}
+.imgleft {
+margin-left: -30px;  
+float: left;  
+display: block;
+min-height: 400px;
+}
+.imgright {
+margin-right: -30px;   
+float: right;
+display: block;
+min-height: 400px; 
+}
 footer{
   text-align: center;
 }  
@@ -960,31 +988,4 @@ cursor: pointer;
 .contact-info h2, .connect-us h2, .location h2 {
 color: #87C6DA;
 }
-.cardleft {
-display: block;
-width: calc(100% - 400px);
-min-height: 410px;
-float: left;
-text-align: right;
-padding-top: 20px;  
-}
-.cardright {
-display: block;
-width: calc(100% - 400px); 
-min-height: 410px;
-float: right;
-text-align: left;  
-padding-top: 20px;    
-}
-.imgleft {
-margin-left: -30px;  
-float: left;  
-display: block;
-min-height: 400px;
-}
-.imgright {
-margin-right: -30px;   
-float: right;
-display: block;
-min-height: 400px; 
-}
+
