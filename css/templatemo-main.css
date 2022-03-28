@@ -961,24 +961,26 @@ cursor: pointer;
 color: #87C6DA;
 }
 .cardleft {
-text-align: left;
-display: inline;
-width: 50%;  
+display: block;
+width: 50%;
+min-height: 300px;
+line-height: 25px;  
 }
 .cardright {
-text-align: right;
-display: inline;
-width: 50%;  
+display: block;
+width: 50%; 
+min-height: 300px;
+line-height: 25px;   
 }
 .imgleft {
-left: -20px;  
-text-align: left;
-display: inline;
+margin-left: -20px;  
+float: right;  
+display: block;
 width: 50%; 
 }
 .imgright {
-right: -20px;   
-text-align: right;
-display: inline;
+margin-right: -20px;   
+float: right;
+display: block;
 width: 50%; 
 }
