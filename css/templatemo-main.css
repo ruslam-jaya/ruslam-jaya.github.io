@@ -10,11 +10,11 @@ overflow-y: none !important !important;
 overflow: none !important !important; 
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;  
 }
 p {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 23px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 }
 
 section {
@@ -24,7 +24,8 @@ section {
 
 body { 
   position: relative; /* we need this for the scrollspy */ 
-  font-size: 14px;
+  font-size: 16px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 }
 
 a { color: #3CC; }
