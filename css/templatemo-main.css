@@ -962,7 +962,7 @@ color: #87C6DA;
 }
 .cardleft {
 display: block;
-width: 50%;
+width: calc(100% - 400px);
 min-height: 410px;
 float: left;
 text-align: right;
@@ -970,7 +970,7 @@ padding-top: 20px;
 }
 .cardright {
 display: block;
-width: 50%; 
+width: calc(100% - 400px); 
 min-height: 410px;
 float: right;
 text-align: left;  
