@@ -962,3 +962,23 @@ cursor: pointer;
 .contact-info h2, .connect-us h2, .location h2 {
 color: #87C6DA;
 }
+.cardleft {
+text-align: left;
+display: inline;
+width: 50%;  
+}
+.cardright {
+text-align: right;
+display: inline;
+width: 50%;  
+}
+.imgleft {
+text-align: left;
+display: inline;
+width: 50%; 
+}
+.imgright {
+text-align: right;
+display: inline;
+width: 50%; 
+}
