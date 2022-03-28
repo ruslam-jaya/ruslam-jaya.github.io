@@ -964,7 +964,7 @@ color: #87C6DA;
 display: block;
 width: 50%;
 min-height: 300px;
-line-height: 25px;  
+margin-inline: 100px; 
 float: left;
 text-align: right;  
 }
@@ -972,7 +972,7 @@ text-align: right;
 display: block;
 width: 50%; 
 min-height: 300px;
-line-height: 25px; 
+margin-inline: 100px; 
 float: right;
 text-align: left;    
 }
