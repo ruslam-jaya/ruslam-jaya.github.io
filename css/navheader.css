@@ -82,6 +82,7 @@ position: absolute;
 background-color: rgb(220, 220, 220, 0.8);
 padding: 0px 0px 0px 0px;
 z-index: 10;
+top: 27px;    
 }
 
 #sh001, #sh002, #sh003 {
