@@ -101,7 +101,7 @@ display: none;
 }
 .cardleft {
 display: block;
-width: calc(100% - 400px);
+width: calc(100% - 600px);
 min-height: 400px;
 float: left;
 text-align: right;
@@ -110,7 +110,7 @@ padding-top: 20px;
 .cardleft p, .cardright p {line-height: 26px;}
 .cardright {
 display: block;
-width: calc(100% - 400px); 
+width: calc(100% - 600px); 
 min-height: 400px;
 float: right;
 text-align: left;  
