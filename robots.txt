@@ -16,3 +16,4 @@ disallow: /img/*.
 disallow: /fonts/*.
 
 sitemap: https://ruslam.id/sitemap.xml
+sitemap: https://ruslam.id/sitemap-xml.xml
