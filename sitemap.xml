@@ -2,148 +2,267 @@
  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 	 
-		<url>
-		  <loc>https://ruslam.id/</loc>
-		<image:image>
+<url>
+<loc>https://ruslam.id/</loc>
+	<image:image>
 		<image:loc>http://ruslam.id/icons/LOGO-CIRCLE.png</image:loc>
-		</image:image>	
-		  <lastmod>2022-03-28T10:10:20+00:00</lastmod>
-		  <changefreq>always</changefreq>
-		</url>
-		<url>
-		<loc>https://ruslam.id/html/cleaning services/</loc>
-		<image:image>
+		<image:caption>Logo PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Logo PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+<lastmod>2022-03-28T10:10:20+00:00</lastmod>
+<changefreq>always</changefreq>
+</url>
+	 
+<url>
+<loc>https://ruslam.id/html/cleaning services/</loc>
+	<image:image>
 		<image:loc>http://ruslam.id/img/cleaningservices/01.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Cleaning Service PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Cleaning Service PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/cleaningservices/02.JPG</image:loc>
-		</image:image>
-		<image:image>
+		<image:caption>Cleaning Service PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Cleaning Service PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>
+	<image:image>
 		<image:loc>http://ruslam.id/img/cleaningservices/03.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Cleaning Service PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Cleaning Service PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/cleaningservices/04.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Cleaning Service PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Cleaning Service PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/cleaningservices/05.JPG</image:loc>
-		</image:image>
-		<image:image>	
+		<image:caption>Cleaning Service PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Cleaning Service PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>
+	<image:image>	
 		<image:loc>http://ruslam.id/img/cleaningservices/06.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Cleaning Service PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Cleaning Service PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/cleaningservices/07.JPG</image:loc>
-		</image:image>
-		<image:image>
+		<image:caption>Cleaning Service PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Cleaning Service PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>
+	<image:image>
 		<image:loc>http://ruslam.id/img/cleaningservices/08.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Cleaning Service PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Cleaning Service PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/cleaningservices/09.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Cleaning Service PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Cleaning Service PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/cleaningservices/10.JPG</image:loc>
-		</image:image>		
-		<lastmod>2022-03-28T10:10:20+00:00</lastmod>
-		<changefreq>always</changefreq>
-		</url>
-		<url>
-		<loc>https://ruslam.id/html/general trading/</loc>
-		<lastmod>2022-03-28T10:10:20+00:00</lastmod>
-		<changefreq>always</changefreq>
-		</url>
-		<url>
-		<loc>https://ruslam.id/html/health services/</loc>
-		<image:image>
+		<image:caption>Cleaning Service PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Cleaning Service PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>		
+<lastmod>2022-03-28T10:10:20+00:00</lastmod>
+<changefreq>always</changefreq>
+</url>
+	 
+<url>
+<loc>https://ruslam.id/html/general trading/</loc>
+<lastmod>2022-03-28T10:10:20+00:00</lastmod>
+<changefreq>always</changefreq>
+</url>
+	 
+<url>
+<loc>https://ruslam.id/html/health services/</loc>
+	<image:image>
 		<image:loc>http://ruslam.id/img/health/01.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Klinik PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Klinik PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/health/02.JPG</image:loc>
-		</image:image>
-		<image:image>
+		<image:caption>Klinik PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Klinik PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>
+	<image:image>
 		<image:loc>http://ruslam.id/img/health/03.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Klinik PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Klinik PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/health/04.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Klinik PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Klinik PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/health/05.JPG</image:loc>
-		</image:image>
-		<image:image>	
+		<image:caption>Klinik PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Klinik PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>
+	<image:image>	
 		<image:loc>http://ruslam.id/img/health/06.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Klinik PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Klinik PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/health/07.JPG</image:loc>
-		</image:image>
-		<image:image>
+		<image:caption>Klinik PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Klinik PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>
+	<image:image>
 		<image:loc>http://ruslam.id/img/health/08.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Klinik PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Klinik PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/health/09.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Klinik PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Klinik PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/health/10.JPG</image:loc>
-		</image:image>		
-		<lastmod>2022-03-28T10:10:20+00:00</lastmod>
-		<changefreq>always</changefreq>
-		</url>
-		<url>
-		<loc>https://ruslam.id/html/parking services/</loc>
-		<image:image>
+		<image:caption>Klinik PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Klinik PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>		
+<lastmod>2022-03-28T10:10:20+00:00</lastmod>
+<changefreq>always</changefreq>
+</url>
+	 
+<url>
+<loc>https://ruslam.id/html/parking services/</loc>
+	<image:image>
 		<image:loc>http://ruslam.id/img/parking/01.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/parking/02.JPG</image:loc>
-		</image:image>
-		<image:image>
+		<image:caption>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>
+	<image:image>
 		<image:loc>http://ruslam.id/img/parking/03.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/parking/04.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/parking/05.JPG</image:loc>
-		</image:image>
-		<image:image>	
+		<image:caption>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>
+	<image:image>	
 		<image:loc>http://ruslam.id/img/parking/06.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/parking/07.JPG</image:loc>
-		</image:image>
-		<lastmod>2022-03-28T10:10:20+00:00</lastmod>
-		<changefreq>always</changefreq>
-		</url>
-		<url>
-		<loc>https://ruslam.id/html/security services/</loc>
-		<image:image>
+		<image:caption>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Parking Service/Jasa Parkiran PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>
+<lastmod>2022-03-28T10:10:20+00:00</lastmod>
+<changefreq>always</changefreq>
+</url>
+	 
+<url>
+<loc>https://ruslam.id/html/security services/</loc>
+	<image:image>
 		<image:loc>http://ruslam.id/img/security/01.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/security/02.JPG</image:loc>
-		</image:image>
-		<image:image>
+		<image:caption>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>
+	<image:image>
 		<image:loc>http://ruslam.id/img/security/03.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/security/04.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/security/05.JPG</image:loc>
-		</image:image>
-		<image:image>	
+		<image:caption>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>
+	<image:image>	
 		<image:loc>http://ruslam.id/img/security/06.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/security/07.JPG</image:loc>
-		</image:image>
-		<image:image>
+		<image:caption>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>
+	<image:image>
 		<image:loc>http://ruslam.id/img/security/08.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/security/09.JPG</image:loc>
-		</image:image>	
-		<image:image>
+		<image:caption>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>	
+	<image:image>
 		<image:loc>http://ruslam.id/img/security/10.JPG</image:loc>
-		</image:image>		
-		<lastmod>2022-03-28T10:10:20+00:00</lastmod>
-		<changefreq>always</changefreq>
-		</url>     
+		<image:caption>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:caption>
+		<image:geo_location>Jakarta, Indonesia</image:geo_location>
+		<image:title>Security Service/Jasa Keamanan PT Ruslam Cempakaputih Jaya</image:title>
+	</image:image>		
+<lastmod>2022-03-28T10:10:20+00:00</lastmod>
+<changefreq>always</changefreq>
+</url>     
 </urlset>
