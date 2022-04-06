@@ -9,11 +9,6 @@ allow: /html/*.
 disallow: /404.html
 disallow: /html/index.html
 disallow: /html/ping/index.html
-disallow: /css/*.
-disallow: /js/*.
-disallow: /icons/*.
-disallow: /img/*.
-disallow: /fonts/*.
 
 sitemap: https://ruslam.id/sitemap.xml
 sitemap: https://ruslam.id/sitemap-xml.xml
