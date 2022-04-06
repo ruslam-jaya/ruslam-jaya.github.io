@@ -7,38 +7,146 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 		<url>
 		  <loc>https://ruslam.id/</loc>
+		<image:image>
+		<image:loc>http://ruslam.id/icons/LOGO-CIRCLE.png</image:loc>
+		</image:image>	
 		  <lastmod>2022-03-28T10:10:20+00:00</lastmod>
-		  <changefreq>daily</changefreq>
-		  <priority>0.8000</priority>
+		  <changefreq>always</changefreq>
 		</url>
 		<url>
 		<loc>https://ruslam.id/html/cleaning services/</loc>
-		  <lastmod>2022-03-28T10:10:20+00:00</lastmod>
-		  <changefreq>daily</changefreq>
-		  <priority>0.8000</priority>
+		<image:image>
+		<image:loc>http://ruslam.id/img/cleaningservices/01.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/cleaningservices/02.JPG</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://ruslam.id/img/cleaningservices/03.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/cleaningservices/04.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/cleaningservices/05.JPG</image:loc>
+		</image:image>
+		<image:image>	
+		<image:loc>http://ruslam.id/img/cleaningservices/06.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/cleaningservices/07.JPG</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://ruslam.id/img/cleaningservices/08.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/cleaningservices/09.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/cleaningservices/10.JPG</image:loc>
+		</image:image>		
+		<lastmod>2022-03-28T10:10:20+00:00</lastmod>
+		<changefreq>always</changefreq>
 		</url>
 		<url>
 		<loc>https://ruslam.id/html/general trading/</loc>
-		  <lastmod>2022-03-28T10:10:20+00:00</lastmod>
-		  <changefreq>daily</changefreq>
-		  <priority>0.8000</priority>
+		<lastmod>2022-03-28T10:10:20+00:00</lastmod>
+		<changefreq>always</changefreq>
 		</url>
 		<url>
 		<loc>https://ruslam.id/html/health services/</loc>
-		  <lastmod>2022-03-28T10:10:20+00:00</lastmod>
-		  <changefreq>daily</changefreq>
-		  <priority>0.8000</priority>
+		<image:image>
+		<image:loc>http://ruslam.id/img/health/01.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/health/02.JPG</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://ruslam.id/img/health/03.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/health/04.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/health/05.JPG</image:loc>
+		</image:image>
+		<image:image>	
+		<image:loc>http://ruslam.id/img/health/06.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/health/07.JPG</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://ruslam.id/img/health/08.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/health/09.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/health/10.JPG</image:loc>
+		</image:image>		
+		<lastmod>2022-03-28T10:10:20+00:00</lastmod>
+		<changefreq>always</changefreq>
 		</url>
 		<url>
 		<loc>https://ruslam.id/html/parking services/</loc>
-		  <lastmod>2022-03-28T10:10:20+00:00</lastmod>
-		  <changefreq>daily</changefreq>
-		  <priority>0.8000</priority>
+		<image:image>
+		<image:loc>http://ruslam.id/img/parking/01.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/parking/02.JPG</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://ruslam.id/img/parking/03.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/parking/04.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/parking/05.JPG</image:loc>
+		</image:image>
+		<image:image>	
+		<image:loc>http://ruslam.id/img/parking/06.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/parking/07.JPG</image:loc>
+		</image:image>
+		<lastmod>2022-03-28T10:10:20+00:00</lastmod>
+		<changefreq>always</changefreq>
 		</url>
 		<url>
 		<loc>https://ruslam.id/html/security services/</loc>
-		  <lastmod>2022-03-28T10:10:20+00:00</lastmod>
-		  <changefreq>daily</changefreq>
-		  <priority>0.8000</priority>
+		<image:image>
+		<image:loc>http://ruslam.id/img/security/01.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/security/02.JPG</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://ruslam.id/img/security/03.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/security/04.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/security/05.JPG</image:loc>
+		</image:image>
+		<image:image>	
+		<image:loc>http://ruslam.id/img/security/06.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/security/07.JPG</image:loc>
+		</image:image>
+		<image:image>
+		<image:loc>http://ruslam.id/img/security/08.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/security/09.JPG</image:loc>
+		</image:image>	
+		<image:image>
+		<image:loc>http://ruslam.id/img/security/10.JPG</image:loc>
+		</image:image>		
+		<lastmod>2022-03-28T10:10:20+00:00</lastmod>
+		<changefreq>always</changefreq>
 		</url>     
 </urlset>
