@@ -345,7 +345,7 @@ overflow: hidden;
     font-size: 16px;
   }
   .slide1, .slide2, .slide3, .slide4 {  
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
   }    
 }
@@ -393,7 +393,7 @@ overflow: hidden;
   background-image: url(https://ruslam.id/img/slider/slide-04.webp);
 }
 .slide1, .slide2, .slide3, .slide4 {  
-background-size: 100% 100%;
+background-size: auto 100%;
 background-position: center;    
 }  
 
