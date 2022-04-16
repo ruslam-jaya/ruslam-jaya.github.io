@@ -791,7 +791,6 @@ width: calc(100vw - 20px)!important;
 border-radius: 20px;
 display: inline-block;
 padding: 10px; 
-background-color: rgb(240, 255, 255, .8);
 color: #000000;
 height: auto;
 margin: 10px 10px 10px 10px;  
