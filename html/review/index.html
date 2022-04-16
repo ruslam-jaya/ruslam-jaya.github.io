@@ -71,6 +71,7 @@ line-height:1;
 .review-stars ul li i.inactive { color: #c6c6c6;}
 .star:after { content: “2605”; }
 </style>
+
 </head>
 <body>
 
@@ -78,25 +79,42 @@ line-height:1;
 
 <div class=“col-md-12 service-package” style=“text-align: center;”>
 <h4 class=“f-primary-b b-h4-special f-h4-special” style=“margin: 10px 0 35px 0;”><span class=“service-package-title”>Our Recent Google Review</span></h4>               <div id=“google-reviews”></div>
- 
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://<a href="https://www.jqueryscript.net/tags.php?/map/">map</a>s.googleapis.com/maps/api/js?&libraries=places"></script>
  
 <script src=“https://ruslam.id/js/jquery.min.js”></script>
 <script src=“https://ruslam.id/js/google_places.js”></script>
+<link rel="stylesheet" href="https://ruslam.id/css/google-places.css">
 <script src=“https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDl5Rf9iav6qMzePwoOMAoPdOjC5n5qGPU&signed_in=true&libraries=places”></script>
  
 <script>
-jQuery(document).ready(function( $ ) {
-   $(“#google-reviews”).googlePlaces({
-        placeId: ‘ChIJBzlxoAECDTkR28XtVffiBJM’ //Find placeID @: https://developers.google.com/places/place-id
-      , render: [‘reviews’]
-      , min_rating:4
-      , max_rows:5
-      ,rotateTime: false
-      , shorten_names: true
- 
-    
-   });
+$("#google-reviews").googlePlaces({
+  schema:{
+    displayElement: '#schema', 
+    type: 'Store', 
+    beforeText: 'Google Users Have Rated', 
+    middleText: 'based on', 
+    afterText: 'ratings and reviews'
+  }, 
+  address:{
+     displayElement: "#google-address"
+  }, 
+  phone:{
+    displayElement: "#google-phone"
+  }, 
+  staticMap:{
+    displayElement: "#google-static-map", 
+    width: 512, 
+    height: 512, 
+    zoom: 17, 
+    type: "roadmap"
+  }, 
+  hours:{
+    displayElement: "#google-hours"
+  }
 });
+
 </script>
  
 <a class=“btn btn-success” style=“margin:20px auto;” href=“https://www.google.com/search?source=hp&ei=_PBvXPDJHtbe9QPY1rKACw&q=ezzus&btnK=Google+Search&oq=ezzus#btnK=Google%20Search&lrd=0x390d0201a0713907:0x9304e2f755edc5db,1,,,” target=“_blank” rel=“noopener noreferrer”>See All Our Google Reviews</a>
