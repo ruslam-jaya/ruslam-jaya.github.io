@@ -1020,22 +1020,22 @@ overflow: hidden;
 }
 
 .slide1 {
-  background-image: url(https://ruslam.id/img/slider/slide-01.webp);
+  background-image: url("https://ruslam.id/img/slider/slide-01.webp");
   background-size: cover;
   background-position: center;
 }
 .slide2 {
-  background-image: url(https://ruslam.id/img/slider/slide-02.webp);
+  background-image: url("https://ruslam.id/img/slider/slide-02.webp");
   background-size: cover;
   background-position: center;
 }
 .slide3 {
-  background-image: url(https://ruslam.id/img/slider/slide-03.webp);
+  background-image: url("https://ruslam.id/img/slider/slide-03.webp");
   background-size: cover;
   background-position: center;
 }
 .slide4 {
-  background-image: url(https://ruslam.id/img/slider/slide-04.webp);
+  background-image: url("https://ruslam.id/img/slider/slide-04.webp");
   background-size: cover;
   background-position: center;
 }
