@@ -282,6 +282,12 @@ padding-top: 40px;
 .caption {
 bottom: 100px;    
 }
+
+ .slide1, .slide2, .slide3, .slide4 {  
+background-size: cover;
+background-repeat: no-repeat;    
+background-position: center;    
+} 
 }
 
 .bannerslide{
@@ -404,10 +410,6 @@ overflow-x: hidden!important; /* Hide horizontal scrollbar */
 -ms-overflow-style: none;  /* IE and Edge */
 scrollbar-width: none;  /* Firefox */
 }
-html::-webkit-scrollbar {
-  display: none;
-}
-body::-webkit-scrollbar {
-  display: none;
-}
+html::-webkit-scrollbar {display: none;}
+body::-webkit-scrollbar {display: none;}
 #icoclose {display:none;}
