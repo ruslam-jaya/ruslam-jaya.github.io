@@ -122,7 +122,10 @@ width: 400px;
 }  
 .contentmain {
 display: block;
-vertical-align: text-top;}    
+vertical-align: text-top;
+width: 100%;
+text-align: center;    
+}    
 }
 
 @media only screen and (max-width: 920px) {
