@@ -281,6 +281,286 @@ transition: display 1s;
 
 .slidefirst{
 padding-top: 40px;
+@media only screen and (min-width: 920px) {
+.sidemenu{
+display: none;
+}
+
+#headmenu {
+position: fixed;
+display: block;
+width: 100vw;
+z-index: 500;
+padding-top: 10px;
+padding-bottom: 2px;
+background-color: rgb(255, 255, 255, 0.7);
+text-decoration: none;
+font-size: 12pt;
+}
+
+#headmenu img {
+display: inline-block;
+position: absolute;
+width: 50px;
+left: 20px;
+}
+
+#navigate {
+margin-left: 160px;
+}
+
+#headmenu :hover {text-decoration: none;}
+
+.dd02overlay, .dropdownoverlay {display: inline-block;}
+
+.overlay {
+    width: auto; 
+    height: 0%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-color: #191970; 
+    color: #00BFFF;
+    opacity: 0.9; 
+    overflow-y: hidden; 
+    transition: 0.5s; 
+    z-index: 201; 
+    font-size: 14pt;
+    overflow: auto;
+    }
+
+.dropdown{
+display: inline-block;
+width: auto;
+margin-left: 15px;
+margin-right: 15px;
+font-weight: bold;
+border-bottom-style: solid;
+border-bottom-color: transparent;    
+}
+
+.dropdown :hover{
+color: #4B0082;
+border-bottom-color: #4B0082;
+cursor: pointer;    
+}
+
+.dropdown a{
+color: black;
+}
+
+.slideul {
+display: block;
+}
+.dropdown-content a:hover {
+background-color: #4B0082;
+color: #FFFFFF;
+transition: all 2s;
+}
+
+.dropdown-content {
+margin-top: 15px;
+width: 290px;
+position: absolute;
+background-color: rgb(220, 220, 220, 0.8);
+padding: 0px 0px 0px 0px;
+z-index: 10;
+top: 27px;    
+}
+
+#sh001, #sh002, #sh003 {
+display: block;
+top: -400px;
+transition: top 0.8s;
+}
+
+.dropdown-content a {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+}    
+#footermenu {
+display: none;
+}
+.cardleft {
+display: inline-block;
+width: calc(100% - 600px);
+min-height: 400px;
+text-align: right;
+padding-top: 20px;  
+}
+.cardright {
+display: inline-block;
+width: calc(100% - 600px); 
+min-height: 400px;
+text-align: left;  
+padding-top: 20px;    
+}
+    
+.cardleft img, .cardright img {width: 400px;}
+.cardleft p, .cardright p {line-height: 26px;}
+
+.imgleft {
+margin-left: -30px;  
+display: inline-block;
+width: 320px;     
+}
+.imgright {
+margin-right: -30px;   
+display: inline-block;
+width: 320px;     
+}
+.contentmain {
+display: block;
+text-align: center;
+vertical-align: text-top;    
+}
+}
+
+@media only screen and (max-width: 920px) {
+.sidemenu{
+z-index: 500;
+}    
+#footermenu {
+left: 0px;
+position: relative;
+display: inline-block;
+width: 100%;
+text-align: left;
+margin-bottom;30px;
+margin-left: -10px;    
+color: #4B0082;
+font-size: 20px;    
+}
+#footermenu span a{
+padding: 20px;
+font-size: 30px;
+color: #0000FF;
+}
+#footermenu span a i{color: #orange;}
+html {max-width: 100vw!important;}    
+.sidemenu{
+position: absolute;
+display: block;
+right: 20px;
+top: 5px;
+text-align: right;
+font-size: 18pt;
+color: #FFFFFF!important;
+background-color: rgb(75, 0, 130, .6);
+padding: 3px 8px 3px 8px;
+border-radius: 5px;
+}
+
+#headmenu {
+position: fixed!important;
+display: block;
+width: 100vw;
+z-index: 500;
+padding-top: 10px;
+padding-bottom: 2px;
+background-color: rgb(255, 255, 255, 0.7);
+text-decoration: none;
+font-size: 12pt;
+height: 50px;
+}
+
+#headmenu img {
+display: inline-block;
+position: absolute;
+width: 50px;
+left: 20px;
+}
+
+#navigate {
+margin-top: -10px;
+margin-left: 20px;
+position: absolute;
+background-color: rgb(255, 255, 255, 0.95);
+padding-top: 20px;    
+height: 100vh;
+display: block;
+width: 380px;
+right: -380px;
+transition: right 1s;
+overflow-y: scroll;    
+}
+#navigate i{
+color: #4B0082;
+padding-right: 10px;    
+}    
+#headmenu :hover {text-decoration: none;}
+
+.dd02overlay, .dropdownoverlay {display: block;}
+
+.overlay {
+    width: auto; 
+    height: 0%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-color: #191970; 
+    color: #00BFFF;
+    opacity: 0.9; 
+    overflow-y: hidden; 
+    transition: 0.5s; 
+    z-index: 201; 
+    font-size: 14pt;
+    overflow: auto;
+    }
+
+.dropdown{
+display: block;
+margin-left: 5px;
+margin-right: 5px;
+font-weight: bold;
+border-bottom: 1px solid grey;    
+}
+
+.dropdown :hover{
+color: #4B0082;
+border-bottom: 1px solid #4B0082;      
+}
+
+.dropdown a{
+color: #000000;
+}
+
+.slideul {
+display: block;
+height: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.dropdown-content a:hover {
+background-color: #4B0082;
+color: #FFFFFF;
+transition: all 2s;
+}
+
+.dropdown-content {
+margin-top: 12px;
+width: 280px;
+position: relative;
+margin-left: 20px;
+}
+
+.dropdown-content a{
+color: #000000;
+}
+
+#sh001, #sh002, #sh003 {
+display: none;
+margin-top: -0px;
+transition: display 1s;
+}
+
+.slidefirst{
+padding-top: 40px;
 }
     
 .caption {
@@ -358,22 +638,47 @@ background-color: #000000;
 }
 
 @keyframes sliderbanner{
-  0% {left: 0;}
-  20% {left: 0;
-  25% {left: -100%;}
-  45% {left: -100%;}
-  50% {left: -200%;}
-  70% {left: -200%;}
-  75% {left: -300%;}
-  95% {left: -300%;}
-  100% {left: -400%;}
+  0% {
+      left: 0;
+  }
+  20% {
+      left: 0;
+  }
+  25% {
+      left: -100%;
+  }
+  45% {
+      left: -100%;
+  }
+  50% {
+      left: -200%;
+  }
+  70% {
+      left: -200%;
+  }
+  75% {
+      left: -300%;
+  }
+  95% {
+      left: -300%;
+  }
+  100% {
+      left: -400%;
+  }
 }
 
-.slide1 {background-image: url("https://ruslam.id/img/slider/slide-01.webp");}
-.slide2 {background-image: url("https://ruslam.id/img/slider/slide-02.webp");}
-.slide3 {background-image: url("https://ruslam.id/img/slider/slide-03.webp");}
-.slide4 {background-image: url("https://ruslam.id/img/slider/slide-04.webp");}
-
+.slide1 {
+  background-image: url(https://ruslam.id/img/slider/slide-01.webp);
+}
+.slide2 {
+  background-image: url(https://ruslam.id/img/slider/slide-02.webp);
+}
+.slide3 {
+  background-image: url(https://ruslam.id/img/slider/slide-03.webp);
+}
+.slide4 {
+  background-image: url(https://ruslam.id/img/slider/slide-04.webp);
+}
 .slide1, .slide2, .slide3, .slide4 {  
 background-size: 100% 100%;
 background-repeat: no-repeat;    
