@@ -369,10 +369,10 @@ background-color: #000000;
   100% {left: -400%;}
 }
 
-.slide1 {background-image: url(https://ruslam.id/img/slider/slide-01.webp);}
-.slide2 {background-image: url(https://ruslam.id/img/slider/slide-02.webp);}
-.slide3 {background-image: url(https://ruslam.id/img/slider/slide-03.webp);}
-.slide4 {background-image: url(https://ruslam.id/img/slider/slide-04.webp);}
+.slide1 {background-image: url("https://ruslam.id/img/slider/slide-01.webp");}
+.slide2 {background-image: url("https://ruslam.id/img/slider/slide-02.webp");}
+.slide3 {background-image: url("https://ruslam.id/img/slider/slide-03.webp");}
+.slide4 {background-image: url("https://ruslam.id/img/slider/slide-04.webp");}
 
 .slide1, .slide2, .slide3, .slide4 {  
 background-size: 100% 100%;
