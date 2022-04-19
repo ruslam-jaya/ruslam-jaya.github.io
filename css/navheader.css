@@ -131,6 +131,7 @@ width: 320px;
 .contentmain {
 display: block;
 text-align: center;
+vertical-align: text-top;    
 }
 }
 
