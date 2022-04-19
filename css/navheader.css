@@ -2,10 +2,7 @@
 .sidemenu{
 display: none;
 }
-  .slide1, .slide2, .slide3, .slide4 {  
-  background-size: cover;
-  background-position: center;
-  }    
+   
 #headmenu {
 position: fixed;
 display: block;
