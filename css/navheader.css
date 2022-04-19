@@ -2,7 +2,10 @@
 .sidemenu{
 display: none;
 }
-
+  .slide1, .slide2, .slide3, .slide4 {  
+  background-size: cover;
+  background-position: center;
+  }    
 #headmenu {
 position: fixed;
 display: block;
@@ -31,20 +34,20 @@ margin-left: 160px;
 .dd02overlay, .dropdownoverlay {display: inline-block;}
 
 .overlay {
-    width: auto; 
-    height: 0%; 
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    background-color: #191970; 
-    color: #00BFFF;
-    opacity: 0.9; 
-    overflow-y: hidden; 
-    transition: 0.5s; 
-    z-index: 201; 
-    font-size: 14pt;
-    overflow: auto;
-    }
+width: auto; 
+height: 0%; 
+position: fixed; 
+top: 0; 
+left: 0; 
+background-color: #191970; 
+color: #00BFFF;
+opacity: 0.9; 
+overflow-y: hidden; 
+transition: 0.5s; 
+z-index: 201; 
+font-size: 14pt;
+overflow: auto;
+}
 
 .dropdown{
 display: inline-block;
@@ -352,54 +355,25 @@ background-color: #000000;
   .bannerslide .slider .slide .caption p {
     font-size: 16px;
   }
-  .slide1, .slide2, .slide3, .slide4 {  
-  background-size: cover;
-  background-position: center;
-  }    
 }
 
 @keyframes sliderbanner{
-  0% {
-      left: 0;
-  }
-  20% {
-      left: 0;
-  }
-  25% {
-      left: -100%;
-  }
-  45% {
-      left: -100%;
-  }
-  50% {
-      left: -200%;
-  }
-  70% {
-      left: -200%;
-  }
-  75% {
-      left: -300%;
-  }
-  95% {
-      left: -300%;
-  }
-  100% {
-      left: -400%;
-  }
+  0% {left: 0;}
+  20% {left: 0;
+  25% {left: -100%;}
+  45% {left: -100%;}
+  50% {left: -200%;}
+  70% {left: -200%;}
+  75% {left: -300%;}
+  95% {left: -300%;}
+  100% {left: -400%;}
 }
 
-.slide1 {
-  background-image: url(https://ruslam.id/img/slider/slide-01.webp);
-}
-.slide2 {
-  background-image: url(https://ruslam.id/img/slider/slide-02.webp);
-}
-.slide3 {
-  background-image: url(https://ruslam.id/img/slider/slide-03.webp);
-}
-.slide4 {
-  background-image: url(https://ruslam.id/img/slider/slide-04.webp);
-}
+.slide1 {background-image: url(https://ruslam.id/img/slider/slide-01.webp);}
+.slide2 {background-image: url(https://ruslam.id/img/slider/slide-02.webp);}
+.slide3 {background-image: url(https://ruslam.id/img/slider/slide-03.webp);}
+.slide4 {background-image: url(https://ruslam.id/img/slider/slide-04.webp);}
+
 .slide1, .slide2, .slide3, .slide4 {  
 background-size: 100% 100%;
 background-repeat: no-repeat;    
