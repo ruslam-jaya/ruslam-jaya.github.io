@@ -100,7 +100,37 @@ padding-right: 20px;
 #footermenu {
 display: none;
 }
+.cardleft {
+display: inline-block;
+width: calc(100% - 600px);
+min-height: 400px;
+text-align: right;
+padding-top: 20px;  
+}
+.cardright {
+display: inline-block;
+width: calc(100% - 600px); 
+min-height: 400px;
+text-align: left;  
+padding-top: 20px;    
+}
 
+.cardleft p, .cardright p {line-height: 26px;}
+
+.imgleft {
+margin-left: -30px;  
+display: inline-block;
+width: 320px;     
+}
+.imgright {
+margin-right: -30px;   
+display: inline-block;
+width: 320px;     
+}
+.contentmain {
+display: block;
+text-align: center;
+}
 }
 
 @media only screen and (max-width: 920px) {
