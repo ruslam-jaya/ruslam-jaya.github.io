@@ -114,7 +114,8 @@ min-height: 400px;
 text-align: left;  
 padding-top: 20px;    
 }
-
+    
+.cardleft img, .cardright img {width: 400px;}
 .cardleft p, .cardright p {line-height: 26px;}
 
 .imgleft {
