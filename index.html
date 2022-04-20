@@ -67,17 +67,11 @@
 </head>
 
 <body  itemscope itemtype="https://schema.org/LocalBusiness" onload="includeHTML();">
-<script>	
-$('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
-$(window).on('load', function(){
-  setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
+<div id='loading_wrap' style='position:fixed; height:100%; width:100%; overflow:hidden; top:0; left:0;'>Loading, please wait.</div>	
+<script type='text'javascript'>
+$(document).ready(function(){
+    $('#loading_wrap').remove();
 });
-function removeLoader(){
-    $( "#loadingDiv" ).fadeOut(500, function() {
-      // fadeOut complete. Remove the loading div
-      $( "#loadingDiv" ).remove(); //makes page more lightweight 
-  });  
-}
 </script>	
 <div w3-include-html="https://ruslam.id/html/headermenu.html"></div> 
 <div w3-include-html="https://ruslam.id/html/slider.html"></div> 
