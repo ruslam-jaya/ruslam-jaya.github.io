@@ -136,14 +136,13 @@ $(window).on("load", function(){
 function removeLoader(){
     $( "#loadingDiv" ).fadeOut(500, function() {
       // fadeOut complete. Remove the loading div
-      $( "#loadingDiv" ).remove(); //makes page more lightweight 
-	includeHTML();    
+      $( "#loadingDiv" ).remove(); //makes page more lightweight     
   });  
 }
 </script>        
 </head>
 
-<body  itemscope itemtype="https://schema.org/LocalBusiness">
+<body  itemscope itemtype="https://schema.org/LocalBusiness" onload="includeHTML();">
 	
 <div w3-include-html="https://ruslam.id/html/headermenu.html"></div> 
 <div w3-include-html="https://ruslam.id/html/slider.html"></div> 
