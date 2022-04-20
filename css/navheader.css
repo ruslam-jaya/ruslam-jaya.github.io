@@ -76,7 +76,7 @@ transition: all 2s;
 }
 
 .dropdown-content {
-margin-top: 12px;
+margin-top: 15px;
 width: 290px;
 position: absolute;
 background-color: rgb(220, 220, 220, 0.8);
