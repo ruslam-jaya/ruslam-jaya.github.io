@@ -131,21 +131,20 @@
 }
 </style>	    
 <script>
-$('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
-$(window).on('load', function(){
-  setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
+$("body").append("<div style='' id='loadingDiv'><div class='loader'></div></div>");
+$(window).on("load", function(){
+  setTimeout(removeLoader, 10000); //wait for page load PLUS two seconds.
 });
 function removeLoader(){
     $( "#loadingDiv" ).fadeOut(500, function() {
       // fadeOut complete. Remove the loading div
-      $( "#loadingDiv" ).remove(); //makes page more lightweight 
-	includeHTML();    
+      $( "#loadingDiv" ).remove(); //makes page more lightweight     
   });  
 }
 </script>        
 </head>
 
-<body  itemscope itemtype="https://schema.org/LocalBusiness">
+<body  itemscope itemtype="https://schema.org/LocalBusiness" onload="includeHTML();">
 <script>
 if ('serviceWorker' in navigator) {
 window.addEventListener('load', function() {
