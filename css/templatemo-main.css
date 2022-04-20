@@ -869,7 +869,6 @@ font-size: 14px;
 }
 .imglogo {
 display: inline-block;
-max-width: 150px; 
-max-height: 100px; 
+max-height: 130px; 
 padding: 20px 20px 20px 20px;  
 }
