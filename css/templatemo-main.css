@@ -867,3 +867,7 @@ padding-top: 10px;
 .location {
 font-size: 14px;
 }
+.imglogo {
+display: inline-block;
+max-width: 150px;  
+}
