@@ -965,3 +965,7 @@ padding : 20px!important;
 .eyarYd {
 background-color: rgb(240, 255, 255, .6)!important;
 }
+
+footer ul li a {
+padding: 13px 13px 13px 13px!important;
+}
