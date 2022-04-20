@@ -967,6 +967,7 @@ background-color: rgb(240, 255, 255, .6)!important;
 }
 
 footer ul li a {
-width: 40px!important;
-height: 40px!important;  
+width: 45px!important;
+height: 45px!important; 
+padding: auto auto auto auto;  
 }
