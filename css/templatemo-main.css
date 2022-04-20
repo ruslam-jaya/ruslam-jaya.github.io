@@ -723,7 +723,6 @@ display: inline-block;
 padding: 10px 10px 10px 10px;
 margin: 10px 5px 10px 5px;
 vertical-align: middle;
-background-color:rgb(0, 0, 139, .5);
 border-radius: 20px;
 }
 .cardus img {
@@ -744,12 +743,10 @@ min-width: 300px;
 width: calc(50% - 25px);
 display: inline-block;
 min-height: 200px;
-background-color: rgb(240, 248, 255, .5);
 padding-left: 7px;
 padding-right: 7px;
 padding-top: 10px;
 padding-bottom: 10px;
-border-bottom: solid 10px rgb(72, 61, 139, .5);
 border-bottom-left-radius: 20px;
 border-top-right-radius: 20px;
 margin: 10px;
@@ -757,11 +754,7 @@ color: #000000;
 vertical-align: text-top;	
 text-align:left;
 }
-.card50:hover{
-background-color: rgb(72, 61, 139, .5);
-color: #FFFFFF;
-transition: all 5s;
-}
+
 .card50 p{
 text-align:left;
 }
@@ -780,7 +773,7 @@ display: inline-block;
 }
 .big {
 color: #FFFFFF;
-background-color: rgb(72, 61, 139, .7);
+background-color: rgb(72, 61, 139);
 padding: 10px 10px;
 border-radius: 4px;
 font-size: 36px;
@@ -795,8 +788,6 @@ color: rgb(72, 61, 139);
 .cardclinic {
 width: 300px;
 display: inline-block;
-background-color: rgb(240, 248, 255, .5);
-border-bottom: solid 10px rgb(72, 61, 139, .5);
 min-height: 200px;
 padding-left: 7px;
 padding-right: 7px;
