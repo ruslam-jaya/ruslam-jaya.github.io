@@ -1,0 +1,113 @@
+body {
+margin: 10px;
+color-adjust: exact!important;  
+-webkit-print-color-adjust: exact!important; 
+print-color-adjust: exact!important;
+}
+aside {
+background: #1f8dd6; /* same color as selected state on site menu */
+padding: 0.3em 1em;
+border-radius: 3px;
+color: #fff;
+margin-bottom: 2em;
+margin: 20px;
+}
+
+.label, .input{
+text-align: left;	
+display: inline-block;
+margin: 0px;
+}
+.label {
+min-width: 300px;
+background-color: #6495ED;
+color: #000;
+padding: 10px 10px 10px 10px;
+border-radius: 10px 20px 20px 10px;
+}
+.groupform {
+padding-bottom: 5px;
+display: block;
+text-align: left;
+font-size: 14pt;
+}
+.groupform i{
+color: #000;
+}
+.upeerform {
+text-transform:uppercase;
+}
+input, select, option, textarea {
+font-size: 14pt;
+background-color: #fff;
+border: .5px solid #666;
+width: 100%;
+margin-left: 5px;
+margin-right: 5px;
+padding: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+}
+.input {width: 330px;}
+.group input{width: 280px;}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  border-color:transparent;
+  padding: 5px 15px 5px 15px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65); /* this is a green */
+  cursor:pointer;
+}
+.button-xlarge {
+  font-size: 125%;
+}
+button {
+  float: right;
+}
+
+.honeypot-field {
+  display: none;
+}
+
+.form-elements {
+max-width: 700px;
+border: 1px solid grey;
+border-radius: 10px;
+text-align:center;
+padding: 20px;
+margin: auto;
+margin-bottom: 20px;
+margin-top: 20px;
+background-color:#ADD8E6;
+}
+select {
+appearance: none;
+width: calc(100% + 20px);
+}
+.group select{width: 300px;}
+.aprove {display:none;}
+.ttd {display:none;}
+@media print {
+.groupform  {page-break-after: avoid; }
+div {page-break-inside:auto;}
+html, body {height: 290mm; margin: 20px 0px 10px 0px; padding: 0px;}
+.form-elements {background-color:#FFF; border: none}
+input, select, option, textarea {border: none;border-bottom : 0.5px solid grey;border-radius: 0px 0px 0px 0px;}
+.label {background-color: #CCC;}
+h2, h1 {margin: 0px; padding: 0px; top: 0px;}
+h3 {text-align:left;}
+button, aside {display:none; visibility:hidden;}
+.logo {float:left; top: 0px; margin: 0px;}
+.aprove {float:right; text-align:left;top: 0px; display: block;}
+.ttd {float:right; text-align:center; display: block; margin: 50px;}
+.note {float:left; display: block; margin: 50px;}
+}
