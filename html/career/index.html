@@ -84,7 +84,7 @@ console.log('ServiceWorker registration failed: ', err);
 <main class="mainpage">
 <h1 style="text-align: center;">Career At PT Ruslam Cempakaputih Jaya</h1>
 
-<H2>Menjadi Tim Kami</H2>	
+<H2><i class="fa fa-check-square-o"></i> Menjadi Tim Kami</H2>	
 <p><span class="big">K</span> ami PT. Ruslam Cempakaputih Jaya, salah satu badan amal usaha milik Muhammadiyah (AUM) membuka kesempatan bekerja untuk tenaga profesional jasa perawatan kebersihan gedung (Cleaning Service)</p>
   
 <h1 style="text-align: center;">Qualification At PT Ruslam Cempakaputih Jaya</h1>
@@ -155,7 +155,7 @@ console.log('ServiceWorker registration failed: ', err);
 <H2><i class="fa fa-check-square-o"></i> Kirim Lamaran Anda</H2>	
 <p><span class="big">B</span> ekas persyaratan administrasi dimasukan kedalam map warna cokelat dan diantar langsung ke PT Ruslam Cempakaputih Jaya, Jl Cempakaputih Tengah VI No 4 Cempaka Putih Timur, Jakarta Pusat (Belakang RS Islam Jakarta Cempaka Putih,  google maps, ketik alamat klinik ruslam ). Info lebih lanjut hub 021 4204585</p>
 <p>Mengisi lamaran dan Daftar Riwayat Hidup Secara Online/Daring</p> 	
-<button>Isi lamaran <i class="fa fa-send-o"></i></button>	
+<button class="button-success" onclick="window.location.href='/jobapply/'">Isi lamaran <i class="fa fa-send-o"></i></button>	
 <p>Lowongan Kerja Untuk Jasa Layanan Cleaning Service di Jakarta, Depok, Bekasi, Tangerang</p>
 </main>
 
@@ -193,6 +193,16 @@ console.log('ServiceWorker registration failed: ', err);
 	    });  
 	</script>
 	<!-- Clarity tracking code for https://ruslam.id/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "b428od38di");</script>
-	
+<style>
+.button-success {
+  color: white;
+  border-radius: 4px;
+  border-color:transparent;
+  padding: 5px 15px 5px 15px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65); /* this is a green */
+  cursor:pointer;
+}
+</style>	
 </body>
 </html>
