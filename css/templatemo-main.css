@@ -875,7 +875,7 @@ display: inline-block;
 max-height: 130px; 
 padding: 20px 20px 20px 20px;  
 }
-.links {margin: 20px 20px 20px 20px; position: -webkit-fixed; position: fixed; bottom: 2px; background: none;}
+.links {margin: 20px 20px 20px 20px; position: -webkit-fixed; position: fixed; bottom: 0px; background: none;}
 .social-share {width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;}
 .facebook {background-color: #0000CD; color:#fff;}
 .twitter {background-color: #87CEFA; color:#fff;}
