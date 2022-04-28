@@ -477,6 +477,7 @@ margin-top: 15px;
 .service-content {
 padding-top: 5vh;
 text-align: center;
+margin-top: -50px;  
 }
 .service-content .left-text .line-dec {
 width: 45px;
