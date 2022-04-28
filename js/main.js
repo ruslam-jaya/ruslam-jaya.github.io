@@ -110,7 +110,7 @@ function setShareLinks() {
   })
   
   $(".social-share.wa").on("click", function() {
-    url = "https://api.whatsapp.com/send?text==" + pageUrl + "/n" + "&text=" + tweet;
+    url = "https://api.whatsapp.com/send?text=" + pageUrl + "%0a" + tweet;
     socialWindow(url);
   })
 }
