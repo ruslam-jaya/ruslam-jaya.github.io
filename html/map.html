@@ -1,3 +1,9 @@
+<div class="links" onload="setShareLinks();">
+    <span class="social-share facebook"><i class="fa fa-facebook-f"></i></span>
+    <span class="social-share twitter"><i class="fa fa-twitter"></i></span>
+    <span class="social-share ig"><i class="fa fa-instagram"></i></span>
+	<span class="social-share wa"><i class="fa fa-whatsapp"></i></span>
+</div>
 <div style="padding: 30px; background-color:#87C6DA; text-align: center; font-size: 30px;  color: #000066;">
 <h2>Kami siap melayani dan bekerja sama dengan anda!!</h2>
 <span style="margin: auto; font-size: 20px; display: inline-block; padding: 20px;">Ingin Menjadi Mitra Kami??<br />
@@ -8,3 +14,52 @@
 </span>
 </div>
 <iframe title="Map Office PT RUSLAM CEMPAKA PUTIH JAYA" itemprop="location" data-nosnippet itemscope itemtype="https://schema.org/Place" rel="nofollow, noindex" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7933.38296022485!2d106.8664636!3d-6.172047!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f502391c6d8b%3A0x7d701c64ca0a88b!2sPT%20Ruslam%20Cempaka%20Putih%20Jaya!5e0!3m2!1sid!2sid!4v1646216006636!5m2!1sid!2sid" width="100%" height="380" style="border:0;"></iframe>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<style>
+.links {margin: 20px 20px 20px 20px;}
+.social-share {width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;}
+.facebook {background-color: #0000CD; color:#fff;}
+.twitter {background-color: #87CEFA; color:#fff;}
+.ig {background-color: #DDA0DD; color:#fff;}
+.wa {background-color: #2E8B57; color:#fff;}
+.social-share i {margin: 5px auto auto auto; text-align: center; font-size: 22pt;}
+.social-share:hover {cursor: pointer;}
+</style>
+<script>
+function socialWindow(url) {
+  var left = (screen.width - 570) / 2;
+  var top = (screen.height - 570) / 2;
+  var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
+  // Setting 'params' to an empty string will launch
+  // content in a new tab or window rather than a pop-up.
+  // params = "";
+  window.open(url,"NewWindow",params);
+}
+
+function setShareLinks() {
+  var pageUrl = encodeURIComponent(document.URL);
+  var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
+
+  $(".social-share.facebook").on("click", function() {
+    url = "https://www.facebook.com/sharer.php?u=" + pageUrl + tweet;
+    socialWindow(url);
+  });
+
+  $(".social-share.twitter").on("click", function() {
+    url = "https://twitter.com/share?url=" + pageUrl + "&text=" + tweet;
+    socialWindow(url);
+  });
+  
+  $(".social-share.ig").on("click", function() {
+    url = "https://www.instagram.com/?url=" + pageUrl + "&text=" + tweet;
+    socialWindow(url);
+  })
+  
+  $(".social-share.wa").on("click", function() {
+    url = "https://api.whatsapp.com/send?text==" + pageUrl + "/n" + "&text=" + tweet;
+    socialWindow(url);
+  })
+}
+</script>
