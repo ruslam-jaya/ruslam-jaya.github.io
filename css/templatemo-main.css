@@ -875,3 +875,11 @@ display: inline-block;
 max-height: 130px; 
 padding: 20px 20px 20px 20px;  
 }
+.links {margin: 20px 20px 20px 20px;}
+.social-share {width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;}
+.facebook {background-color: #0000CD; color:#fff;}
+.twitter {background-color: #87CEFA; color:#fff;}
+.ig {background-color: #DDA0DD; color:#fff;}
+.wa {background-color: #2E8B57; color:#fff;}
+.social-share i {margin: 5px auto auto auto; text-align: center; font-size: 22pt;}
+.social-share:hover {cursor: pointer;}
