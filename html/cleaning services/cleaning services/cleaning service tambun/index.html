@@ -76,101 +76,13 @@ gtag('config', 'G-M2JCJ2SPVG', {
 'cookie_expires': 28 * 24 * 60 * 60 // 28 days, in seconds
 });  
 </script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-<style>
-body {
-  width: 95%;
-  max-width: 700px;
-  font-family: tahoma, sans-serif;
-  font-size: 14px;
-  line-height: 1.4;
-  padding: 0 10px 20px 10px;
-  margin: 0 auto 0 auto;
-}
-
-h1 {
-  font-size: 24px;
-  text-align: center;
-}
-
-h1 span {
-  display: block;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-code {
-  background-color: #eee;
-  padding: 0 3px 0 3px;
-}
-
-.links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px 0;
-}
-
-.links li {
-  font-size: 16px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.links li:hover {
-  text-decoration: underline;
-}
-
-.notes {
-  width: 100%;
-  margin: 0 0 20px 0;
-}
-</style>
-<script>
-setShareLinks();
-function socialWindow(url) {
-  var left = (screen.width - 570) / 2;
-  var top = (screen.height - 570) / 2;
-  var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
-  // Setting 'params' to an empty string will launch
-  // content in a new tab or window rather than a pop-up.
-  // params = "";
-  window.open(url,"NewWindow",params);
-}
-
-function setShareLinks() {
-  var pageUrl = encodeURIComponent(document.URL);
-  var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
-  $(".social-share.facebook").on("click", function() {
-    url = "https://www.facebook.com/sharer.php?u=" + pageUrl + tweet;
-    socialWindow(url);
-  });
-  $(".social-share.twitter").on("click", function() {
-    url = "https://twitter.com/share?url=" + pageUrl + "&text=" + tweet;
-    socialWindow(url);
-  });
-  $(".social-share.gplus").on("click", function() {
-    url = "https://plus.google.com/share?url=" + pageUrl;
-    socialWindow(url);
-  });
-  $(".social-share.wa").on("click", function() {
-    url = "https://api.whatsapp.com/send?text==" + pageUrl + "/n&text=" + tweet;
-    socialWindow(url);
-  })
-}
-</script>	
 </head>
 	
 <body class="mainbody" onload="includeHTML();">
 <div w3-include-html="https://ruslam.id/html/headermenu.html"></div>
 <div w3-include-html="https://ruslam.id/html/slider.html"></div> 
-<div class="links">
-  <ul>
-    <li class="social-share facebook">Share on Facebook</li>
-    <li class="social-share twitter">Share on Twitter</li>
-    <li class="social-share linkedin">Share on LinkedIn</li>
-  </ul>
-</div>	
+
 <div w3-include-html="https://ruslam.id/html/cleaning services/cleaning services/cleaning service.html"></div> 	
 <p>Untuk Kebutuhan Jasa Layanan Cleaning Service di Wilayah TAMBUN dapat dipercayakan kepada kami</p>
 
