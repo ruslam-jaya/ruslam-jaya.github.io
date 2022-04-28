@@ -300,7 +300,7 @@ overflow: hidden;
 }
 .bannerslide .slider .slide .caption {
   position: absolute;
-  bottom: 120px;
+  bottom: 100px;
   left: 60px;
   right: 60px;
   padding: 30px;
