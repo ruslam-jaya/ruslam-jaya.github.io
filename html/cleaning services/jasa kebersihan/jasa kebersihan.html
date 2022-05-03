@@ -2,7 +2,7 @@
 <h1 style="text-align: center;">CLEANING SERVICE</h1>
 
 <div class="contentmain">
-<img class="imgleft" itemprop="photo" alt='foto cleaning service PT Ruslam -01' src='https://ruslam.id/img/cleaningservices/CS-03.webp'/>		
+<img id="imgleft" class="imgleft" itemprop="photo" alt='foto cleaning service PT Ruslam -01' src='https://ruslam.id/img/cleaningservices/CS-03.webp'/>		
 <div class="cardright">
 <H2>Solusi Terbaik Untuk pelayanan Bisnis Anda</H2>	
 <p><span class="big">P</span>T RUSLAM CEMPAKAPUTIH JAYA adalah perusahaan yang bergerak di bidang jasa, salah satunya adalah jasa pelayanan kebersihan gedung secara menyeluruh (indoor dan outdoor). Sebagai penyedia jasa dan pengelolaan SDM yang Professional, kami memiliki sistem management SDM yang baik, sehingga tenaga kerja yang disiapkan untuk bekerja di perusahaan pengguna jasa/klien sudah memiliki kemampuan yang memadai (terampil dan terlatih) serta di dukung oleh peralatan yang lengkap dan bahan kimia yang ramah lingkungan.
@@ -136,60 +136,3 @@ SDM yang kami berikan adalah tenaga-tenaga kerja yang berakhlak, berkualitas dan
             </div>
         </div>
     </div>		
-<script>
-var url         	= window.location.href;
-var titlex 			= document.title;
-var descriptionx	= document.head.getElementsByTagName('meta')['description'].getAttribute('content');
-var imagex			= document.head.getElementsByTagName('meta')['og:image'].getAttribute('content');
-var content         = window.location.href;
-contentSegments 	= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
-urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
-            if(urlSegments <= 7) {
-                var link = document.createElement('link');
-                link.setAttribute('rel', 'canonical');
-                link.setAttribute('href', url);
-                document.head.appendChild(link);
-            };
-            if(contentSegments <= 7) {
-                var meta = document.createElement('meta');
-                meta.setAttribute('property', 'og:url');
-                meta.setAttribute('content', content);
-                document.head.appendChild(meta);
-            };
-			if(contentSegments <= 7) {
-                var meta = document.createElement('meta');
-                meta.setAttribute('property', 'twitter:url');
-                meta.setAttribute('content', content);
-                document.head.appendChild(meta);
-            };
-			if(contentSegments <= 7) {
-                var meta = document.createElement('meta');
-                meta.setAttribute('property', 'og:title');
-                meta.setAttribute('content', titlex);
-                document.head.appendChild(meta);
-            };
-			if(contentSegments <= 7) {
-                var meta = document.createElement('meta');
-                meta.setAttribute('property', 'twitter:title');
-                meta.setAttribute('content', titlex);
-                document.head.appendChild(meta);
-            };
-			if(contentSegments <= 7) {
-                var meta = document.createElement('meta');
-                meta.setAttribute('property', 'og:description');
-                meta.setAttribute('content', descriptionx);
-                document.head.appendChild(meta);
-            };
-			if(contentSegments <= 7) {
-                var meta = document.createElement('meta');
-                meta.setAttribute('property', 'twitter:description');
-                meta.setAttribute('content', descriptionx);
-                document.head.appendChild(meta);
-            };
-			if(contentSegments <= 7) {
-                var meta = document.createElement('meta');
-                meta.setAttribute('property', 'twitter:image');
-                meta.setAttribute('content', imagex);
-                document.head.appendChild(meta);
-            };
-</script>
