@@ -16,14 +16,12 @@
 	    
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" data-dynamic="true">
-<meta property="og:url" content="https://ruslam.id/" data-dynamic="true">
 <meta property="og:title" content="PT RUSLAM CEMPAKA PUTIH JAYA" data-dynamic="true">
 <meta property="og:description" data-dynamic="true" content="PT RUSLAM CEMPAKA PUTIH JAYA, Perusahaan Penyalur Jasa Kebersihan / Cleaning Sevices untuk wilayah BOGOR">
 <meta property="og:image" data-dynamic="true" content="https://ruslam.id/img/logoruslam.jpg" data-dynamic="true">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" data-dynamic="true">
-<meta property="twitter:url" content="https://ruslam.id/" data-dynamic="true">
 <meta property="twitter:title" content="PT RUSLAM CEMPAKA PUTIH JAYA" data-dynamic="true">
 <meta property="twitter:description" content="PT RUSLAM CEMPAKA PUTIH JAYA, Perusahaan Penyalur Jasa Kebersihan / Cleaning Sevices untuk wilayah BOGOR">
 <meta property="twitter:image" content="https://ruslam.id/img/logoruslam.jpg" data-dynamic="true">
@@ -57,8 +55,23 @@ var url         = window.location.href,
             if(urlSegments <= 7) {
                 var link = document.createElement('link');
                 link.setAttribute('rel', 'canonical');
-                link.setAttribute('href', url ,"/");
+                link.setAttribute('href', url);
                 document.head.appendChild(link);
+            };
+
+var content         = window.location.href,
+    contentSegments = content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
+            if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'og:url');
+                meta.setAttribute('content', content);
+                document.head.appendChild(meta);
+            };
+			if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'twitter:url');
+                meta.setAttribute('content', content);
+                document.head.appendChild(meta);
             }
 </script>	
 </body>
