@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="UTF-8">
+ <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
 <meta name="googlebot" content="notranslate" />
-<meta charset="UTF-8">
+
 <title>CLEANING SERVICES / JASA KEBERSIHAN - PT RUSLAM CEMPAKA PUTIH JAYA BOGOR</title>
 <meta name="description" content="PT RUSLAM CEMPAKA PUTIH JAYA, Perusahaan Penyalur Jasa Kebersihan / Cleaning Sevices untuk wilayah BOGOR">
 <meta itemprop="keywords" name="keywords" content="PT RUSLAM CEMPAKA PUTIH JAYA, Perusahaan Penyalur Jasa Kebersihan / Cleaning Sevices untuk wilayah BOGOR"> 
@@ -15,12 +15,13 @@
 	    
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
+<meta name="image" property="og:image" content="https://ruslam.id/img/logoruslam.jpg">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-	
+
+
 </head>
-	
 <body class="mainbody" onload="includeHTML();">
 <div w3-include-html="https://ruslam.id/html/headermenu.html"></div>
 <div w3-include-html="https://ruslam.id/html/slider.html"></div> 
@@ -29,8 +30,7 @@
 <p>Untuk Kebutuhan Jasa Layanan Cleaning Service di Wilayah BOGOR dapat dipercayakan kepada kami</p>
 
 <div w3-include-html="https://ruslam.id/html/map.html"></div> 	
-<div w3-include-html="https://ruslam.id/html/footer.html"></div> 
-	
+<div w3-include-html="https://ruslam.id/html/footer.html"></div>   
 <link rel="stylesheet" href="https://ruslam.id/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://ruslam.id/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://ruslam.id/css/hero-slider.css">
@@ -45,6 +45,62 @@
 <script src="https://ruslam.id/js/opennav.js"></script>
 <script src="https://ruslam.id/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 <script src="https://ruslam.id/js/headbar.js"></script>	
-	
+<script>
+var url         	= window.location.href;
+var titlex 			= document.title;
+var descriptionx	= document.head.getElementsByTagName('meta')['description'].getAttribute('content');
+var imagex			= document.head.getElementsByTagName('meta')['image'].getAttribute('content');
+var content         = window.location.href;
+contentSegments 	= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
+urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
+            if(urlSegments <= 7) {
+                var link = document.createElement('link');
+                link.setAttribute('rel', 'canonical');
+                link.setAttribute('href', url);
+                document.head.appendChild(link);
+            };
+            if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'og:url');
+                meta.setAttribute('content', content);
+                document.head.appendChild(meta);
+            };
+			if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'twitter:url');
+                meta.setAttribute('content', content);
+                document.head.appendChild(meta);
+            };
+			if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'og:title');
+                meta.setAttribute('content', titlex);
+                document.head.appendChild(meta);
+            };
+			if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'twitter:title');
+                meta.setAttribute('content', titlex);
+                document.head.appendChild(meta);
+            };
+			if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'og:description');
+                meta.setAttribute('content', descriptionx);
+                document.head.appendChild(meta);
+            };
+			if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'twitter:description');
+                meta.setAttribute('content', descriptionx);
+                document.head.appendChild(meta);
+            }; 
+			if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'twitter:image');
+                meta.setAttribute('content', imagex);
+                document.head.appendChild(meta);
+            }; 			        
+</script>	
 </body>
 </html>
