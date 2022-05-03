@@ -16,14 +16,10 @@
 	    
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" data-dynamic="true">
-<meta property="og:title" content="PT RUSLAM CEMPAKA PUTIH JAYA" data-dynamic="true">
-<meta property="og:description" data-dynamic="true" content="PT RUSLAM CEMPAKA PUTIH JAYA, Perusahaan Penyalur Jasa Kebersihan / Cleaning Sevices untuk wilayah BOGOR">
 <meta property="og:image" data-dynamic="true" content="https://ruslam.id/img/logoruslam.jpg" data-dynamic="true">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" data-dynamic="true">
-<meta property="twitter:title" content="PT RUSLAM CEMPAKA PUTIH JAYA" data-dynamic="true">
-<meta property="twitter:description" content="PT RUSLAM CEMPAKA PUTIH JAYA, Perusahaan Penyalur Jasa Kebersihan / Cleaning Sevices untuk wilayah BOGOR">
 <meta property="twitter:image" content="https://ruslam.id/img/logoruslam.jpg" data-dynamic="true">
 </head>
 <body class="mainbody" onload="includeHTML();">
@@ -34,7 +30,8 @@
 <p>Untuk Kebutuhan Jasa Layanan Cleaning Service di Wilayah BOGOR dapat dipercayakan kepada kami</p>
 
 <div w3-include-html="https://ruslam.id/html/map.html"></div> 	
-<div w3-include-html="https://ruslam.id/html/footer.html"></div>   
+<div w3-include-html="https://ruslam.id/html/footer.html"></div> 
+	
 <link rel="stylesheet" href="https://ruslam.id/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://ruslam.id/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://ruslam.id/css/hero-slider.css">
@@ -49,18 +46,19 @@
 <script src="https://ruslam.id/js/opennav.js"></script>
 <script src="https://ruslam.id/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 <script src="https://ruslam.id/js/headbar.js"></script>	
-<script type='text/javascript'>
-var url         = window.location.href,
-    urlSegments = url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
+<script>
+var url         	= window.location.href;
+var titlex 			= document.title;
+var descriptionx	= document.head.getElementsByTagName('meta')['description'].getAttribute('content');
+var content         = window.location.href;
+contentSegments 	= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
+urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
             if(urlSegments <= 7) {
                 var link = document.createElement('link');
                 link.setAttribute('rel', 'canonical');
                 link.setAttribute('href', url);
                 document.head.appendChild(link);
             };
-
-var content         = window.location.href,
-    contentSegments = content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
             if(contentSegments <= 7) {
                 var meta = document.createElement('meta');
                 meta.setAttribute('property', 'og:url');
@@ -72,7 +70,31 @@ var content         = window.location.href,
                 meta.setAttribute('property', 'twitter:url');
                 meta.setAttribute('content', content);
                 document.head.appendChild(meta);
-            }
+            };
+			if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'og:title');
+                meta.setAttribute('content', titlex);
+                document.head.appendChild(meta);
+            };
+			if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'twitter:title');
+                meta.setAttribute('content', titlex);
+                document.head.appendChild(meta);
+            };
+			if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'og:description');
+                meta.setAttribute('content', descriptionx);
+                document.head.appendChild(meta);
+            };
+			if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('property', 'twitter:description');
+                meta.setAttribute('content', descriptionx);
+                document.head.appendChild(meta);
+            };
 </script>	
 </body>
 </html>
