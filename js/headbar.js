@@ -115,3 +115,15 @@
 					 }  
 				}
         }
+function imgleftx1() {
+  document.getElementsByClassName("imgleft1")[0].style.opacity = "1.0";
+}
+function imgleftx2() {
+  document.getElementsByClassName("imgleft2")[0].style.opacity = "1.0";
+}
+function imgrightx1() {
+  document.getElementsByClassName("imgright1")[0].style.opacity = "1.0";
+}
+function imgrightx2() {
+  document.getElementsByClassName("imgright2")[0].style.opacity = "1.0";
+}
