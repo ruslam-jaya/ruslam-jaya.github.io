@@ -115,9 +115,9 @@
 					 }  
 				}
         };
-
-var content	= window.location.href;
-contentSegments	= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
+{
+var content         = window.location.href;
+contentSegments 	= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
 urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2); 
     (function(){
 	var data = {
@@ -149,7 +149,7 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 			"@type": "Rating",
 			"ratingValue": "4",
 			"bestRating": "5"
-			},
+		}},
 	"author": {
 		"@type": "Person",
 		"name": "MUHAMMAD PRIATAMA"
@@ -227,9 +227,10 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"closes": "15:00"
 		}
 	]
-	}}
+	}
         var script = document.createElement('script');
         script.type = "application/ld+json";
         script.innerHTML = JSON.stringify(data);
         document.getElementsByTagName('head')[0].appendChild(script); 
-    })(document);
+    })(document)
+}
