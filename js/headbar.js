@@ -195,8 +195,8 @@ function imgrightx2() {
   document.getElementsByClassName("imgright2")[0].style.opacity = "1.0";
 };
 
-var content	= window.location.href;
-contentSegments	= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
+var content         = window.location.href;
+contentSegments 	= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
 urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2); 
     (function(){
 	var data = {
@@ -210,61 +210,104 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"telephone": "+62(021)4204585",
 		"contactType": "customer service"
 		}],
-      "image": [
-        document.head.getElementsByTagName('meta')['image'].getAttribute('content')
-       ],
-      "name": "PT RUSLAM CEMPAKAPUTIH JAYA",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Jl. Cempaka Putih Tengah VI Cempaka Putih",
-        "addressLocality": "Jakarta Pusat",
-        "addressRegion": "JKT",
-        "postalCode": "10510",
-        "addressCountry": "ID"
-      },
-      "review": {
-        "@type": "Review",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "4",
-          "bestRating": "5"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "MUHAMMAD PRIATAMA"
-        }
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": -6.172047,
-        "longitude": 106.870841
-      },
-      "url": window.location.href,
-      "telephone": "+62(021)4204585",
-      "priceRange": "IDR",
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-	  	"Monday",
-	  	"Tuesday",
-	  	"Wednesday",
-            	"Thursday",
-            	"Friday"		
-          ],
-          "opens": "07:30",
-          "closes": "17:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "08:00",
-          "closes": "15:00"
-        }
-      ]
-        }
+	"image": [
+		document.head.getElementsByTagName('meta')['image'].getAttribute('content')
+		],
+	"name": "PT RUSLAM CEMPAKAPUTIH JAYA",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "Jl. Cempaka Putih Tengah VI Cempaka Putih",
+		"addressLocality": "Jakarta Pusat",
+		"addressRegion": "JKT",
+		"postalCode": "10510",
+		"addressCountry": "ID"
+		},
+	"review": {
+		"@type": "Review",
+		"reviewRating": {
+			"@type": "Rating",
+			"ratingValue": "4",
+			"bestRating": "5"
+			},
+	"author": {
+		"@type": "Person",
+		"name": "MUHAMMAD PRIATAMA"
+		},
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": -6.172047,
+		"longitude": 106.870841
+		},
+	"url": window.location.href,
+	"telephone": "+62(021)4204585",
+	"priceRange": "IDR",
+	"areaServed": {
+		"@type": "State",
+		"name": "Jabodetabek"
+		},
+	"hasOfferCatalog": {
+		"@type": "OfferCatalog",
+		"name": "Service",
+		"itemListElement": [
+			{
+				"@type": "Offer",
+				"itemOffered": {
+				"@type": "Service",
+				"name": "Cleaning Service / Jasa Kebersihan"
+				}
+			},
+				{
+				"@type": "Offer",
+				"itemOffered": {
+					"@type": "Service",
+					"name": "Security Service / Jasa Keamanan"
+					}
+				},
+			{
+				"@type": "Offer",
+				"itemOffered": {
+					"@type": "Service",
+					"name": "Parking Service / Jasa Parkiran"
+					}
+				},
+			{
+				"@type": "Offer",
+				"itemOffered": {
+					"@type": "Service",
+					"name": "Health Service / Klinik Ruslam"
+					}
+				},
+			{
+				"@type": "Offer",
+				"itemOffered": {
+					"@type": "Service",
+					"name": "General Trading / Jasa Perdagangan Umum"
+					}
+				}		
+			],
+	"openingHoursSpecification": [
+		{
+		"@type": "OpeningHoursSpecification",
+		"dayOfWeek": [
+			"Monday",
+			"Tuesday",
+			"Wednesday",
+			"Thursday",
+			"Friday"		
+			],
+		"opens": "07:30",
+		"closes": "17:00"
+		},
+		{
+		"@type": "OpeningHoursSpecification",
+		"dayOfWeek": "Saturday",
+		"opens": "08:00",
+		"closes": "15:00"
+		}
+	]
+	}
         var script = document.createElement('script');
         script.type = "application/ld+json";
         script.innerHTML = JSON.stringify(data);
         document.getElementsByTagName('head')[0].appendChild(script); 
-    })(document);
+    })(document)
