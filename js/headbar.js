@@ -210,9 +210,6 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"telephone": "+62(021)4204585",
 		"contactType": "customer service"
 		}],
-	"image": [
-		"https://ruslam.id/img/LOGO-TEXT-S.png"
-		],
 	"name": "PT RUSLAM CEMPAKAPUTIH JAYA",
 	"address": {
 		"@type": "PostalAddress",
