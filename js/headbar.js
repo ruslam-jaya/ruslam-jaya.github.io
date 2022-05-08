@@ -229,11 +229,11 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 			"@type": "Rating",
 			"ratingValue": "4",
 			"bestRating": "5"
-		}},
+		},
 	"author": {
 		"@type": "Person",
 		"name": "MUHAMMAD PRIATAMA"
-		},
+		}},
 	"geo": {
 		"@type": "GeoCoordinates",
 		"latitude": -6.172047,
