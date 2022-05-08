@@ -195,24 +195,23 @@ function imgrightx1() {
 function imgrightx2() {
   document.getElementsByClassName("imgright2")[0].style.opacity = "1.0";
 }};
+
 {
-var content         = window.location.href;
-contentSegments 	= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
-urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2); 
+var content	= window.location.href;
+contentSegments	= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
+urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2); 
     (function(){
 	var data = {
 	"@context": "https://schema.org",
 	"@type": "LocalBusiness",
 	"logo": "https://ruslam.id/img/LOGO-TEXT-S.png",
-	"title": document.title,
-	"description": document.head.getElementsByTagName('meta')['description'].getAttribute('content'),
   	"contactPoint": [{
 		"@type": "ContactPoint",
 		"telephone": "+62(021)4204585",
 		"contactType": "customer service"
 		}],
 	"image": [
-		document.head.getElementsByTagName('meta')['image'].getAttribute('content')
+		"https://ruslam.id/img/LOGO-TEXT-S.png"
 		],
 	"name": "PT RUSLAM CEMPAKAPUTIH JAYA",
 	"address": {
@@ -239,7 +238,7 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"latitude": -6.172047,
 		"longitude": 106.870841
 		},
-	"url": window.location.href,
+	"url": "https://ruslam.id/",
 	"telephone": "+62(021)4204585",
 	"priceRange": "IDR",
 	"areaServed": {
@@ -250,39 +249,15 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"@type": "OfferCatalog",
 		"name": "Service",
 		"itemListElement": [
-			{
-				"@type": "Offer",
-				"itemOffered": {
-				"@type": "Service",
-				"name": "Cleaning Service / Jasa Kebersihan"
-				}
-			},
 				{
 				"@type": "Offer",
-				"itemOffered": {
+				"itemOffered": 
+					{
 					"@type": "Service",
-					"name": "Security Service / Jasa Keamanan"
-					}
-				},
-			{
-				"@type": "Offer",
-				"itemOffered": {
-					"@type": "Service",
-					"name": "Parking Service / Jasa Parkiran"
-					}
-				},
-			{
-				"@type": "Offer",
-				"itemOffered": {
-					"@type": "Service",
-					"name": "Health Service / Klinik Ruslam"
-					}
-				},
-			{
-				"@type": "Offer",
-				"itemOffered": {
-					"@type": "Service",
-					"name": "General Trading / Jasa Perdagangan Umum"
+					"name": document.title,
+					"url": window.location.href,
+					"description": document.head.getElementsByTagName('meta')['description'].getAttribute('content'),
+					"image": document.head.getElementsByTagName('meta')['image'].getAttribute('content')
 					}
 				}		
 			]
@@ -308,9 +283,9 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		}
 	]
 	}
-        var script = document.createElement('script');
-        script.type = "application/ld+json";
-        script.innerHTML = JSON.stringify(data);
-        document.getElementsByTagName('head')[0].appendChild(script); 
-    })(document)
+var script = document.createElement('script');
+script.type = "application/ld+json";
+script.innerHTML = JSON.stringify(data);
+document.getElementsByTagName('head')[0].appendChild(script); 
+})(document)
 }
