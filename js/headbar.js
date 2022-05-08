@@ -211,6 +211,7 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"contactType": "customer service"
 		}],
 	"name": "PT RUSLAM CEMPAKAPUTIH JAYA",
+	"image": document.head.getElementsByTagName('meta')['image'].getAttribute('content'),	
 	"address": {
 		"@type": "PostalAddress",
 		"streetAddress": "Jl. Cempaka Putih Tengah VI Cempaka Putih",
