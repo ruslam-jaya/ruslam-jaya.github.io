@@ -885,7 +885,7 @@ padding: 20px 20px 20px 20px;
 .social-share:hover {cursor: pointer;}
 .imgleft, .imgright {
 opacity :0;
-transition: all 2s;	
+transition: all 8s;	
 } 
 .mainpage h1{
 width: calc (100% + 20px);
