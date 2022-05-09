@@ -66,35 +66,36 @@ console.log('ServiceWorker registration failed: ', err);
 <main class="mainpage">
 <h1><i class="fa fa-check-square-o"></i> Komentar / Kritik dan Saran anda</h1><br>
 <center>
-<form class="gform pure-form pure-form-stacked main" id="form" method="POST" action="https://script.google.com/macros/s/AKfycbwJwgYOGppDmKG5DEeNjrOFL1-8szoO9PwzW_CeLpTBTmd9wn7o/exec">
-
+<form class="gform pure-form pure-form-stacked main" id="form" method="POST" action="https://script.google.com/macros/s/AKfycbwJwgYOGppDmKG5DEeNjrOFL1-8szoO9PwzW_CeLpTBTmd9wn7o/exec" onmouseover="compress();" onclick="compress();">
+<div class="inputform"> 
     <label for="email"><i class="fa fa-envelope"></i> E-mail</label>
-	<input type="text" id="email" name="email" placeholder="Alamat email" required maxlength="15" required required="required" required="true">
+	<input type="text" id="email" name="email" placeholder="Alamat email" required maxlength="15" required>
 
     <label for="nama"><i class="fa fa-user"></i> Nama</label>
-    <input type="text" id="nama" name="nama" placeholder="Nama Anda" required maxlength="20" required required="required" required="true">
+    <input type="text" id="nama" name="nama" placeholder="Nama Anda" required maxlength="20" required>
 
     <label for="comment"><i class="fa fa-comment"></i> Komentar/Kritik/Saran Anda</label>
-	<textarea id="comment" name="comment" placeholder="Komentar/Kritik/Saran Anda" required rows="4" cols="50" maxlength="50" required required="required" required="true"></textarea>
+	<textarea id="comment" name="comment" placeholder="Komentar/Kritik/Saran Anda" required rows="4" cols="50" maxlength="50" required></textarea>
 
     <label for="stars"><i class="fa fa-star"></i> Beri Kami Nilai</label>
-  	<input class="rating" name="stars" id="stars" max="5" oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0.5" style="--value:4.5" type="range" value="4.5" required required="required" required="true">
+  	<input class="rating" name="stars" id="stars" max="5" oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0.5" style="--value:4.5" type="range" value="4.5" required>
 
     <label for="photo"><i class="fa fa-user"></i> Foto</label>
-    <input id="inputphoto" type="file" accept="image/png, image/jpeg" max-size="1024" max-file-size="1024" onChange="VerifyUploadSizeIsOK()" required required="required" required="true"><br>
-    <canvas id="canvas" style="width: 0px; height:0px;" style="display:none;"></canvas>
-    <img id="fotocompress" name="fotocompress" src="">
-    <textarea id="foto" name="foto" style="display:none;" required required="true"></textarea>
+    <input id="inputphoto" type="file" accept="image/png, image/jpeg" onChange="VerifyUploadSizeIsOK();" required><br>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <img id="fotocompress" src="">
+    <textarea id="foto" name="foto" required style="display:none"></textarea>
 
-<button class="btn_kirim" onClick="compress()"><i class="fa fa-paper-plane"></i>&nbsp;Kirim</button>      
+<button class="btn_kirim"><i class="fa fa-paper-plane"></i>&nbsp;Kirim</button> 
+</div>     
       
     <!-- Customise the Thankyou Message People See when they submit the form: -->
-
-</center>
     <div class="thankyou_message" style="display:none;">
       <p>Terima Kasih atas waktunya<br>
-        Silahkan Cek email anda! jika menerima email isian Komentar / Kritik dan Saran anda untuk PT Ruslam Cempakaputih Jaya tersebut berarti email anda sudah terkirim ke kami</p>
+        Silahkan Cek email anda! jika menerima email isian Komentar / Kritik dan Saran anda untuk PT Ruslam Cempakaputih Jaya tersebut berarti Saran dan Kritik anda sudah terkirim ke kami</p>
     </div>
+</center>
+
 </form>
 </main>
 <script data-cfasync="false" src="form-submission-handler.js"></script>
@@ -245,9 +246,9 @@ function VerifyUploadSizeIsOK()
       alert("Ukuran File harus kurang dari " + parseInt(MaxSizeInBytes/1024) + "KB");
       return false;
    }
-       var preview = document.querySelector('img');
-    var file    = document.querySelector('input[type=file]').files[0];
-    var reader  = new FileReader();
+       	var preview = document.getElementById("fotocompress");
+    	var file    = document.querySelector('input[type=file]').files[0];
+    	var reader  = new FileReader();
         reader.addEventListener("load", function () {
 			document.getElementById("foto").value = "";
             preview.src = reader.result;
