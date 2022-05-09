@@ -217,7 +217,7 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
         "https://ruslam.id/img/ogimage/SS.webp",
         "https://ruslam.id/img/ogimage/PS.webp"
        ],
-    "description": document.head.getElementsByTagName('meta')['description'].getAttribute('content'),	
+    "description": "PT RUSLAM CEMPAKAPUTIH JAYA Perusahaan Penyalur Jasa Kebersihan / Cleaning Sevices, Keamanan / Security Services, Parkiran / parking Services, Klinik Dokter Umum dan Dokter Gigi, General Tradding Kesehatan dan alat kesehatan",	
 	"address": {
 		"@type": "PostalAddress",
 		"streetAddress": "Jl. Cempaka Putih Tengah VI Cempaka Putih",
