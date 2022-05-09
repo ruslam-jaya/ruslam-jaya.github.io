@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="id">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="content-language" content="id">
+    
+	<meta name="google-site-verification" content="pYdQVflmfYiP-M3H6KrFBqYkMyie_aH0SzDwgfsAwns" />
+	<meta name="msvalidate.01" content="C55D2D22D941A27F74EE7A4564E2CED9" /> 
+       
+	<meta name="robots" content="index,follow"/>
+	<meta name="robots" content="notranslate"/>
+	<meta name="googlebot" content="index,follow"/>    
+	<meta name="googlebot" content="notranslate"/>
+	<link rel="canonical" href="https://ruslam.id/html/review/">
+	<link rel="manifest" href="https://ruslam.id/manifest.json" crossorigin="anonymous">
+	<link rel="manifest" href="https://ruslam.id/manifest.webmanifest"  crossorigin="anonymous">   
+	<link rel="icon" type="image/png" href="https://ruslam.id/icons/192x192.png">
+    <link rel="shortcut icon" href="https://ruslam.id/icons/favicon.ico" type="image/x-icon">	
+	<title>REVIEW - PT RUSLAM CEMPAKA PUTIH JAYA</title>
+	<meta itemprop="description" name="description" content="Review, Komentar, saran dan Kritik untuk Kami">
+	<meta itemprop="keywords" name="keywords" content="PT Ruslam Cempaka Putih Jaya, Review, Komentar, saran dan Kritik untuk Kami"> 
+	<link href='//github.com' rel='dns-prefetch'>
+	<link href='//ruslam.id' rel='dns-prefetch'>    
+	<link href='//www.googletagservices.com' rel='dns-prefetch'>
+	<link href='//www.google-analytics.com' rel='dns-prefetch'>
+	<meta name="og:image:width" content="500">
+	<meta name="og:image:height" content="261"> 
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+    <meta name="image" property="og:image" content="https://ruslam.id/img/ogimage/CS.webp">
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<!-- Mendeklarasikan warna yang muncul pada address bar Chrome versi seluler -->
+	<meta name="theme-color" content="#000000">
+	<meta name="msapplication-navbutton-color" content="#000000">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000000"> 
+	<!-- Mendeklarasikan untuk iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="mobile-web-app-capable" content="yes">    
+	<link itemprop="logo" rel="apple-touch-icon" href="//ruslam.id/icons/96x96.png"  crossorigin="anonymous"> 
+	<!-- Mendeklarasikan untuk Windows -->
+	<meta name="msapplication-TileColor" content="#000000">    
+	<!-- Mendeklarasikan dari javascript -->
+
+</head>
+
+<body onload="includeHTML();setShareLinks();">
+<script>
+if ('serviceWorker' in navigator) {
+window.addEventListener('load', function() {
+navigator.serviceWorker.register('https://ruslam.id/sw.js', {scope: '.'}).then(function(registration) {
+// Registration was successful
+console.log('ServiceWorker registration successful with scope: ', registration.scope);
+}, function(err) {
+// registration failed :(
+console.log('ServiceWorker registration failed: ', err);
+});
+});
+}
+</script>
+<div w3-include-html="https://ruslam.id/html/headermenu.html"></div>
+<div w3-include-html="https://ruslam.id/html/slider.html"></div> 	
+<main class="mainpage">
+<h1><i class="fa fa-check-square-o"></i> Komentar / Kritik dan Saran anda</h1><br>
+<center>
+<form class="gform pure-form pure-form-stacked main"  novalidate="novalidate" id="form" method="POST" action="https://script.google.com/macros/s/AKfycbwJwgYOGppDmKG5DEeNjrOFL1-8szoO9PwzW_CeLpTBTmd9wn7o/exec">
+
+    <label for="email"><i class="fa fa-envelope"></i> E-mail</label>
+	<input type="text" id="email" name="email" placeholder="Alamat email" required maxlength="15" required required="required" required="true">
+
+    <label for="nama"><i class="fa fa-user"></i> Nama</label>
+    <input type="text" id="nama" name="nama" placeholder="Nama Anda" required maxlength="20" required required="required" required="true">
+
+    <label for="comment"><i class="fa fa-comment"></i> Komentar/Kritik/Saran Anda</label>
+	<textarea id="comment" name="comment" placeholder="Komentar/Kritik/Saran Anda" required rows="4" cols="50" maxlength="50" required required="required" required="true"></textarea>
+
+    <label for="stars"><i class="fa fa-star"></i> Beri Kami Nilai</label>
+  	<input class="rating" name="stars" id="stars" max="5" oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0.5" style="--value:4.5" type="range" value="4.5" required required="required" required="true">
+
+    <label for="photo"><i class="fa fa-user"></i> Foto</label>
+    <input id="inputphoto" type="file" accept="image/png, image/jpeg" max-size="1024" max-file-size="1024" onChange="VerifyUploadSizeIsOK()" required required="required" required="true"><br>
+    <canvas id="canvas" style="width: 0px; height:0px;" style="display:none;"></canvas>
+    <img id="fotocompress" name="fotocompress" src="">
+    <textarea id="foto" name="foto" style="display:none;" required required="true"></textarea>
+
+<button class="btn_kirim" onClick="CheckRequired();compress()"><i class="fa fa-paper-plane"></i>&nbsp;Kirim</button>      
+      
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div class="thankyou_message" style="display:none;">
+      <p>Terima Kasih atas waktunya<br>
+        Silahkan Cek email anda! jika menerima email isian Komentar / Kritik dan Saran anda untuk PT Ruslam Cempakaputih Jaya tersebut berarti email anda sudah terkirim ke kami</p>
+    </div>
+</center>
+</form>
+</main>
+<script data-cfasync="false" src="form-submission-handler.js"></script>
+<script>
+function compress() {
+document.getElementById("foto").value = "";
+document.getElementById("foto").value = document.getElementById("fotocompress").src;
+}
+</script>
+<div w3-include-html="https://ruslam.id/html/map.html"></div> 	
+<div w3-include-html="https://ruslam.id/html/footer.html"></div>   
+<div class="links">
+    <span class="social-share facebook"><i class="fa fa-facebook-f"></i></span>
+    <span class="social-share twitter"><i class="fa fa-twitter"></i></span>
+    <span class="social-share ig"><i class="fa fa-instagram"></i></span>
+	<span class="social-share wa"><i class="fa fa-whatsapp"></i></span>
+</div>	
+<link rel="stylesheet" href="https://ruslam.id/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://ruslam.id/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://ruslam.id/css/hero-slider.css">
+	<link rel="stylesheet" href="https://ruslam.id/css/templatemo-main.css">
+	<link rel="stylesheet" href="https://ruslam.id/css/owl-carousel.css">
+	<link rel="stylesheet" href="https://ruslam.id/css/navheader.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>	
+	<script src="https://ruslam.id/js/vendor/bootstrap.min.js"></script>
+	<script src="https://ruslam.id/js/plugins.js"></script>
+	<script src="https://ruslam.id/js/main.js"></script>
+	
+	<script src="https://ruslam.id/js/callhtml.js"></script>
+	<script src="https://ruslam.id/js/jquery.min.js"></script>
+	<script src="https://ruslam.id/js/headbar.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-M2JCJ2SPVG"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-M2JCJ2SPVG');
+
+	    gtag('config', 'G-M2JCJ2SPVG', {
+	    'user_id': 'UA-306720515'
+	    });
+	    gtag('config', 'G-M2JCJ2SPVG', {
+	    'cookie_prefix': 'RuslamCookie',
+	    'cookie_domain': 'ruslam.id',
+	    'cookie_expires': 28 * 24 * 60 * 60 // 28 days, in seconds
+	    });  
+	</script>
+	<!-- Clarity tracking code for https://ruslam.id/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "b428od38di");</script>
+<style>
+.rating {
+background-color: transparent;
+  --dir: right;
+  --fill: gold;
+  --fillbg: rgba(100, 100, 100, 0.15);
+  --heart: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.328l-1.453-1.313q-2.484-2.25-3.609-3.328t-2.508-2.672-1.898-2.883-0.516-2.648q0-2.297 1.57-3.891t3.914-1.594q2.719 0 4.5 2.109 1.781-2.109 4.5-2.109 2.344 0 3.914 1.594t1.57 3.891q0 1.828-1.219 3.797t-2.648 3.422-4.664 4.359z"/></svg>');
+  --star: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.25l-6.188 3.75 1.641-7.031-5.438-4.734 7.172-0.609 2.813-6.609 2.813 6.609 7.172 0.609-5.438 4.734 1.641 7.031z"/></svg>');
+  --stars: 5;
+  --starsize: 2rem;
+  --symbol: var(--star);
+  --value: 1;
+  --w: calc(var(--stars) * var(--starsize));
+  --x: calc(100% * (var(--value) / var(--stars)));
+  block-size: var(--starsize);
+  inline-size: var(--w);
+  position: relative;
+  touch-action: manipulation;
+  -webkit-appearance: none;
+}
+[dir="rtl"] .rating {
+  --dir: left;
+}
+.rating::-moz-range-track {
+  background: linear-gradient(to var(--dir), var(--fill) 0 var(--x), var(--fillbg) 0 var(--x));
+  block-size: 100%;
+  mask: repeat left center/var(--starsize) var(--symbol);
+}
+.rating::-webkit-slider-runnable-track {
+  background: linear-gradient(to var(--dir), var(--fill) 0 var(--x), var(--fillbg) 0 var(--x));
+  block-size: 100%;
+  mask: repeat left center/var(--starsize) var(--symbol);
+  -webkit-mask: repeat left center/var(--starsize) var(--symbol);
+}
+.rating::-moz-range-thumb {
+  height: var(--starsize);
+  opacity: 0;
+  width: var(--starsize);
+}
+.rating::-webkit-slider-thumb {
+  height: var(--starsize);
+  opacity: 0;
+  width: var(--starsize);
+  -webkit-appearance: none;
+}
+.rating, .rating-label {
+  display: block;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+.rating-label {
+  margin-block-end: 1rem;
+}
+
+/* NO JS */
+.rating--nojs::-moz-range-track {
+  background: var(--fillbg);
+}
+.rating--nojs::-moz-range-progress {
+  background: var(--fill);
+  block-size: 100%;
+  mask: repeat left center/var(--starsize) var(--star);
+}
+.rating--nojs::-webkit-slider-runnable-track {
+  background: var(--fillbg);
+}
+.rating--nojs::-webkit-slider-thumb {
+  background-color: var(--fill);
+  box-shadow: calc(0rem - var(--w)) 0 0 var(--w) var(--fill);
+  opacity: 1;
+  width: 1px;
+}
+[dir="rtl"] .rating--nojs::-webkit-slider-thumb {
+  box-shadow: var(--w) 0 0 var(--w) var(--fill);
+}
+label {display: block; margin-top: 30px; text-align:left; width: 300px;}
+input, textarea {width: 300px;}
+div img {width: 100px; height: auto;}
+form {width: 320px; background-color: rgb(75, 0, 130, 0.8); padding: 10px; border-radius: 20px; color:#FFFFFF}
+.btn_kirim {padding: 5px 15px 5px 15px; background-color:#00FFFF; border:none; border-radius: 5px;}
+.btn_kirim:hover  {background-color:#fff; cursor:pointer}
+.mainpage {background-image:url(https://ruslam.id/icons/512x512.png); background-size: 80%; background-repeat:no-repeat; background-position: center;}
+</style> 
+
+<script>
+var email = Session.getActiveUser().getEmail();
+document.getElementById("email").value = email;
+</script>
+
+
+<script type="text/javascript">
+function VerifyUploadSizeIsOK()
+{
+   /* Attached file size check. Will Bontrager Software LLC, https://www.willmaster.com */
+   var UploadFieldID = "inputphoto";
+   var MaxSizeInBytes = 41152;
+   var fld = document.getElementById(UploadFieldID);
+   if( fld.files && fld.files.length == 1 && fld.files[0].size > MaxSizeInBytes )
+   {
+      alert("Ukuran File harus kurang dari " + parseInt(MaxSizeInBytes/1024) + "KB");
+      return false;
+   }
+       var preview = document.querySelector('img');
+    var file    = document.querySelector('input[type=file]').files[0];
+    var reader  = new FileReader();
+        reader.addEventListener("load", function () {
+			document.getElementById("foto").value = "";
+            preview.src = reader.result;
+            preview.onload = function () {
+                var canvas = document.getElementById("canvas");
+                var ctx = canvas.getContext("2d");
+				Canvas.style.width = '100px'
+				Canvas.style.height  = '100px'
+				canvas.width = 32; // target width
+				canvas.height = 32; // target height
+                var oc = document.createElement('canvas'),octx = oc.getContext('2d');
+                oc.width = canvas.width;
+                oc.height = canvas.height;
+                canvas.width = oc.width;
+                canvas.height = oc.height;
+                octx.drawImage(preview, 0, 0, oc.width, oc.height);
+                octx.drawImage(oc, 0, 0, oc.width, oc.height);
+                ctx.drawImage(oc, 0, 0, oc.width, oc.height,0, 0, canvas.width, canvas.height);
+            }
+        }, false);
+
+    if (file) {
+        reader.readAsDataURL(file);
+    }
+   return true;
+} // function VerifyUploadSizeIsOK()
+</script>	
+</body>
+</html>
