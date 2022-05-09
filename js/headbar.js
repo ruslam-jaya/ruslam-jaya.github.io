@@ -220,11 +220,17 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"postalCode": "10510",
 		"addressCountry": "ID"
 		},
+	"aggregateRating": {
+		"@type": "AggregateRating",
+		"ratingValue": "4",
+		"bestRating": "5",
+		"worstRating": "2";
+		"ratingCount": "960"
 	"review": {
 		"@type": "Review",
 		"reviewRating": {
 			"@type": "Rating",
-			"ratingValue": "4",
+			"ratingValue": "4.7",
 			"bestRating": "5"
 		},
 	"author": {
