@@ -211,7 +211,13 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"contactType": "customer service"
 		}],
 	"name": "PT RUSLAM CEMPAKAPUTIH JAYA",
-	"image": document.head.getElementsByTagName('meta')['image'].getAttribute('content'),	
+	"image": [
+        "https://ruslam.id/img/ogimage/CS.webp",
+        "https://ruslam.id/img/ogimage/HS.webp",
+        "https://ruslam.id/img/ogimage/SS.webp",
+        "https://ruslam.id/img/ogimage/PS.webp"
+       ],
+    "description": document.head.getElementsByTagName('meta')['description'].getAttribute('content'),	
 	"address": {
 		"@type": "PostalAddress",
 		"streetAddress": "Jl. Cempaka Putih Tengah VI Cempaka Putih",
