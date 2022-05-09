@@ -231,6 +231,11 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"@type": "Person",
 		"name": "MUHAMMAD PRIATAMA"
 		}},
+	"aggregateRating": {
+		"@type": "AggregateRating",
+		"ratingValue": "4.5",
+		"reviewCount": "89"
+      		},		
 	"geo": {
 		"@type": "GeoCoordinates",
 		"latitude": -6.172047,
