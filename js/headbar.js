@@ -226,6 +226,7 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"bestRating": "5",
 		"worstRating": "2";
 		"ratingCount": "960"
+		},
 	"review": {
 		"@type": "Review",
 		"reviewRating": {
