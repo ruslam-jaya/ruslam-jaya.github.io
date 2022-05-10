@@ -298,3 +298,8 @@ script.innerHTML = JSON.stringify(data);
 document.getElementsByTagName('head')[0].appendChild(script); 
 })(document)
 }
+
+{
+var elements = document.getElementsByClassName("display");
+elements[0].innerHTML = elements[0].innerHTML.replace(/"/g,'');
+}
