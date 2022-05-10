@@ -302,4 +302,19 @@ document.getElementsByTagName('head')[0].appendChild(script);
 {
 var elements = document.getElementsByClassName("display");
 elements[0].innerHTML = elements[0].innerHTML.replace(/"/g,'');
+
+var elements = document.getElementsByClassName("display");
+elements[0].innerHTML = elements[0].innerHTML.replace(/ " /g,'');
+}	
+{
+          var url = "https://docs.google.com/spreadsheet/pub?key=1EDWsrhyhPpIl0sShstavd-P4oGmE1m2QCHcLKdExqOE&single=true&gid=1647130226&range=O2&output=csv";
+          xmlhttp = new XMLHttpRequest();
+          xmlhttp.onreadystatechange = function () {
+              if (xmlhttp.readyState == 4) {
+                  document.getElementById("display").innerHTML = xmlhttp.responseText;
+                  //alert(xmlhttp.responseText);
+              }
+          };
+          xmlhttp.open("GET", url, true);
+          xmlhttp.send(null);
 }
