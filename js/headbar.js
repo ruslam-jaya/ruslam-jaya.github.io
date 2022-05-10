@@ -311,3 +311,9 @@ function review() {
           xmlhttp.open("GET", url, true);
           xmlhttp.send(null);
 }
+
+function strReplace(){
+let elem = document.querySelector("#display")
+
+elem.textContent = elem.textContent.replace('"', '');
+}
