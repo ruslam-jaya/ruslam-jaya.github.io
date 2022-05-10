@@ -945,3 +945,9 @@ font-weight:bold;
 font-size: 14px;
 color: #FFFFFF;
 }
+#display {
+background-color:#000000;
+margin: 0px;
+padding: 20px;
+}  
+}
