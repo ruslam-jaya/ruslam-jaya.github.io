@@ -949,7 +949,7 @@ font-size: 14px;
 color: #FFFFFF;
 }
 #display {
-background-image: https://ruslam.id/img/tab/05.webp);  
+background-image: url(https://ruslam.id/img/tab/05.webp);  
 background-color: rgb(244, 164, 96, .7);
 background-attachment: fixed;
 background-size: cover;
