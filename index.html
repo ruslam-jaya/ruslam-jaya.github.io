@@ -239,6 +239,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div>
     </div>
 <script>
+var elements = document.getElementsByClassName("display");
+elements[0].innerHTML = elements[0].innerHTML.replace(/"/g,'');
+</script>	
+<script>
           var url = "https://docs.google.com/spreadsheet/pub?key=1EDWsrhyhPpIl0sShstavd-P4oGmE1m2QCHcLKdExqOE&single=true&gid=1647130226&range=O2&output=csv";
           xmlhttp = new XMLHttpRequest();
           xmlhttp.onreadystatechange = function () {
@@ -249,8 +253,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           };
           xmlhttp.open("GET", url, true);
           xmlhttp.send(null);
-</script>  
-<div id="display"></div>	
+</script>
+<center>	
+<div id="display"></div>
+<center>	
 <div w3-include-html="https://ruslam.id/html/map.html"></div>
 <div w3-include-html="https://ruslam.id/html/footer.html"></div>
 <div class="links">
