@@ -928,6 +928,9 @@ padding: 15px;
 border-radius: 20px;
 color:#FFFFFF;
 margin: 5px;
+background-size: 100px 100px;
+background-repeat: no-repeat;
+background-position: right top;  
 }
 #tstars {
 margin: 10px;
