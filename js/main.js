@@ -107,10 +107,11 @@ function setShareLinks() {
   $(".social-share.ig").on("click", function() {
     url = "https://www.instagram.com/?url=" + pageUrl;
     socialWindow(url);
-  })
+  });
   
   $(".social-share.wa").on("click", function() {
     url = "https://api.whatsapp.com/send?text=" + pageUrl + "%0a" + tweet;
     socialWindow(url);
-  })
+  });
+  review();	
 }
