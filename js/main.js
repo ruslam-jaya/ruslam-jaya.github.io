@@ -91,7 +91,8 @@ function socialWindow(url) {
 }
 
 function setShareLinks() {
-review();	
+review();
+strReplace();	
   var pageUrl = encodeURIComponent(document.URL);
   var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
 
