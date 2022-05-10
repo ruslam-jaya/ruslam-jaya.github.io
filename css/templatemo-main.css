@@ -897,3 +897,51 @@ border-right: solid red 1px;
 border-bottom: solid red 10px;
 border-radius: 0px 0px 100% 0px;
 }
+#previewhead {
+display: block;
+width: 300px;
+background-color:rgb(30, 144, 255, .9);
+padding: 30px;
+border-radius: 20px;
+color:black;
+margin: 30px;
+}
+#btn_review {
+margin-top: 20px;
+padding: 8px;
+border:none;
+border-radius: 10px;
+background-color:#32CD32;
+color: #000000;
+}
+#btn_review:hover {
+background-color:#000000;
+color: #32CD32;
+cursor: pointer;
+}
+#review_group {
+text-align: left;
+display: inline-block;
+width: 300px;
+background-color:rgb(0, 0, 139, .9);
+padding: 15px;
+border-radius: 20px;
+color:#FFFFFF;
+margin: 5px;
+}
+#tstars {
+margin: 10px;
+}
+#tstamp, #temail {
+font-size: 12px;
+color: grey;
+}
+#tnama {
+font-size: 16px;
+color: gold;
+font-weight:bold;
+}
+#comment {
+font-size: 14px;
+color: #FFFFFF;
+}
