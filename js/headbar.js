@@ -313,7 +313,6 @@ function review() {
 }
 
 function strReplace(){
-let elem = document.querySelector("#display")
-
+let elem = document.querySelector(".display")
 elem.textContent = elem.textContent.replace('"', '');
 }
