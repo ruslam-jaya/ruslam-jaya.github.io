@@ -949,7 +949,11 @@ font-size: 14px;
 color: #FFFFFF;
 }
 #display {
+background-image: url(https://ruslam.id/img/slider/slide-02.webp);  
 background-color: rgb(244, 164, 96, .7);
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;  
 margin: 0px;
 padding: 20px;
 color: :rgb(244, 164, 96, .0);
