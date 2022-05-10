@@ -949,7 +949,7 @@ font-size: 14px;
 color: #FFFFFF;
 }
 #display {
-background-image: url(https://ruslam.id/img/slider/slide-02.webp);  
+background-image: https://ruslam.id/img/tab/05.webp);  
 background-color: rgb(244, 164, 96, .7);
 background-attachment: fixed;
 background-size: cover;
@@ -962,6 +962,6 @@ color: :rgb(244, 164, 96, .0);
 width: 80px;
 height: 80px;
 display: block;  
-background-image: url(https://ruslam.id/img/tab/05.webp);
+background-image: url(https://ruslam.id/img/LOGO-TEXT-S.png);
 background-size: 100% 100%;  
 }
