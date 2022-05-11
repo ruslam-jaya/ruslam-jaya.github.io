@@ -196,7 +196,7 @@ function imgrightx2() {
   document.getElementsByClassName("imgright2")[0].style.opacity = "1.0";
 }};
 
-{
+function strReplace() {
 var valstarts	= document.getElementById('agregat').innerHTML;	
 var countstarts	= document.getElementById('countagregat').innerHTML
 var content	= window.location.href;
@@ -299,7 +299,7 @@ script.type = "application/ld+json";
 script.innerHTML = JSON.stringify(data);
 document.getElementsByTagName('head')[0].appendChild(script); 
 })(document)
-}
+};
 
 function review() {	
           var url = "https://docs.google.com/spreadsheet/pub?key=1EDWsrhyhPpIl0sShstavd-P4oGmE1m2QCHcLKdExqOE&single=true&gid=1647130226&range=O2&output=csv";
@@ -312,9 +312,4 @@ function review() {
           };
           xmlhttp.open("GET", url, true);
           xmlhttp.send(null);
-}
-
-function strReplace(){
-let elem = document.querySelector(".display")
-elem.textContent = elem.textContent.replace('"', '');
 }
