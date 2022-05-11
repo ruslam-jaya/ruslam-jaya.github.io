@@ -197,6 +197,8 @@ function imgrightx2() {
 }};
 
 {
+var valstarts	= document.getElementById('agregat').innerHTML;	
+var countstarts	= document.getElementById('countagregat').innerHTML
 var content	= window.location.href;
 contentSegments	= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
 urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2); 
@@ -230,7 +232,7 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"@type": "Review",
 		"reviewRating": {
 			"@type": "Rating",
-			"ratingValue": document.getElementById('agregat').innerHTML,
+			"ratingValue": valstarts,
 			"bestRating": "5"
 		},
 	"author": {
@@ -239,8 +241,8 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		}},
 	"aggregateRating": {
 		"@type": "AggregateRating",
-		"ratingValue": document.getElementById('agregat').innerHTML,
-		"reviewCount": document.getElementById('countagregat').innerHTML
+		"ratingValue": valstarts,
+		"reviewCount": countstarts
       		},		
 	"geo": {
 		"@type": "GeoCoordinates",
