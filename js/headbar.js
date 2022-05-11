@@ -325,8 +325,6 @@ function review() {
           xmlhttp.send(null);
 };
 function strReplace() {
-var valstarts		= document.getElementById('agregat').innerHTML;	
-var countstarts		= document.getElementById('countagregat').innerHTML;
 var content		= window.location.href;
 contentSegments		= content.split("/").length - 1 - (content.indexOf("https://")==-1?0:2);
 urlSegments		= url.split("/").length - 1 - (url.indexOf("https://")==-1?0:2); 
@@ -360,7 +358,7 @@ urlSegments		= url.split("/").length - 1 - (url.indexOf("https://")==-1?0:2);
 		"@type": "Review",
 		"reviewRating": {
 			"@type": "Rating",
-			"ratingValue": valstarts,
+			"ratingValue": "4,8",
 			"bestRating": "5"
 		},
 	"author": {
@@ -369,8 +367,8 @@ urlSegments		= url.split("/").length - 1 - (url.indexOf("https://")==-1?0:2);
 		}},
 	"aggregateRating": {
 		"@type": "AggregateRating",
-		"ratingValue": valstarts,
-		"reviewCount": countstarts
+		"ratingValue": "4,8",
+		"reviewCount": "198"
       		},		
 	"geo": {
 		"@type": "GeoCoordinates",
