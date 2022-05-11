@@ -240,7 +240,22 @@ urlSegments		= url.split("/").length - 1 - (url.indexOf("https://")==-1?0:2);
 		"postalCode": "10510",
 		"addressCountry": "ID"
 		},
-	
+	"review": {
+		"@type": "Review",
+		"reviewRating": {
+			"@type": "Rating",
+			"ratingValue": document.getElementById('agregat').innerHTML,
+			"bestRating": "5"
+		},
+	"author": {
+		"@type": "Person",
+		"name": "MUHAMMAD PRIATAMA"
+		}},
+	"aggregateRating": {
+		"@type": "AggregateRating",
+		"ratingValue": document.getElementById('agregat').innerHTML,
+		"reviewCount": document.getElementById('countagregat').innerHTML
+      		},	
 	"geo": {
 		"@type": "GeoCoordinates",
 		"latitude": -6.172047,
