@@ -187,8 +187,8 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 var valstarts		= document.getElementById('agregat').innerHTML;	
 var countstarts		= document.getElementById('countagregat').innerHTML;
 var content		= window.location.href;
-contentSegments		= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
-urlSegments		= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2); 
+contentSegments		= content.split("/").length - 1 - (content.indexOf("https://")==-1?0:2);
+urlSegments		= url.split("/").length - 1 - (url.indexOf("https://")==-1?0:2); 
     (function(){
 	var dataschema = {
 	"@context": "https://schema.org",
@@ -328,8 +328,8 @@ function strReplace() {
 var valstarts		= document.getElementById('agregat').innerHTML;	
 var countstarts		= document.getElementById('countagregat').innerHTML;
 var content		= window.location.href;
-contentSegments		= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
-urlSegments		= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2); 
+contentSegments		= content.split("/").length - 1 - (content.indexOf("https://")==-1?0:2);
+urlSegments		= url.split("/").length - 1 - (url.indexOf("https://")==-1?0:2); 
     (function(){
 	var data = {
 	"@context": "https://schema.org",
