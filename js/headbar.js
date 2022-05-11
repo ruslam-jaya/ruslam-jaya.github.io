@@ -183,7 +183,7 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
                 meta.setAttribute('content', titlex);
                 document.head.appendChild(meta);
             };
-}
+};
 {
 var valstarts		= document.getElementById('agregat').innerHTML;	
 var countstarts		= document.getElementById('countagregat').innerHTML;
@@ -287,6 +287,18 @@ script.type = "application/ld+json";
 script.innerHTML = JSON.stringify(data);
 document.getElementsByTagName('head')[0].appendChild(script); 
 })(document)	
+};
+{	
+          var url = "https://docs.google.com/spreadsheet/pub?key=1EDWsrhyhPpIl0sShstavd-P4oGmE1m2QCHcLKdExqOE&single=true&gid=1647130226&range=O2&output=csv";
+          xmlhttp = new XMLHttpRequest();
+          xmlhttp.onreadystatechange = function () {
+              if (xmlhttp.readyState == 4) {
+                  document.getElementById("display").innerHTML = xmlhttp.responseText;
+                  //alert(xmlhttp.responseText);
+              }
+          };
+          xmlhttp.open("GET", url, true);
+          xmlhttp.send(null);
 }
 function imgleftx1() {
   document.getElementsByClassName("imgleft1")[0].style.opacity = "1.0";
