@@ -232,7 +232,7 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"@type": "Review",
 		"reviewRating": {
 			"@type": "Rating",
-			"ratingValue": valstarts,
+			"ratingValue": "4.8",
 			"bestRating": "5"
 		},
 	"author": {
@@ -241,8 +241,8 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		}},
 	"aggregateRating": {
 		"@type": "AggregateRating",
-		"ratingValue": valstarts,
-		"reviewCount": countstarts
+		"ratingValue": "4.8",
+		"reviewCount": "120"
       		},		
 	"geo": {
 		"@type": "GeoCoordinates",
