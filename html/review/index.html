@@ -95,7 +95,7 @@ console.log('ServiceWorker registration failed: ', err);
 	<textarea id="comment" name="comment" placeholder="Komentar/Kritik/Saran Anda" required rows="4" cols="50" style="color:black;" maxlength="60" required></textarea>
 
     <label for="stars"><i class="fa fa-star"></i> Beri Kami Nilai</label>
-	<input class="rating" name="stars" id="stars" max="5" oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0,5" style="--value:4" type="range" value="5" required>
+	<input class="rating" name="stars" id="stars" max="5" oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0.5" style="--value:4.5" type="range" value="5" required onChange="testfunc()">
 
     <label for="photo"><i class="fa fa-user"></i> Foto</label>
     <input id="inputphoto" type="file" accept="image/png, image/jpeg" onChange="VerifyUploadSizeIsOK();" required><br>
@@ -123,7 +123,12 @@ document.getElementById("foto").value = "";
 document.getElementById("foto").value = document.getElementById("fotocompress").src;
 }
 </script>
-	
+<script>	
+function testfunc() {
+  var testnr = document.getElementById("test").value;
+  testnr = testnr.replace(/./g, ',');
+}
+</script>	
 <div w3-include-html="https://ruslam.id/html/map.html"></div> 	
 <div w3-include-html="https://ruslam.id/html/footer.html"></div>   
 <div class="links">
