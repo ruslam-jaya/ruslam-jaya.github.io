@@ -230,7 +230,7 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		"@type": "Review",
 		"reviewRating": {
 			"@type": "Rating",
-			"ratingValue": document.getElementById("agregat").innerHTML;,
+			"ratingValue": document.getElementById('agregat').innerHTML,
 			"bestRating": "5"
 		},
 	"author": {
@@ -239,8 +239,8 @@ urlSegments	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 		}},
 	"aggregateRating": {
 		"@type": "AggregateRating",
-		"ratingValue": "document.getElementById("agregat").innerHTML;",
-		"reviewCount": "document.getElementById("countagregat").innerHTML;"
+		"ratingValue": document.getElementById('agregat').innerHTML,
+		"reviewCount": document.getElementById('countagregat').innerHTML
       		},		
 	"geo": {
 		"@type": "GeoCoordinates",
