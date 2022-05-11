@@ -928,9 +928,6 @@ padding: 15px;
 border-radius: 20px;
 color:#FFFFFF;
 margin: 5px;
-background-size: 100px 100px;
-background-repeat: no-repeat;
-background-position: right top;  
 }
 #tstars {
 margin: 10px;
@@ -964,4 +961,11 @@ height: 80px;
 display: block;  
 background-image: url(https://ruslam.id/img/LOGO-TEXT-S.png);
 background-size: 100% 100%;  
+}
+#poto {
+width: 100px;
+heught: 100px;  
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center top; 
 }
