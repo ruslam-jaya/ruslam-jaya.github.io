@@ -182,7 +182,8 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
                 meta.setAttribute('name', 'msapplication-TileImage');
                 meta.setAttribute('content', titlex);
                 document.head.appendChild(meta);
-            };	
+            };
+}	
 function imgleftx1() {
   document.getElementsByClassName("imgleft1")[0].style.opacity = "1.0";
 };
@@ -194,7 +195,7 @@ function imgrightx1() {
 };
 function imgrightx2() {
   document.getElementsByClassName("imgright2")[0].style.opacity = "1.0";
-}};
+};
 
 function review() {	
           var url = "https://docs.google.com/spreadsheet/pub?key=1EDWsrhyhPpIl0sShstavd-P4oGmE1m2QCHcLKdExqOE&single=true&gid=1647130226&range=O2&output=csv";
