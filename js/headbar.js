@@ -198,18 +198,6 @@ function imgrightx2() {
   document.getElementsByClassName("imgright2")[0].style.opacity = "1.0";
 };
 
-function review() {	
-          var url = "https://docs.google.com/spreadsheet/pub?key=1EDWsrhyhPpIl0sShstavd-P4oGmE1m2QCHcLKdExqOE&single=true&gid=1647130226&range=O2&output=csv";
-          xmlhttp = new XMLHttpRequest();
-          xmlhttp.onreadystatechange = function () {
-              if (xmlhttp.readyState == 4) {
-                  document.getElementById("display").innerHTML = xmlhttp.responseText;
-                  //alert(xmlhttp.responseText);
-              }
-          };
-          xmlhttp.open("GET", url, true);
-          xmlhttp.send(null);
-};
 function strReplace() {
 var content		= window.location.href;
 contentSegments		= content.split("/").length - 1 - (content.indexOf("https://")==-1?0:2);
@@ -244,7 +232,7 @@ urlSegments		= url.split("/").length - 1 - (url.indexOf("https://")==-1?0:2);
 		"@type": "Review",
 		"reviewRating": {
 			"@type": "Rating",
-			"ratingValue": document.head.getElementById('agregat').innerHTML,
+			"ratingValue": document.body.getElementById('agregat').innerHTML,
 			"bestRating": "5"
 		},
 	"author": {
@@ -253,8 +241,8 @@ urlSegments		= url.split("/").length - 1 - (url.indexOf("https://")==-1?0:2);
 		}},
 	"aggregateRating": {
 		"@type": "AggregateRating",
-		"ratingValue": document.head.getElementById('agregat').innerHTML,
-		"reviewCount": document.head.getElementById('countagregat').innerHTML
+		"ratingValue": document.body.getElementById('agregat').innerHTML,
+		"reviewCount": document.body.getElementById('countagregat').innerHTML
       		},	
 	"geo": {
 		"@type": "GeoCoordinates",
