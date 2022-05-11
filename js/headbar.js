@@ -184,121 +184,7 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
                 document.head.appendChild(meta);
             };
 };
-var valstarts		= document.getElementById('agregat').innerHTML;	
-var countstarts		= document.getElementById('countagregat').innerHTML;
-var content		= window.location.href;
-contentSegments		= content.split("/").length - 1 - (content.indexOf("https://")==-1?0:2);
-urlSegments		= url.split("/").length - 1 - (url.indexOf("https://")==-1?0:2); 
-    (function(){
-	var dataschema = {
-	"@context": "https://schema.org",
-	"@type": "LocalBusiness",
-	"logo": "https://ruslam.id/img/LOGO-TEXT-S.png",
-  	"contactPoint": [{
-		"@type": "ContactPoint",
-		"telephone": "+62(021)4204585",
-		"contactType": "customer service"
-		}],
-	"name": "PT RUSLAM CEMPAKAPUTIH JAYA",
-	"image": [
-        "https://ruslam.id/img/ogimage/CS.webp",
-        "https://ruslam.id/img/ogimage/HS.webp",
-        "https://ruslam.id/img/ogimage/SS.webp",
-        "https://ruslam.id/img/ogimage/PS.webp"
-       ],
-    "description": "PT RUSLAM CEMPAKAPUTIH JAYA Perusahaan Penyalur Jasa Kebersihan / Cleaning Sevices, Keamanan / Security Services, Parkiran / parking Services, Klinik Dokter Umum dan Dokter Gigi, General Tradding Kesehatan dan alat kesehatan",	
-	"address": {
-		"@type": "PostalAddress",
-		"streetAddress": "Jl. Cempaka Putih Tengah VI Cempaka Putih",
-		"addressLocality": "Jakarta Pusat",
-		"addressRegion": "JKT",
-		"postalCode": "10510",
-		"addressCountry": "ID"
-		},
-	"review": {
-		"@type": "Review",
-		"reviewRating": {
-			"@type": "Rating",
-			"ratingValue": valstarts,
-			"bestRating": "5"
-		},
-	"author": {
-		"@type": "Person",
-		"name": "MUHAMMAD PRIATAMA"
-		}},
-	"aggregateRating": {
-		"@type": "AggregateRating",
-		"ratingValue": valstarts,
-		"reviewCount": countstarts
-      		},		
-	"geo": {
-		"@type": "GeoCoordinates",
-		"latitude": -6.172047,
-		"longitude": 106.870841
-		},
-	"url": "https://ruslam.id/",
-	"telephone": "+62(021)4204585",
-	"priceRange": "IDR",
-	"areaServed": {
-		"@type": "State",
-		"name": "Jabodetabek"
-		},
-	"hasOfferCatalog": {
-		"@type": "OfferCatalog",
-		"name": "Service",
-		"itemListElement": [
-				{
-				"@type": "Offer",
-				"itemOffered": 
-					{
-					"@type": "Service",
-					"name": document.title,
-					"url": window.location.href,
-					"description": document.head.getElementsByTagName('meta')['description'].getAttribute('content'),
-					"image": document.head.getElementsByTagName('meta')['image'].getAttribute('content')
-					}
-				}		
-			]
-		},
-	"openingHoursSpecification": [
-		{
-		"@type": "OpeningHoursSpecification",
-		"dayOfWeek": [
-			"Monday",
-			"Tuesday",
-			"Wednesday",
-			"Thursday",
-			"Friday"		
-			],
-		"opens": "07:30",
-		"closes": "17:00"
-		},
-		{
-		"@type": "OpeningHoursSpecification",
-		"dayOfWeek": "Saturday",
-		"opens": "08:00",
-		"closes": "15:00"
-		}
-	]
-	}
-var script = document.createElement('script');
-script.type = "application/ld+json";
-script.innerHTML = JSON.stringify(dataschema);
-document.getElementsByTagName('head')[0].appendChild(script); 
-})(document);
 
-{	
-          var url = "https://docs.google.com/spreadsheet/pub?key=1EDWsrhyhPpIl0sShstavd-P4oGmE1m2QCHcLKdExqOE&single=true&gid=1647130226&range=O2&output=csv";
-          xmlhttp = new XMLHttpRequest();
-          xmlhttp.onreadystatechange = function () {
-              if (xmlhttp.readyState == 4) {
-                  document.getElementById("display").innerHTML = xmlhttp.responseText;
-                  //alert(xmlhttp.responseText);
-              }
-          };
-          xmlhttp.open("GET", url, true);
-          xmlhttp.send(null);
-};
 function imgleftx1() {
   document.getElementsByClassName("imgleft1")[0].style.opacity = "1.0";
 };
@@ -358,7 +244,7 @@ urlSegments		= url.split("/").length - 1 - (url.indexOf("https://")==-1?0:2);
 		"@type": "Review",
 		"reviewRating": {
 			"@type": "Rating",
-			"ratingValue": "4,8",
+			"ratingValue": document.getElementById('agregat').innerText,
 			"bestRating": "5"
 		},
 	"author": {
@@ -367,8 +253,8 @@ urlSegments		= url.split("/").length - 1 - (url.indexOf("https://")==-1?0:2);
 		}},
 	"aggregateRating": {
 		"@type": "AggregateRating",
-		"ratingValue": "4,8",
-		"reviewCount": "198"
+		"ratingValue": document.getElementById('agregat').innerText,
+		"reviewCount": document.getElementById('countagregat').innerText
       		},		
 	"geo": {
 		"@type": "GeoCoordinates",
