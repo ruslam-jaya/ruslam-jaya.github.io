@@ -184,14 +184,13 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
                 document.head.appendChild(meta);
             };
 };
-{
 var valstarts		= document.getElementById('agregat').innerHTML;	
 var countstarts		= document.getElementById('countagregat').innerHTML;
 var content		= window.location.href;
 contentSegments		= content.split("/").length - 1 - (content.indexOf("http://")==-1?0:2);
 urlSegments		= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2); 
     (function(){
-	var data = {
+	var dataschema = {
 	"@context": "https://schema.org",
 	"@type": "LocalBusiness",
 	"logo": "https://ruslam.id/img/LOGO-TEXT-S.png",
@@ -284,10 +283,10 @@ urlSegments		= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
 	}
 var script = document.createElement('script');
 script.type = "application/ld+json";
-script.innerHTML = JSON.stringify(data);
+script.innerHTML = JSON.stringify(dataschema);
 document.getElementsByTagName('head')[0].appendChild(script); 
-})(document)	
-};
+})(document);
+
 {	
           var url = "https://docs.google.com/spreadsheet/pub?key=1EDWsrhyhPpIl0sShstavd-P4oGmE1m2QCHcLKdExqOE&single=true&gid=1647130226&range=O2&output=csv";
           xmlhttp = new XMLHttpRequest();
