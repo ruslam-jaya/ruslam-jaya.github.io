@@ -24,7 +24,7 @@
 					 {  
 						 div.style.display = "block"; 
 					 } 
-				};
+				}
 				function showhide2()
 				{
 					 document.getElementById("sh001").style.display = "none";
@@ -38,7 +38,7 @@
 					 {  
 						 div.style.display = "block"; 
 					 } 
-				};
+				}
 				function showhide3()
 				{
 					 document.getElementById("sh001").style.display = "none";
@@ -52,7 +52,7 @@
 					 {  
 						 div.style.display = "block"; 
 					 } 
-				};
+				}
 				function openNav() {
 					 var div = document.getElementById("navigate");
 				  	 var icomenu = document.getElementById("icomenu");
@@ -69,9 +69,7 @@
 						 icomenu.style.display = "none";
 						 icoclose.style.display = "inline-block";
 					 } 
-				};
-		document.getElementsByClassName("imgleft").style.opacity = "1";
-		document.getElementsByClassName("imgright").style.opacity = "1";
+				}
         } else {
 				function showhide1()
 				{
