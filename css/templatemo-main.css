@@ -931,6 +931,8 @@ margin: 5px;
 }
 #tstars {
 margin: 10px;
+font-size: 20px;
+color: gold;  
 }
 #tstamp, #temail {
 font-size: 12px;
