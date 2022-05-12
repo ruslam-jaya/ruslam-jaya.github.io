@@ -11,6 +11,8 @@
         let isMobileDevice = regexp.test(details);
   
         if (isMobileDevice) {
+		document.getElementsByClassName("imgleft").style.opacity = "1";
+		document.getElementsByClassName("imgright").style.opacity = "1";
 				function showhide1()
 				{
 					 document.getElementById("sh002").style.display = "none";
