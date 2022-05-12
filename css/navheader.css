@@ -130,7 +130,8 @@ text-align: center;
 @media only screen and (max-width: 920px) {
 .sidemenu{
 z-index: 500;
-}    
+}
+.imgleft, .imgright {opacity = 1;}    
 #footermenu {
 left: 0px;
 position: relative;
