@@ -131,7 +131,7 @@ text-align: center;
 .sidemenu{
 z-index: 500;
 }
-.imgleft, .imgright {opacity = 1;}    
+.imgleft, .imgright {opacity: 1.0!important;transition: all 0s;}    
 #footermenu {
 left: 0px;
 position: relative;
