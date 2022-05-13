@@ -887,7 +887,7 @@ padding: 20px 20px 20px 20px;
 opacity :0;
 transition: all 8s;	
 } 
-.mainpage h1{
+.mainpage h1, .post-title{
 width: calc (100% + 20px);
 background-color: #000F97;
 color: white;
