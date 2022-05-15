@@ -911,12 +911,12 @@ margin-top: 20px;
 padding: 8px;
 border:none;
 border-radius: 10px;
-background-color:#32CD32;
-color: #000000;
+background-color:rgb(0, 0, 139, .9);
+color: #ffffff;
 }
 #btn_review:hover {
-background-color:#000000;
-color: #32CD32;
+background-color:#ffffff;
+color: rgb(0, 0, 139, .9);
 cursor: pointer;
 }
 #review_group {
