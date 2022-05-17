@@ -58,7 +58,7 @@ border-radius: 10px 10px 10px 10px;
 .is-center {
   text-align: center;
 }
-.button-success {
+.button-success, #btnPrint {
   color: white;
   border-radius: 4px;
   border-color:transparent;
@@ -97,17 +97,20 @@ width: calc(100% + 20px);
 .aprove {display:none;}
 .ttd {display:none;}
 @media print {
+-webkit-print-color-adjust: exact;
+print-color-adjust: exact;
 .groupform  {page-break-after: avoid; }
 div {page-break-inside:auto;}
-html, body {height: 290mm; margin: 20px 0px 10px 0px; padding: 0px;}
+html, body {height: 330mm; margin: 0px 0px 0px 0px; padding: 0px; margin-top: 20px; bottom: 20px;}
 .form-elements {background-color:#FFF; border: none}
 input, select, option, textarea {border: none;border-bottom : 0.5px solid grey;border-radius: 0px 0px 0px 0px;}
 .label {background-color: #CCC;}
 h2, h1 {margin: 0px; padding: 0px; top: 0px;}
 h3 {text-align:left;}
-button, aside, #btnPrint, .thankyou_message {display:none; visibility:hidden;}
+button, aside, #btnPrint, .thankyou_message {display:none; visibility:hidden; height:0px; width: 0px;}
 .logo {float:left; top: 0px; margin: 0px;}
 .aprove {float:right; text-align:left;top: 0px; display: block;}
 .ttd {float:right; text-align:center; display: block; margin: 50px;}
 .note {float:left; display: block; margin: 50px;}
 }
+@media screen and (-webkit-min-device-pixel-ratio:0)
