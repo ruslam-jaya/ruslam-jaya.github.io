@@ -72,7 +72,9 @@
           form.reset();
           var formElements = form.querySelector(".form-elements")
           if (formElements) {
-            formElements.style.display = "none"; // hide form
+            formElements.style.display = "none";
+            document.getElementById("button-success").style.display = "none";
+            document.getElementById("ttd").style.display = "block";
           }
           var thankYouMessage = form.querySelector(".thankyou_message");
           if (thankYouMessage) {
