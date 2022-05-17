@@ -72,7 +72,7 @@
           form.reset();
           var formElements = form.querySelector(".form-elements")
           if (formElements) {
-            formElements.style.display = "none";
+            formElements.style.display = "";
             document.getElementById("button-success").style.display = "none";
             document.getElementById("ttd").style.display = "block";
           }
