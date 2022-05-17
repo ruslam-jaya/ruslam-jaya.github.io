@@ -6,7 +6,7 @@
     <meta name="description" content="contact form example">
   <title>Lamaran PT Ruslam Cempakaputih Jaya</title>
  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  
+<link rel="stylesheet" href="style.css" media="print">  
   <script type="text/javascript">
     $("#btnPrint").live("click", function () {
       var divContents = $("#text").html();
@@ -45,8 +45,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('config', 'G-M2JCJ2SPVG');
 </script> 	   
 </head>
-
-<body>
   <aside>
        <p>
 Formulir ini sangat kami rahasiakan;<br> 
@@ -55,6 +53,7 @@ Isi Formulir Lamaran dibawah ini berdasarkan data sesungguhnya;<br>
 Data yang diberikan menjadi sepenuhnya milik PT Ruslam Cempakaputih Jaya
        </p>
    </aside>
+<body>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="style.css">
   <form id="text" class="gform pure-form pure-form-stacked" method="POST" action="https://script.google.com/macros/s/AKfycbwwHwbWq7a3bHl_jMiaAjikc8gdPRh-Z6lmnSRmOJZvjTEhP8k/exec">
@@ -313,14 +312,14 @@ Demikianlah formulir ini, saya isi dengan sebenarnya dan dalam keadaan sehat tan
 Bila keterangan yang saudara berikan ternyata ada yang tidak sesuai dengan kenyataan, <br>
 Perusahaan dapat membatalkan lamaran, memutuskan hubungan kerja atau menuntut <br>sesuai dengan hukum yang berlaku.<br>
 </div>
-      
-<div class="thankyou_message" style="display:none;">
-<h2>Simpan Data Anda Untuk Dicetak<br>
-<input type="button" value="Simpan PDF" id="btnPrint"/>    
+<center>      
+<div class="thankyou_message" style="display:none; max-width: 500px">
+<h2>Wajib Simpan Data Anda Untuk Dicetak<br>
+<input type="button" class="fa" value="&#xf02f; Simpan PDF" id="btnPrint" style="padding: 10px; width: auto"/>    
 <h2>Terima Kasih atas waktunya<br>
 Silahkan Cek email anda! jika menerima email isian lamaran tersebut berarti email anda sudah terkirim ke kami</h2>
 </div>
-
+</center>
 </form>
 
   <script data-cfasync="false" src="form-submission-handler.js"></script>
