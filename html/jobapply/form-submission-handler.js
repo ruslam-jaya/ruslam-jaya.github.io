@@ -75,11 +75,11 @@
           var formElements = form.querySelector(".form-elements")
           if (formElements) {
             formElements.style.display = "block";
+		$("html, body").animate({ scrollTop: $(document).height() }, 1000);  
           }
           var thankYouMessage = form.querySelector(".thankyou_message");
           if (thankYouMessage) {
             thankYouMessage.style.display = "block";
-			$("html, body").animate({ scrollTop: $(document).height() }, 1000);
           }
         }
     };
