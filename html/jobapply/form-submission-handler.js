@@ -60,7 +60,9 @@
     if (formData.honeypot) {
       return false;
     }
-
+	$(".button-success").css("display", "none");
+	$(".ttd").css("display", "block");
+	$("aside").css("display", "block");
     disableAllButtons(form);
     var url = form.action;
     var xhr = new XMLHttpRequest();
@@ -72,13 +74,12 @@
           form.reset();
           var formElements = form.querySelector(".form-elements")
           if (formElements) {
-            formElements.style.display = "";
-            document.getElementById("button-success").style.display = "none";
-            document.getElementById("ttd").style.display = "block";
+            formElements.style.display = "block";
           }
           var thankYouMessage = form.querySelector(".thankyou_message");
           if (thankYouMessage) {
             thankYouMessage.style.display = "block";
+			$("html, body").animate({ scrollTop: $(document).height() }, 1000);
           }
         }
     };
