@@ -128,58 +128,64 @@ urlSegments 	= url.split("/").length - 1 - (url.indexOf("http://")==-1?0:2);
                 link.setAttribute('href', url);
                 document.head.appendChild(link);
             };
-            if(contentSegments <= 7) {
+            	if(contentSegments <= 7) {
                 var meta = document.createElement('meta');
                 meta.setAttribute('property', 'og:url');
                 meta.setAttribute('content', content);
                 document.head.appendChild(meta);
             };
-			if(contentSegments <= 7) {
+		if(contentSegments <= 7) {
                 var meta = document.createElement('meta');
                 meta.setAttribute('property', 'twitter:url');
                 meta.setAttribute('content', content);
                 document.head.appendChild(meta);
             };
-			if(contentSegments <= 7) {
+		if(contentSegments <= 7) {
                 var meta = document.createElement('meta');
                 meta.setAttribute('property', 'og:title');
                 meta.setAttribute('content', titlex);
                 document.head.appendChild(meta);
             };
-			if(contentSegments <= 7) {
+		if(contentSegments <= 7) {
                 var meta = document.createElement('meta');
                 meta.setAttribute('property', 'twitter:title');
                 meta.setAttribute('content', titlex);
                 document.head.appendChild(meta);
             };
-			if(contentSegments <= 7) {
+		if(contentSegments <= 7) {
                 var meta = document.createElement('meta');
                 meta.setAttribute('property', 'og:description');
                 meta.setAttribute('content', descriptionx);
                 document.head.appendChild(meta);
             };
-			if(contentSegments <= 7) {
+		if(contentSegments <= 7) {
                 var meta = document.createElement('meta');
                 meta.setAttribute('property', 'twitter:description');
                 meta.setAttribute('content', descriptionx);
                 document.head.appendChild(meta);
             }; 
-			if(contentSegments <= 7) {
+		if(contentSegments <= 7) {
                 var meta = document.createElement('meta');
                 meta.setAttribute('property', 'twitter:image');
                 meta.setAttribute('content', imagex);
                 document.head.appendChild(meta);
             }; 	
-			if(contentSegments <= 7) {
+		if(contentSegments <= 7) {
                 var meta = document.createElement('meta');
                 meta.setAttribute('name', 'apple-mobile-web-app-title');
                 meta.setAttribute('content', titlex);
                 document.head.appendChild(meta);
             };					        
-			if(contentSegments <= 7) {
+		if(contentSegments <= 7) {
                 var meta = document.createElement('meta');
                 meta.setAttribute('name', 'msapplication-TileImage');
                 meta.setAttribute('content', titlex);
+                document.head.appendChild(meta);
+            };
+		if(contentSegments <= 7) {
+                var meta = document.createElement('meta');
+                meta.setAttribute('http-equiv', 'Cache-control');
+                meta.setAttribute('content', 'public');
                 document.head.appendChild(meta);
             };
 };
