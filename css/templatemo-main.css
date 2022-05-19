@@ -11,10 +11,7 @@ overflow: none !important !important;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
-img {
-width: auto;
-height: auto;  
-}
+
 p {
 font-size: 16px;
 line-height: 23px;
