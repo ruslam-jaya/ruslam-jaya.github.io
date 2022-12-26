@@ -866,6 +866,14 @@ height: 30px!important;
 text-align: center;
 vertical-align: center;
 }
+
+.connect-us .fa {
+width: 30px!important;
+height: 30px!important;  
+text-align: center;
+vertical-align: center;
+}
+
 .location {
 font-size: 14px;
 }
