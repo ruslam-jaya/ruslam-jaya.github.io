@@ -875,11 +875,11 @@ max-height: 130px;
 padding: 20px 20px 20px 20px;  
 }
 .links {margin: 20px 20px 20px 20px; position: -webkit-fixed; position: fixed; bottom: 0px; background: none;}
-.social-share-facebook {background-image: url(https://ruslam.id/img/icon/fb-icon.png);background-repeat: no-repeat;background-size: cover;}
-.social-share-twitter {background-image: url(https://ruslam.id/img/icon/tw-icon.png);background-repeat: no-repeat;background-size: cover;}
-.social-share-ig {background-image: url(https://ruslam.id/img/icon/ig-icon.png);background-repeat: no-repeat;background-size: cover;}
-.social-share-wa {background-image: url(https://ruslam.id/img/icon/wa-icon.png);background-repeat: no-repeat;background-size: cover;}
-.social-share-facebook, .social-share-twitter, social-share-ig, .social-share-wa {background-repeat: no-repeat;background-size: cover;text-align: center; width: 40px; border-radius: 50%; display: inline-block;}
+.social-share-facebook {background-image: url(https://ruslam.id/img/icon/fb-icon.png);}
+.social-share-twitter {background-image: url(https://ruslam.id/img/icon/tw-icon.png);}
+.social-share-ig {background-image: url(https://ruslam.id/img/icon/ig-icon.png);}
+.social-share-wa {background-image: url(https://ruslam.id/img/icon/wa-icon.png);}
+.social-share-facebook, .social-share-twitter, social-share-ig, .social-share-wa {background-repeat: no-repeat;background-size: 40px auto;text-align: center; width: 40px; border-radius: 50%; display: inline-block;}
 .social-share-facebook:hover {cursor: pointer;}
 .social-share-twitter:hover {cursor: pointer;}
 .social-share-ig:hover {cursor: pointer;}
