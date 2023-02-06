@@ -875,10 +875,11 @@ max-height: 130px;
 padding: 20px 20px 20px 20px;  
 }
 .links {margin: 20px 20px 20px 20px; position: -webkit-fixed; position: fixed; bottom: 0px; background: none;}
-.social-share-facebook {margin: 5px auto auto auto; text-align: center; font-size: 22pt;width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;background-color: #0000CD; color:#fff;}
-.social-share-twitter {margin: 5px auto auto auto; text-align: center; font-size: 22pt;width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;background-color: #1E90FF; color:#fff;}
-.social-share-ig {margin: 5px auto auto auto; text-align: center; font-size: 22pt;width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;background-color: #FF1493; color:#fff;}
-.social-share-wa {margin: 5px auto auto auto; text-align: center; font-size: 22pt;width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;background-color: #2E8B57; color:#fff;}
+.social-share-facebook {background-image: url(https://ruslam.id/img/icon/fb-icon.png);}
+.social-share-twitter {background-image: url(https://ruslam.id/img/icon/tw-icon.png);}
+.social-share-ig {background-image: url(https://ruslam.id/img/icon/ig-icon.png);}
+.social-share-wa {background-image: url(https://ruslam.id/img/icon/wa-icon.png);}
+.social-share-facebook, .social-share-twitter, social-share-ig, .social-share-wa {background-attachment: fixed;background-size: cover;background-position: center center;margin: 5px auto auto auto; text-align: center; font-size: 22pt;width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;background-color: #1E90FF; color:#fff;}
 .social-share-facebook:hover {cursor: pointer;}
 .social-share-twitter:hover {cursor: pointer;}
 .social-share-ig:hover {cursor: pointer;}
