@@ -432,7 +432,7 @@ vertical-align: center;
 padding-bottom: 10px;    
 padding-top: 10px;  
 display: inline-block;
-background-color: #87C6DA;
+background-color: transparent;
 border-radius: 50%;
 text-decoration: none;
 transition: all 0.5s;
@@ -441,7 +441,6 @@ color:#000000;
 }
 footer ul li a:hover {
 color: #282b2f;
-background-color: grey;
 }
 footer p {
 font-size: 12px;
