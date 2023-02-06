@@ -93,22 +93,22 @@ strReplace();
   var pageUrl = encodeURIComponent(document.URL);
   var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
 
-  $(".social-share.facebook").on("click", function() {
+  $(".social-share-facebook").on("click", function() {
     url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
     socialWindow(url);
   });
 
-  $(".social-share.twitter").on("click", function() {
+  $(".social-share-twitter").on("click", function() {
     url = "https://twitter.com/share?url=" + pageUrl;
     socialWindow(url);
   });
   
-  $(".social-share.ig").on("click", function() {
+  $(".social-share-ig").on("click", function() {
     url = "https://www.instagram.com/?url=" + pageUrl;
     socialWindow(url);
   });
   
-  $(".social-share.wa").on("click", function() {
+  $(".social-share-wa").on("click", function() {
     url = "https://api.whatsapp.com/send?text=" + pageUrl + "%0a" + tweet;
     socialWindow(url);
   });	
