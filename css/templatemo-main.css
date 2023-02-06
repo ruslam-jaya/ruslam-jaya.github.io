@@ -875,14 +875,12 @@ max-height: 130px;
 padding: 20px 20px 20px 20px;  
 }
 .links {margin: 20px 20px 20px 20px; position: -webkit-fixed; position: fixed; bottom: 0px; background: none;}
-.social-share-facebook {background-image: url(https://ruslam.id/img/icon/fb-icon.png);background-repeat: no-repeat;background-size: 40px auto; text-align: center; width: 40px; border-radius: 50%; display: inline-block;}
-.social-share-twitter {background-image: url(https://ruslam.id/img/icon/tw-icon.png);background-repeat: no-repeat;background-size: 40px auto; text-align: center; width: 40px; border-radius: 50%; display: inline-block;}
-.social-share-ig {background-image: url(https://ruslam.id/img/icon/ig-icon.png);background-repeat: no-repeat;background-size: 40px auto; text-align: center; width: 40px; border-radius: 50%; display: inline-block;}
-.social-share-wa {background-image: url(https://ruslam.id/img/icon/wa-icon.png);background-repeat: no-repeat;background-size: 40px auto; text-align: center; width: 40px; border-radius: 50%; display: inline-block;}
-.social-share-facebook:hover {cursor: pointer;}
-.social-share-twitter:hover {cursor: pointer;}
-.social-share-ig:hover {cursor: pointer;}
-.social-share-wa:hover {cursor: pointer;}
+.social-share-facebook {background: url(http://ruslam.id/mg/icon/fb-icon.png) no-repeat; width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;}
+.social-share-twitter {background: url(http://ruslam.id/img/icon/tw-icon.png) no-repeat; width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;}}
+.social-share-.ig {background: url(http://ruslam.id/mg/icon/ig-icon.png) no-repeat; width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;}}
+.social-share-.wa {background: url(http://ruslam.id/mg/icon/wa-icon.png) no-repeat; width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;}
+.social-share i {margin: 5px auto auto auto; text-align: center; font-size: 22pt;}
+.social-share:hover {cursor: pointer;}
 .imgleft, .imgright {
 opacity :0;
 transition: all 8s;	
