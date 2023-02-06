@@ -875,13 +875,14 @@ max-height: 130px;
 padding: 20px 20px 20px 20px;  
 }
 .links {margin: 20px 20px 20px 20px; position: -webkit-fixed; position: fixed; bottom: 0px; background: none;}
-.social-share {width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;}
-.facebook {background-color: #0000CD; color:#fff;}
-.twitter {background-color: #1E90FF; color:#fff;}
-.ig {background-color: #FF1493; color:#fff;}
-.wa {background-color: #2E8B57; color:#fff;}
-.social-share i {margin: 5px auto auto auto; text-align: center; font-size: 22pt;}
-.social-share:hover {cursor: pointer;}
+.social-share-facebook {margin: 5px auto auto auto; text-align: center; font-size: 22pt;width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;background-color: #0000CD; color:#fff;}
+.social-share-twitter {margin: 5px auto auto auto; text-align: center; font-size: 22pt;width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;background-color: #1E90FF; color:#fff;}
+.social-share-ig {margin: 5px auto auto auto; text-align: center; font-size: 22pt;width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;background-color: #FF1493; color:#fff;}
+.social-share-wa {margin: 5px auto auto auto; text-align: center; font-size: 22pt;width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;background-color: #2E8B57; color:#fff;}
+.social-share-facebook:hover {cursor: pointer;}
+.social-share-twitter:hover {cursor: pointer;}
+.social-share-ig:hover {cursor: pointer;}
+.social-share-wa:hover {cursor: pointer;}
 .imgleft, .imgright {
 opacity :0;
 transition: all 8s;	
