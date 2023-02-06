@@ -879,7 +879,7 @@ padding: 20px 20px 20px 20px;
 .social-share-twitter {background-image: url(https://ruslam.id/img/icon/tw-icon.png);}
 .social-share-ig {background-image: url(https://ruslam.id/img/icon/ig-icon.png);}
 .social-share-wa {background-image: url(https://ruslam.id/img/icon/wa-icon.png);}
-.social-share-facebook, .social-share-twitter, social-share-ig, .social-share-wa {background-repeat: no-repeat;background-size: 100%;margin: 5px auto auto auto; text-align: center; font-size: 22pt;width: 40px; height: 40px; border-radius: 50%; display: inline-block; text-align: center;background-color: #1E90FF; color:#fff;}
+.social-share-facebook, .social-share-twitter, social-share-ig, .social-share-wa {background-repeat: no-repeat;background-size: 100%;text-align: center; width: 40px; border-radius: 50%; display: inline-block;}
 .social-share-facebook:hover {cursor: pointer;}
 .social-share-twitter:hover {cursor: pointer;}
 .social-share-ig:hover {cursor: pointer;}
