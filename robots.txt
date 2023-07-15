@@ -9,6 +9,7 @@ allow: /html/*.
 disallow: /404.html
 disallow: /html/index.html
 disallow: /html/ping/index.html
+disallow: https://login.ruslam.id/*.
 
 sitemap: https://ruslam.id/sitemap.xml
 sitemap: https://ruslam.id/sitemap-xml.xml
